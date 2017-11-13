@@ -11,8 +11,8 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
-               <div class="m2">
+    <body>
+        <div class="m2">
             <div class="m2-container">
                 <div class="m2-grip">
                     <div class="m2-grip-paralax">
@@ -41,3 +41,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>    
+    </body>
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/modul-2-js.js" type="text/javascript"></script>
+    
+</html>
