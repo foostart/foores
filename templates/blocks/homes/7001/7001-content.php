@@ -13,7 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 
 <header class='type-7001'>
-            <!-----------------------NAVIGATOR------------------------------->
+                         <!---NAVIGATOR-->
             <div class="m1-navi-boder">
                 <div class="m1-navi">
                     <div class="m1-navi-logo">
@@ -109,7 +109,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <!----------------------SLIDE SHOW-------------------->
+            <!--SLIDE SHOW-->
             <div class="m1-banner">
                 <ul>
                     <li>

@@ -12,8 +12,8 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
     <body>
+        <!--show product-->
         <div class="modul-7">
-
             <div class="row m7-tabs-all">
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#all" data-toggle="tab">All<span>8</span></a></li>
@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <li><a href="#gourmet" data-toggle="tab">Gourmet<span>3</span></a></li>
                     <li><a href="#recipes" data-toggle="tab">Recipes<span>4</span></a></li>
                 </ul>
-
+            <!--tab content-->
                 <div class="tab-content">
                     <div class="tab-pane active" id="all">
                         <div class="col-md-3 tab-content-pic">
@@ -142,11 +142,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         <div class="col-md-3 tab-content-pic">
                             <img src="images/Coffee-3-800x615.jpg">
-                            <span>
-                                <h3>
+                                    <span>
+                                        <h3>
                                     <a>Caffe Latte Recipe</a>
-                                </h3>
-                            </span>
+                                         </h3>
+                                    </span>
                         </div>
                     </div>
                     <div class="tab-pane" id="recipes">
@@ -185,7 +185,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-
         </div>
     </body>
 </html>
