@@ -9,9 +9,9 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/7004_1.less', 'css/7004_1.css');
+        $less->compileFile('less/7021.less', 'css/7021.css');
         ?> 
-        <link href="css/7004_1.css" rel="stylesheet" type="text/css"/>
+        <link href="css/7021.css" rel="stylesheet" type="text/css"/>
 		
 	<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="js/m1-slide-js.js" type="text/javascript"></script>
@@ -20,6 +20,6 @@
     </head> 
 
     <body> 
-        <?php include '../7004_1/7004-content.php'; ?>
+        <?php include '../7021/7021-content.php'; ?>
     </body>
 </html>
