@@ -11,7 +11,6 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
     <body>
         <div class="m0-splash-screen">
             <div class="m0-splash-screen-progress-wrapper">
