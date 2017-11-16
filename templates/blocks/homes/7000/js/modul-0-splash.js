@@ -1,6 +1,20 @@
+// khai bao 
 $(document).ready(function(){
-   $('.m-splash-screen').addClass('loaded');
+    
+   
    setTimeout(function(){
-       $('.m-splash-screen').css('display','none');
-   }, 1500);
+       
+       $('.m-splash-screen-progress').addClass('active100');
+   }, 2000);
+   setTimeout(function(){
+       $('.m-splash-screen').addClass('loaded');
+       
+   }, 1000);
+   
+   setTimeout(function(){
+       $('.m-splash-screen').removeClass('loaded');
+       
+   }, 3500);
+   
+   
 });
