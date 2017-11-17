@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="m4">
+<div class="type-7004">
     <div class="module-4_1">
         <div class="container">
             <div class="row">
@@ -33,19 +33,85 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
 
-            <div class="m4_2">
+            <div class="type-7004_2">
                 <div class="row">
-                    <div class="col-md-5 content1">
-                        <div class="m4-limit">
-                            <div class="m4-limit-thumbnail">
-                                <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                    <img src="anh/anh5.jpg" class="attachment-full size-full"> </a>
+                    <div class="m4-services">
+                        <div class="col-md-5 content1">
+                            <div class="m4-limit">
+                                <div class="m4-limit-thumbnail">
+                                    <a href="/" title="Coffee &amp; Tea" class="has-border">
+                                        <img src="anh/anh1.jpg" class="attachment-full size-full"> </a>
+                                </div>
+                                <h4 class="m4-limit-services-title">
+                                    <a href="/" title="Child Friendly">Coffee & Tea</a>
+                                </h4>
+                                <div class="m4-services-content">
+                                    <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
+                                </div>
                             </div>
-                            <h4 class="m4-limit-services-title">
-                                <a href="/" title="Child Friendly">Coffee & Tea</a>
-                            </h4>
-                            <div class="m4-services-content">
-                                <p>Based in Barcelona, Pudding Bar was designed for spending the afternoon with the kids.Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
+                        </div>
+                    </div>
+                    <div class="m4-services">
+                        <div class="col-md-5 content1">
+                            <div class="m4-limit">
+                                <div class="m4-limit-thumbnail">
+                                    <a href="/" title="Coffee &amp; Tea" class="has-border">
+                                        <img src="anh/anh2.jpg" class="attachment-full size-full"> </a>
+                                </div>
+                                <h4 class="m4-limit-services-title">
+                                    <a href="/" title="Child Friendly">Bakery & Sweets</a>
+                                </h4>
+                                <div class="m4-services-content">
+                                    <p>These desserts aren’t simply favorites of ours; they also help define, in their own way…</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m4-services">
+                        <div class="col-md-5 content1">
+                            <div class="m4-limit">
+                                <div class="m4-limit-thumbnail">
+                                    <a href="/" title="Coffee &amp; Tea" class="has-border">
+                                        <img src="anh/anh3.jpg" class="attachment-full size-full"> </a>
+                                </div>
+                                <h4 class="m4-limit-services-title">
+                                    <a href="/" title="Child Friendly">Lunch Menu</a>
+                                </h4>
+                                <div class="m4-services-content">
+                                    <p>We make our lunches and dinners with the finest ingredients we can find to make our meals as flavorful as possible.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m4-services">
+                        <div class="col-md-5 content1">
+                            <div class="m4-limit">
+                                <div class="m4-limit-thumbnail">
+                                    <a href="/" title="Coffee &amp; Tea" class="has-border">
+                                        <img src="anh/anh4.jpg" class="attachment-full size-full"> </a>
+                                </div>
+                                <h4 class="m4-limit-services-title">
+                                    <a href="/" title="Child Friendly">Work Spots</a>
+                                </h4>
+                                <div class="m4-services-content">
+                                    <p>Coffice in Stockholm is a great place to work from. Food options beyond pastries. Free WiFi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m4-services">
+                        <div class="col-md-5 content1">
+                            <div class="m4-limit">
+                                <div class="m4-limit-thumbnail">
+                                    <a href="/" title="Coffee &amp; Tea" class="has-border">
+                                        <img src="anh/anh5.jpg" class="attachment-full size-full"> </a>
+                                </div>
+                                <h4 class="m4-limit-services-title">
+                                    <a href="/" title="Child Friendly">Child Friendly</a>
+                                </h4>
+                                <div class="m4-services-content">
+                                    <p>Based in Barcelona, Pudding Bar was designed for spending the afternoon with the kids.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

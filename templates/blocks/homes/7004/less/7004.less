@@ -1,48 +1,43 @@
-.m4{
+.type-7004{
     .module-4_1{
-        .lavender-grid{
-            padding-top: 0.05px;
-            padding-bottom: 0.05px;
-            width: 100%;
-            .menu-center{
-                position: relative;
-                margin: 30px 0 30px 0;
-                text-align: center;
-                .sep-before
-                {
-                    width: 50%;
-                    font-size: 10px;
-                    text-align: right;
-                    vertical-align: middle;
-                    display: table-cell;
-                    padding-top: 24px;  
-                }
-            }
-            .menu-center:last-child{
-                margin-bottom: 20px;
-            }
-            .sep-line{
-                display: inline-block;
-                width: 30%;
-                border-top: 0 solid;
-                border-bottom: 1px solid;
-                color: #EDEDED;
-                vertical-align: baseline;
-            }
-            .sep-after{
+        .menu-center{
+            position: relative;
+            margin: 30px 0 30px 0;
+            text-align: center;
+            .sep-before
+            {
                 width: 50%;
                 font-size: 10px;
-                text-align: left;
-                display: table-cell;
+                text-align: right;
                 vertical-align: middle;
-                padding-top: 24px;
+                display: table-cell;
+                padding-top: 24px;  
             }
         }
-        .content{
-            padding-right: .7em;
-            padding-left: .7em;
+        .menu-center:last-child{
+            margin-bottom: 20px;
+        }
+        .sep-line{
+            display: inline-block;
+            width: 30%;
+            border-top: 0 solid;
+            border-bottom: 1px solid;
+            color: #EDEDED;
+            vertical-align: baseline;
+        }
+        .sep-after{
+            width: 50%;
+            font-size: 10px;
+            text-align: left;
             display: table-cell;
             vertical-align: middle;
+            padding-top: 24px;
+        }
+
+        .content{
+
+            display: table-cell;
+
             white-space: nowrap;
             .text-divider-double{
                 position: relative;
@@ -71,33 +66,46 @@
         }
     }
 
-    .m4_2{
+    .type-7004_2{
+        .m4-services:hover{
+            .m4-limit-thumbnail{
+                a img {
+                    background: none !important;
+                    border-radius: 3.6em !important;
+                    transition: all 0.2s;
+                }     
+            } 
+        }
+
+
         margin-top: 60px;
         .content1{
-            width: 20%;
+            width: 20%; 
             .m4-limit .m4-limit-thumbnail .has-border
 
             img{
                 max-width: 100%;
                 transition: border-radius 0.4s ease;
-                border-radius: 10em;
+                border-radius: 100%;
             }
             .m4-limit-services-title {
                 text-align: center;
-               
-               
-                    a{
+                a{
                     text-decoration: none;
                     color: black;
                     font: normal 24px/32px Libre Baskerville;
                     transition: all 0.2s;
                     outline: none;
                 }
+                a:hover{
+                    color: #cb7152;
+                }
             }
-            .m4-limit-services-title a:hover{
-                color: #cb7152;
-            }
-            .m4-services-content{
+            p{
+                color: #8B8B8B;
+
+                font: normal 16px/24px Varela Round;
+                font-size: 18px;
                 text-align: center;
             }
         }
@@ -106,7 +114,7 @@
 
 @media (max-width: 479px)
 {
-    .m4 .module-4_1 .menu-center .content {
+    .type-7004.module-4_1 .menu-center .content {
         .text-divider-double {
             font: normal 30px Libre Baskerville;
             font-size: 40px;
@@ -119,10 +127,22 @@
 
         }
     }
+    .type-7004 .type-7004_2 .content1 .m4-limit .m4-limit-thumbnail .has-border img{
+        max-width: 900px;  
+
+        margin-left: 25px;
+    }
+    .type-7004 .type-7004_2 .content1 .m4-limit-services-title a{
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-left: 120px;
+    }
+    .m4-services-content p{
+        width: 300px ;
+        margin-left: 25px  !important;
+    }
 
 }
-
-
 
 
 
