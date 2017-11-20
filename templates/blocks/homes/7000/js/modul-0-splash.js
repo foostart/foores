@@ -7,12 +7,12 @@ $(document).ready(function(){
        $('.m-splash-screen-progress').addClass('active100');
    }, 2000);
    setTimeout(function(){
-       $('.m-splash-screen').addClass('loaded');
+       $('.type-7000').addClass('loaded');
        
    }, 1000);
    
    setTimeout(function(){
-       $('.m-splash-screen').removeClass('loaded');
+       $('.type-7000').removeClass('loaded');
        
    }, 3500);
    
