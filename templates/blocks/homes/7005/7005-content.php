@@ -13,14 +13,14 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
     <body>
                  <!--Tea-->
-        <div class="m5">
-            <div class="m5-parallax"></div>
+    <div class="m5">
+        <div class="m5-parallax"></div>
             <div class="m5-container">
                 <div class="m5-content">
                     <div class="m5-content-line-left">
                         <div class="m5-content-line"></div>
                     </div>
-                    <div class="m5-content-text">
+                        <div class="m5-content-text">
                             <h2>
                                 Tea
                             </h2>
