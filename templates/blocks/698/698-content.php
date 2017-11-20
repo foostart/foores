@@ -26,7 +26,7 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="logo-footer col-md-3 col-sm-3 col-xs-12">
+                    <div class="logo-footer col-md-3 col-sm-3 ">
                         <div class="logo">
                             <img src="images/footer-logo.png" alt=""/>
                         </div>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <!-- BEGIN COLUMNS -->
-                    <div class="columns col-md-3 col-sm-3 col-xs-12">
+                    <div class="columns col-md-3 col-sm-3 ">
                         <div class="title">
                             <h6>MY ACCOUNT</h6>
                         </div>
@@ -67,7 +67,7 @@
                     </div>
                     <!-- END COLUMNS -->
                     <!-- BEGIN COLUMNS -->
-                    <div class="columns col-md-3 col-sm-3 col-xs-12">
+                    <div class="columns col-md-3 col-sm-3">
                         <div class="title">
                             <h6>SHOP</h6>
                         </div>
@@ -84,7 +84,7 @@
                     </div>
                     <!-- END COLUMNS -->
                     <!-- BEGIN COLUMNS -->
-                    <div class="columns col-md-3 col-sm-3 col-xs-12">
+                    <div class="columns col-md-3 col-sm-3">
                         <div class="title">
                             <h6>SELLERS</h6>
                         </div>

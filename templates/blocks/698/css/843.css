@@ -56,12 +56,12 @@
 .type-843 footer .columns h6 {
   margin-top: 20px;
   color: #fff;
-  margin-left: 67px;
+  margin-left: 80px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 .type-843 footer .columns .list {
-  margin-left: 67px;
+  margin-left: 80px;
 }
 .type-843 footer .columns .list ul {
   list-style: none;
@@ -130,4 +130,13 @@
 }
 .type-843 footer .sub-footer .link-sub .image img {
   margin: 20px;
+}
+@media screen and (min-width: 479px) {
+  .type-843 footer .logo-footer {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .type-843 footer .columns .list ul li a {
+    max-width: 25%;
+  }
 }
