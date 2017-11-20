@@ -1,6 +1,10 @@
-@clorxam:#c5c5c5;
+@clorbac:#c5c5c5;
+@clorwhite: #fff;
+@clorxam:#3c3c3c;
+@colortrangxam:#262626;
+@textalign:center;
 .type-843{
-    background-color: #262626;
+    background-color: @colortrangxam;
     overflow: hidden;
     a{
         list-style:  none;
@@ -11,12 +15,12 @@
     }
     a:hover{
         text-decoration: none;
-        color: #fff;
+        color: @clorwhite;
     }
     footer{
         overfow: hidden;
         .logo-footer{
-            text-align: center;
+            text-align:@textalign;
             margin-top:  40px;
             margin-bottom: 40px;
             .logo{
@@ -25,9 +29,9 @@
             .address{
                 p{
                     font-size: 12px;
-                    color: @clorxam;
+                    color: @clorbac;
                     a{
-                        color: @clorxam;
+                        color: @clorbac;
                     }
                 }
             }
@@ -38,11 +42,11 @@
                     display: inline-block;
 
                     a{
-                        color: @clorxam;
+                        color: @clorbac;
                         font-size: 22px;
                     }
                     a:hover{
-                        color: #fff;
+                        color: @clorbac;
                     }
 
 
@@ -54,20 +58,20 @@
         }
         .columns{ 
             margin-top: 40px;
-            border-left: 1px solid #3c3c3c;
+            border-left: 1px solid @clorxam;
             box-sizing: border-box;
-            float: left;
+            float:left;
             min-height: 230px;
             margin-bottom:  40px;
             h6{
                 margin-top: 20px;
-                color: #fff;
-                margin-left: 90px;
+                color: @clorwhite;
+                margin-left: 67px;
                 font-weight: bold;
                 padding-bottom: 20px;
             }
             .list{
-                margin-left: 90px;
+                margin-left: 67px;
                 ul{
                     list-style: none;
                     padding-left: 0;
@@ -77,10 +81,10 @@
                     {
                         line-height: 14px;
                         a{
-                            color:  @clorxam;
+                            color:  @clorbac;
                         }
                         a:hover{
-                            color:#fff;
+                            color:@clorwhite;
                         }
                     }
                 }
@@ -89,14 +93,14 @@
         .border-bottom{
             padding: 15px 0 25px;
             position: relative;
-            text-align: center;
+            text-align: @textalign;
             overflow: hidden;
             clear: both;
             z-index: 9;
-            border-bottom: 1px solid #262626;
+            border-bottom: 1px solid @colortrangxam;
         }
         .border-bottom:before{
-            border-top: 1px solid #3c3c3c;
+            border-top: 1px solid @clorxam;
             content: "";
             left: 0;
             position: absolute;
@@ -105,7 +109,7 @@
             z-index: 5;
         }
         .border-bottom:after{
-            background: url(../images/footer-divider.png) no-repeat scroll center top #262626;
+            background: url(../images/footer-divider.png) no-repeat scroll center top @colortrangxam;
             content: "";
             position: absolute;
             right: 0;
@@ -117,23 +121,24 @@
             z-index: 9;
         }
         .sub-footer{
-            text-align: center;
+            text-align: @textalign;
+
             .menu-sub{   
                 ul{
                     li{
                         list-style: none;
                         display: inline-block;
                         a{
-                            color:  @clorxam;
+                            color:  @clorbac;
                         }
                         a:hover{
-                            color: #fff;
+                            color: @clorwhite;
                         }
                     }
                 }
             }
             .copy{
-                color:  @clorxam;
+                color:  @clorbac;
                 margin-top: 20px;
             }
             .link-sub{

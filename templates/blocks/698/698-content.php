@@ -55,7 +55,7 @@
                         </div>
                         <div class="list">
                             <ul>
-                                <li><a href="#">Ask In forum</a></li>
+                                <li><a href="#">Ask In forum </a></li>
                                 <li><a href="#"> Help Desk</a></li>
                                 <li><a href="#"> Payment Method</a></li>
                                 <li><a href="#"> Promotions</a></li>
@@ -129,9 +129,7 @@
                     </div>
                 </div>
             </div>
-
         </footer>
-        <!-- END FOOTER -->
     </div>
 </body>
 </html>

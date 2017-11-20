@@ -39,7 +39,7 @@
   font-size: 22px;
 }
 .type-843 footer .logo-footer .link ul li a:hover {
-  color: #fff;
+  color: #c5c5c5;
 }
 .type-843 footer .logo-footer .link ul,
 .type-843 footer .logo-footer ol {
@@ -56,12 +56,12 @@
 .type-843 footer .columns h6 {
   margin-top: 20px;
   color: #fff;
-  margin-left: 90px;
+  margin-left: 67px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 .type-843 footer .columns .list {
-  margin-left: 90px;
+  margin-left: 67px;
 }
 .type-843 footer .columns .list ul {
   list-style: none;
