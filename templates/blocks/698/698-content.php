@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
     <a href="fonts/FontAwesome.otf"></a>
@@ -55,7 +56,7 @@
                         </div>
                         <div class="list">
                             <ul>
-                                <li><a href="#">Ask In forum</a></li>
+                                <li><a href="#">Ask In forum </a></li>
                                 <li><a href="#"> Help Desk</a></li>
                                 <li><a href="#"> Payment Method</a></li>
                                 <li><a href="#"> Promotions</a></li>
