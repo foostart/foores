@@ -1,8 +1,21 @@
+<<<<<<< HEAD
 //-------------------BEGIN FOOTER--------------------//
 @clorxam:#c5c5c5;
+=======
+@clorbac:#c5c5c5;
+@clorwhite: #fff;
+@clorxam:#3c3c3c;
+@colortrangxam:#262626;
+@textalign:center;
+@marginleft:80px;
+@overflow:hidden;
+@positionab:absolute;
+@paddingleft:0;
+@padingtop:40px;
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
 .type-843{
-    background-color: #262626;
-    overflow: hidden;
+    background-color: @colortrangxam;
+    overflow: @overflow;
     a{
         list-style:  none;
         //font-family: "Raleway",sans-serif;
@@ -12,14 +25,14 @@
     }
     a:hover{
         text-decoration: none;
-        color: #fff;
+        color: @clorwhite;
     }
     //-------------------Footer----------------------//
     footer{
-        overfow: hidden;
+        overfow: @overflow;
         .logo-footer{
-            text-align: center;
-            margin-top:  40px;
+            text-align:@textalign;
+            margin-top:  @padingtop;
             margin-bottom: 40px;
     //-------------------Logo------------------------//
             .logo{
@@ -37,9 +50,9 @@
             .address{
                 p{  
                     font-size: 12px;
-                    color: @clorxam;
+                    color: @clorbac;
                     a{
-                        color: @clorxam;
+                        color: @clorbac;
                     }
                 }
             }
@@ -51,53 +64,75 @@
                     display: inline-block;
 
                     a{
-                        color: @clorxam;
+                        color: @clorbac;
                         font-size: 22px;
                     }
                     a:hover{
-                        color: #fff;
+                        color: @clorbac;
                     }
 
 
                 }
             }
             .link ul,ol{
-                padding-left: 0;
+                padding-left: @paddingleft;
             }
         }
     //-------------------BEGIN COLUMNS ---------------//
         .columns{ 
+<<<<<<< HEAD
             margin-top: 30px;
             border-left: 1px solid #3c3c3c;
             box-sizing: border-box;
             float: left;
             min-height: 260px;
             margin-bottom:  40px;
+=======
+            margin-top: @padingtop;
+            border-left: 1px solid @clorxam;
+            box-sizing: border-box;
+            float:left;
+            min-height: 230px;
+            margin-bottom: 40px;
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
             h6{
 
                 margin-top: 20px;
+<<<<<<< HEAD
                 color: #fff;
                 text-align: center;
+=======
+                color: @clorwhite;
+                margin-left: @marginleft;
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
                 font-weight: bold;
                 padding-bottom: 2px;
                 font-size:14px;
             }
     //-------------------List--------------------------//
             .list{
+<<<<<<< HEAD
                text-align:center;
                 ul{
                     list-style: none;
                     padding-left: 0;
                     margin: 0 auto;
+=======
+                margin-left: @marginleft;
+                ul{
+                    list-style: none;
+                    padding-left: @paddingleft;
+                    malign: 0 auto;
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
 
                     li 
                     {
                         line-height: 14px;
                         a{
-                            color:  @clorxam;
+                            color:  @clorbac;
                         }
                         a:hover{
-                            color:#fff;
+                            color:@clorwhite;
                         }
                     }
                 }
@@ -107,25 +142,25 @@
         .border-bottom{
             padding: 15px 0 25px;
             position: relative;
-            text-align: center;
+            text-align: @textalign;
             overflow: hidden;
             clear: both;
             z-index: 9;
-            border-bottom: 1px solid #262626;
+            border-bottom: 1px solid @colortrangxam;
         }
         .border-bottom:before{
-            border-top: 1px solid #3c3c3c;
+            border-top: 1px solid @clorxam;
             content: "";
             left: 0;
-            position: absolute;
+            position:@positionab;
             top: 5px;
             width: 100%;
             z-index: 5;
         }
         .border-bottom:after{
-            background: url(../images/footer-divider.png) no-repeat scroll center top #262626;
+            background: url(../images/footer-divider.png) no-repeat scroll center top @colortrangxam;
             content: "";
-            position: absolute;
+            position:@positionab;
             right: 0;
             left: 0;
             margin: 0 auto;
@@ -136,7 +171,8 @@
         }
          //-------------------Sub-footer--------------------------//
         .sub-footer{
-            text-align: center;
+            text-align: @textalign;
+
             .menu-sub{   
                 ul{
                     li{
@@ -144,19 +180,23 @@
                         list-style: none;
                         display: inline-block;
                         a{
+<<<<<<< HEAD
                             color:  @clorxam;
                             line-height: 10px;
                             font-size:14px;
                             padding-left: 15px;
+=======
+                            color:  @clorbac;
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
                         }
                         a:hover{
-                            color: #fff;
+                            color: @clorwhite;
                         }
                     }
                 }
             }
             .copy{
-                color:  @clorxam;
+                color:  @clorbac;
                 margin-top: 20px;
             }
             .link-sub{
@@ -171,7 +211,12 @@
         }
     }
 }
+<<<<<<< HEAD
 @media screen and (min-width: 480px) {
+=======
+
+@media screen and (min-width: 479px) {
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
     .type-843 footer .logo-footer {
 
         max-width: 100%;  
@@ -180,6 +225,7 @@
     .type-843 footer .columns .list ul li a{
         max-width: 25%;       
     }
+<<<<<<< HEAD
 }
 @media only screen and (max-width: 480px) {
      .type-843 footer .logo-footer {
@@ -199,4 +245,6 @@
     {
     display: initial;
     }
+=======
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
 }

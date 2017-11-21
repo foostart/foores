@@ -56,7 +56,11 @@
                     </div>
                     <div class="list">
                         <ul>
+<<<<<<< HEAD
                             <li><a href="#">Ask In forum Ask In forum  Ask In forum  </a></li>
+=======
+                            <li><a href="#">Ask In forum  </a></li>
+>>>>>>> e639376691cec4f971d8793f50cd053881797325
                             <li><a href="#"> Help Desk</a></li>
                             <li><a href="#"> Payment Method</a></li>
                             <li><a href="#"> Promotions</a></li>
