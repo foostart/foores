@@ -21,7 +21,12 @@
   margin-bottom: 40px;
 }
 .type-843 footer .logo-footer .logo {
-  padding-bottom: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.type-843 footer .logo-footer .logo img {
+  width: 90%;
+  height: 79px;
 }
 .type-843 footer .logo-footer .address p {
   font-size: 12px;
@@ -56,18 +61,18 @@
 .type-843 footer .columns h6 {
   margin-top: 20px;
   color: #fff;
-  margin-left: 90px;
+  text-align: center;
   font-weight: bold;
   padding-bottom: 2px;
   font-size: 14px;
 }
 .type-843 footer .columns .list {
-  margin-left: 90px;
+  text-align: center;
 }
 .type-843 footer .columns .list ul {
   list-style: none;
   padding-left: 0;
-  malign: 0 auto;
+  margin: 0 auto;
 }
 .type-843 footer .columns .list ul li {
   line-height: 14px;
@@ -134,4 +139,29 @@
 }
 .type-843 footer .sub-footer .link-sub .image img {
   margin: 20px;
+}
+@media screen and (min-width: 480px) {
+  .type-843 footer .logo-footer {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .type-843 footer .columns .list ul li a {
+    max-width: 25%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .type-843 footer .logo-footer {
+    margin-left: 88px;
+    text-align: center;
+  }
+  .type-843 footer .columns {
+    margin-left: 88px;
+    border-left: none;
+    border-top: 1px solid #c5c5c5;
+    margin-top: -20px;
+    padding-top: 15px;
+  }
+  .type-843 footer .logo-footer .address p {
+    display: initial;
+  }
 }

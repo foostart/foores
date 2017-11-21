@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
     <a href="fonts/FontAwesome.otf"></a>
@@ -18,7 +18,6 @@
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/jquery.js" type="text/javascript"></script>
-
 
 </head>
 <body>
@@ -50,7 +49,7 @@
                         </div>
                     </div>
                     <!-- BEGIN COLUMNS -->
-                    <div class="columns col-md-3 col-sm-3 col-xs-12">
+                    <div class="columns col-md-3 col-sm-3 ">
                         <div class="title">
                             <h6>MY ACCOUNT</h6>
                         </div>
@@ -68,7 +67,7 @@
                     </div>
                     <!-- END COLUMNS -->
                     <!-- BEGIN COLUMNS -->
-                    <div class="columns col-md-3 col-sm-3 col-xs-12">
+                    <div class="columns col-md-3 col-sm-3">
                         <div class="title">
                             <h6>SHOP</h6>
                         </div>
@@ -85,7 +84,7 @@
                     </div>
                     <!-- END COLUMNS -->
                     <!-- BEGIN COLUMNS -->
-                    <div class="columns col-md-3 col-sm-3 col-xs-12">
+                    <div class="columns col-md-3 col-sm-3 2">
                         <div class="title">
                             <h6>SELLERS</h6>
                         </div>
@@ -130,13 +129,7 @@
                     </div>
                 </div>
             </div>
-
         </footer>
-        <!-- END FOOTER -->
     </div>
 </body>
 </html>
-
-
-
-
