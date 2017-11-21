@@ -32,8 +32,8 @@
                         <img src="images/footer-logo.png" alt=""/>
                     </div>
                     <div class="address">
-                        <p style=" display: initial;"> 507-Union Trade Center,Udhana Darvaja Surat </p>
-                        <p style=" display: inline-block;"> Call us: 0123-456-789</p>
+                        <p style=" display: block;"> 507-Union Trade Center,Udhana Darvaja Surat </p>
+                        <p style=" display: initial;"> Call us: 0123-456-789</p>
                         <p style=" display: block;"><a href="#"> support@templatemela.com</a></p>
                     </div>
                     <div class="link">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="list">
                         <ul>
-                            <li><a href="#">Ask In forum Ask In forum  Ask In forum  </a></li>
+                            <li><a href="#">Ask In forum </a></li>
                             <li><a href="#"> Help Desk</a></li>
                             <li><a href="#"> Payment Method</a></li>
                             <li><a href="#"> Promotions</a></li>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="link-sub col-md-12 col-sm-12 col-xs-12">
                     <div class="image">
-                        <img src="images/payment.png" alt=""/>
+                        <a href="#"><img src="images/payment.png" alt="img-responsive"/></a>
                     </div>   
                 </div>
             </div>
