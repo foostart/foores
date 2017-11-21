@@ -61,13 +61,13 @@
 .type-843 footer .columns h6 {
   margin-top: 20px;
   color: #fff;
-  padding-left: 50px;
+  text-align: center;
   font-weight: bold;
   padding-bottom: 2px;
   font-size: 14px;
 }
 .type-843 footer .columns .list {
-  padding-left: 50px;
+  text-align: center;
 }
 .type-843 footer .columns .list ul {
   list-style: none;
@@ -124,14 +124,10 @@
   color: #c5c5c5;
   line-height: 10px;
   font-size: 14px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .type-843 footer .sub-footer .menu-sub ul li a:hover {
   color: #fff;
-}
-.type-843 footer .sub-footer .menu-sub ul,
-.type-843 footer .sub-footer .menu-sub ol {
-  padding-left: 0px;
 }
 .type-843 footer .sub-footer .copy {
   color: #c5c5c5;
@@ -143,15 +139,6 @@
 }
 .type-843 footer .sub-footer .link-sub .image img {
   margin: 20px;
-  height: 20px;
-}
-@media (min-width: 415px) {
-  .type-843 sub-footer .link-sub img {
-    width: 350px;
-  }
-  .type-843 footer .columns .list ul li a {
-    max-width: 25%;
-  }
 }
 @media screen and (min-width: 480px) {
   .type-843 footer .logo-footer {
@@ -165,6 +152,7 @@
 @media only screen and (max-width: 480px) {
   .type-843 footer .logo-footer {
     margin-left: 88px;
+    text-align: center;
   }
   .type-843 footer .columns {
     margin-left: 88px;
