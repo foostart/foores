@@ -44,7 +44,7 @@
   font-size: 22px;
 }
 .type-843 footer .logo-footer .link ul li a:hover {
-  color: #c5c5c5;
+  color: #fff;
 }
 .type-843 footer .logo-footer .link ul,
 .type-843 footer .logo-footer ol {
@@ -61,21 +61,13 @@
 .type-843 footer .columns h6 {
   margin-top: 20px;
   color: #fff;
-<<<<<<< HEAD
-  text-align: center;
-=======
-  margin-left: 80px;
->>>>>>> e639376691cec4f971d8793f50cd053881797325
+  padding-left: 50px;
   font-weight: bold;
   padding-bottom: 2px;
   font-size: 14px;
 }
 .type-843 footer .columns .list {
-<<<<<<< HEAD
-  text-align: center;
-=======
-  margin-left: 80px;
->>>>>>> e639376691cec4f971d8793f50cd053881797325
+  padding-left: 50px;
 }
 .type-843 footer .columns .list ul {
   list-style: none;
@@ -132,10 +124,14 @@
   color: #c5c5c5;
   line-height: 10px;
   font-size: 14px;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .type-843 footer .sub-footer .menu-sub ul li a:hover {
   color: #fff;
+}
+.type-843 footer .sub-footer .menu-sub ul,
+.type-843 footer .sub-footer .menu-sub ol {
+  padding-left: 0px;
 }
 .type-843 footer .sub-footer .copy {
   color: #c5c5c5;
@@ -147,12 +143,17 @@
 }
 .type-843 footer .sub-footer .link-sub .image img {
   margin: 20px;
+  height: 20px;
 }
-<<<<<<< HEAD
+@media (min-width: 415px) {
+  .type-843 sub-footer .link-sub img {
+    width: 350px;
+  }
+  .type-843 footer .columns .list ul li a {
+    max-width: 25%;
+  }
+}
 @media screen and (min-width: 480px) {
-=======
-@media screen and (min-width: 479px) {
->>>>>>> e639376691cec4f971d8793f50cd053881797325
   .type-843 footer .logo-footer {
     max-width: 100%;
     margin-top: 40px;
@@ -161,11 +162,9 @@
     max-width: 25%;
   }
 }
-<<<<<<< HEAD
 @media only screen and (max-width: 480px) {
   .type-843 footer .logo-footer {
     margin-left: 88px;
-    text-align: center;
   }
   .type-843 footer .columns {
     margin-left: 88px;
@@ -178,5 +177,3 @@
     display: initial;
   }
 }
-=======
->>>>>>> e639376691cec4f971d8793f50cd053881797325
