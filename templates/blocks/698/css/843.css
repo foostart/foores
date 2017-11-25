@@ -142,12 +142,8 @@
   padding-bottom: 40px;
 }
 .type-843 footer .sub-footer .link-sub .image img {
-  margin: 4px;
-  height: 27px;
-}
-.type-843 footer .sub-footer .link-sub .image img:hover {
-  color: #c5c5c5;
-  opacity: 0.3;
+  margin: 20px;
+  height: 20px;
 }
 @media (min-width: 415px) {
   .type-843 sub-footer .link-sub img {
