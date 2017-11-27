@@ -35,14 +35,14 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="col-md-4">
             <div class="row ">
                 <div class="anhcafe">
-                    <img src="anh/anh1.jpg">
+                    <img src="anh/anh1.jpg" alt="anh1">
                 </div>
             </div>
         </div>  
         <div class="col-md-4">
             <div class="row">
                 <div class="M6-grid-1-2">
-                    <p><span class="icon"></span></p>
+                    <p><span class="icon"></span></p>
                     <h2>Buddha:<br>
                         How to drink tea?</h2>
                     <p> The types of tea are white tea, green tea, yellow tea, oolong tea, black tea, and pu-erh tea. “When you have the title ‘white tea’ or ‘green tea’, you’re actually describing the process by which it has been made,” Woollard says.                   </p>
@@ -109,7 +109,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="product">
                                             <a href="#" class="woocommerce-LoopProduct-link"></a>
                                             <div class="col-sm-12 text-center">
-                                                <img class="img-circle" src="anh/anh7.jpg">
+                                                <img class="img-circle" src="anh/anh7.jpg" alt="anh7">
                                             </div>
 
 
@@ -141,7 +141,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="product">
                                         <a href="#" class="woocommerce-LoopProduct-link"></a>
                                         <div class="col-sm-12 text-center">
-                                            <img class="img-circle" src="anh/anh8.jpg">
+                                            <img class="img-circle" src="anh/anh8.jpg" alt="anh8">
                                         </div>
 
 
@@ -182,7 +182,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <p>
-                    <img src="anh/anh3.jpg">
+                    <img src="anh/anh3.jpg" alt="anh3">
                 </p>
             </div>
         </div>

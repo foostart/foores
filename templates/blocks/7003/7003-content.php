@@ -21,7 +21,7 @@
                     <div class="col-xs-12 col-sm-2 col-md-2  m3-content-left"></div>
                       <!--Brunch -->
                     <div class="col-xs-12 col-sm-4 col-md-4 m3-content-menu">
-                        <span class="m3-content-menu-icon"></span>
+                        <span class="m3-content-menu-icon"></span>
                         <h3>Brunch</h3>
                         <h5>Today Specials</h5>
                         <div class="m3-content-menu-food">
@@ -40,7 +40,7 @@
                         </div>
                           <!--Happy  hour-->
                         <div class="col-xs-12 col-sm-4 col-md-4 m3-content-event">
-                            <span class="m3-content-event-icon"></span>
+                            <span class="m3-content-event-icon"></span>
                             <h3>Happy hour</h3>
                             <h5>Starts at 3pm</h5>
                             <p>The restaurant will open at 3pm for happy hour and dinner service starting at 5pm. We will continue to offer brunch on weekends from 10am-3pm with bottomless mimosas. We will also continue with our late night lounge on Friday and Saturdays until 2am.</p>
@@ -52,7 +52,7 @@
                                 </a>
                             </p>
                         </div>
-                          <!--><backgroud nền!-->
+                          
                         <div class="col-xs-12 col-sm-2 col-md-2 m3-content-right"></div>
                         <div class="clearfix"></div>
                     </div>
