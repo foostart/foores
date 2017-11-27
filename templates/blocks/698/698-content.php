@@ -1,5 +1,3 @@
-
-
 <?php
 $url_host = $_SERVER['HTTP_HOST'];
 
