@@ -16,7 +16,7 @@
 }
 .type-7004 .module-4_1 .sep-line {
   display: inline-block;
-  width: 30%;
+  width: 35%;
   border-top: 0 solid;
   border-bottom: 1px solid;
   color: #EDEDED;
@@ -38,13 +38,13 @@
   position: relative;
   letter-spacing: 2px;
   color: #000000;
-  font-size: 56px;
+  font-size: 70px;
   font-family: Libre Baskerville;
 }
 .type-7004 .module-4_1 .content .text-divider-subtitle {
   color: #cb7152;
   font-family: 'Handlee';
-  font-size: 1em;
+  opacity: 0.8;
   letter-spacing: 0.3em;
   vertical-align: baseline;
   font-size: 16px;
@@ -59,15 +59,13 @@
   padding: 0px 5px;
 }
 .type-7004 .type-7004_2 {
-  margin-top: 60px;
+  text-align: center;
+  margin-top: 73px;
 }
 .type-7004 .type-7004_2 .m4-services:hover .m4-limit-thumbnail a img {
   background: none !important;
   border-radius: 3.6em !important;
   transition: all 0.2s;
-}
-.type-7004 .type-7004_2 .content1 {
-  width: 20%;
 }
 .type-7004 .type-7004_2 .content1 .m4-limit .m4-limit-thumbnail .has-border
 
@@ -96,27 +94,24 @@
   text-align: center;
 }
 @media (max-width: 479px) {
-  .type-7004.module-4_1 .menu-center .content .text-divider-double {
+  .type-7004 .type-7004_2 .content1 
+        p {
+    font-size: 14px;
+  }
+  .type-7004 .m4-limit-thumbnail .has-border img {
+    width: 50%;
+  }
+  .type-7004 .module-4_1 .menu-center .content .text-divider-double {
     font: normal 30px Libre Baskerville;
     font-size: 40px;
     margin: 0 auto;
   }
-  .type-7004.module-4_1 .menu-center .content .text-divider-subtitle {
+  .type-7004 .module-4_1 .menu-center .content .text-divider-subtitle {
     margin-top: -15px;
     font-size: 17px;
     text-align: center;
   }
-  .type-7004 .type-7004_2 .content1 .m4-limit .m4-limit-thumbnail .has-border img {
-    max-width: 900px;
-    margin-left: 25px;
-  }
-  .type-7004 .type-7004_2 .content1 .m4-limit-services-title a {
-    white-space: nowrap;
-    margin: 0 auto;
-    margin-left: 120px;
-  }
-  .m4-services-content p {
-    width: 300px;
-    margin-left: 25px !important;
-  }
+}
+.type-7004 .type-7004_2 .content1 .m4-limit-services-title a {
+  font: normal 22px/24px Varela Round;
 }
