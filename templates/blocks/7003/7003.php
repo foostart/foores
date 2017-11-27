@@ -1,6 +1,24 @@
 <!DOCTYPE html>
+<?php
+    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
+
+    if (!class_exists('lessc')) {
+        $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);      
+        require_once($dir_block.'/libs/lessc.inc.php');
+    }
+    $less = new lessc;
+    $less->compileFile('less/7003.less', 'css/7003.css');
+    
+?>
 <html>
     <head>
+        <title>7003</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -13,8 +31,13 @@
         ?> 
         <link href="css/7003.css" rel="stylesheet" type="text/css"/>
 		
+<<<<<<< HEAD
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
+=======
+	  <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+      <script src="js/modul-3-js.js" type="text/javascript"></script>
+>>>>>>> 5d404169b7a1e85778770295477745ce5eda7d18
 
     </head> 
 
