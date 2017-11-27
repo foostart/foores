@@ -13,9 +13,8 @@
         ?> 
         <link href="css/7003.css" rel="stylesheet" type="text/css"/>
 		
-	<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="js/m1-slide-js.js" type="text/javascript"></script>
-    <script src="js/modul1-navi-js.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
 
     </head> 
 

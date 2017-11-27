@@ -11,8 +11,7 @@
 
     $url_path = str_replace('\\', '/', $url_path);
     ?>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="js/modul-3-js.js" type="text/javascript"></script>
+
 
     <body>
          <!--banner-->

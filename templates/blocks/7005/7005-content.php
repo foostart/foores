@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-    <body>
+ 
                  <!--Tea-->
     <div class="m5">
         <div class="m5-parallax"></div>
@@ -30,7 +30,4 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div> 
             </div>
         </div>    
-    </body>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="js/modul-5-js.js" type="text/javascript"></script>
-</html>
+   
