@@ -11,13 +11,12 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-    <body>
+    
         <div class="module-9">
             <div class="blank-space"></div>
             <div class="row">
                 <div class="googlemap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sbg!2sbg!4v1466707607406!6m8!1m7!1svsXUo6yo0NdjsXT6vPIAXA!2m2!1d51.51879257446717!2d-0.1547868106266257!3f74.10829252425589!4f-9.830256425407029!5f0.4000000000000002">
-                    </iframe>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4875110257044!2d106.75819512698365!3d10.850476512275566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752797e321f8e9%3A0xb3ff69197b10ec4f!2sThu+Duc+College+of+Technology!5e0!3m2!1sen!2s!4v1511772717722"></iframe>
                 </div>
             </div>
             <div class="space"></div>
@@ -86,5 +85,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="blank-space"></div>
         </div>
-    </body>
-</html>
+  

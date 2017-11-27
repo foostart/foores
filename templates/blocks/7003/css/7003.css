@@ -32,7 +32,7 @@ ul {
   margin: 16px 0;
 }
 .m3 .m3-container .m3-content .m3-content-menu h3 {
-  color: #000000;
+  color: #000;
   font: normal 40px/50px Libre Baskerville;
 }
 .m3 .m3-container .m3-content .m3-content-menu h5 {
@@ -65,7 +65,7 @@ ul {
   margin-bottom: 2px;
   transition: all .3s;
   font-size: 16px;
-  color: #000000;
+  color: #000;
   line-height: 130%;
 }
 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3:before {
@@ -173,7 +173,7 @@ ul {
   display: inline-block;
   width: 100%;
   position: relative;
-  color: #000000;
+  color: #000;
   font-size: 14px;
 }
 .m3 .m3-container .m3-content .m3-content-event .m3-content-event-btn span:before {
