@@ -39,7 +39,7 @@
   opacity: 1;
   transition: all 0.5s 1s ease-out;
 }
-.m-splash-screen-progress {
+.loaded .m-splash-screen-progress {
   width: 0%;
   transition: 1s;
 }

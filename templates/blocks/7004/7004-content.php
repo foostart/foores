@@ -1,14 +1,10 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
-
 $url_path = $url_host . $matches[1][0];
-
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-7004">
@@ -36,11 +32,11 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="type-7004_2">
                 <div class="row">
                     <div class="m4-services">
-                        <div class="col-md-5 content1">
+                        <div class="col-md-3 col-sm-3 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="anh/anh1.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh1.jpg" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
                                     <a href="/" title="Child Friendly">Coffee & Tea</a>
@@ -50,71 +46,56 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>   
                     <div class="m4-services">
-                        <div class="col-md-5 content1">
+                        <div class="col-md-3 col-sm-3 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="anh/anh2.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh2.jpg" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
-                                    <a href="/" title="Child Friendly">Bakery & Sweets</a>
+                                    <a href="/" title="Child Friendly">Coffee & Tea</a>
                                 </h4>
                                 <div class="m4-services-content">
-                                    <p>These desserts aren’t simply favorites of ours; they also help define, in their own way…</p>
+                                    <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>   
                     <div class="m4-services">
-                        <div class="col-md-5 content1">
+                        <div class="col-md-3 col-sm-3 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="anh/anh3.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh3.jpg" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
-                                    <a href="/" title="Child Friendly">Lunch Menu</a>
+                                    <a href="/" title="Child Friendly">Coffee & Tea</a>
                                 </h4>
                                 <div class="m4-services-content">
-                                    <p>We make our lunches and dinners with the finest ingredients we can find to make our meals as flavorful as possible.</p>
+                                    <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>   
                     <div class="m4-services">
-                        <div class="col-md-5 content1">
+                        <div class="col-md-3 col-sm-3 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="anh/anh4.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh4.jpg" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
-                                    <a href="/" title="Child Friendly">Work Spots</a>
+                                    <a href="/" title="Child Friendly">Coffee & Tea</a>
                                 </h4>
                                 <div class="m4-services-content">
-                                    <p>Coffice in Stockholm is a great place to work from. Food options beyond pastries. Free WiFi.</p>
+                                    <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="m4-services">
-                        <div class="col-md-5 content1">
-                            <div class="m4-limit">
-                                <div class="m4-limit-thumbnail">
-                                    <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="anh/anh5.jpg" class="attachment-full size-full"> </a>
-                                </div>
-                                <h4 class="m4-limit-services-title">
-                                    <a href="/" title="Child Friendly">Child Friendly</a>
-                                </h4>
-                                <div class="m4-services-content">
-                                    <p>Based in Barcelona, Pudding Bar was designed for spending the afternoon with the kids.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div>   
+
                 </div>
             </div>
         </div>
