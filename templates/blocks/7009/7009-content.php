@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="blank-space"></div>
             <div class="row">
                 <div class="googlemap">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4875110257044!2d106.75819512698365!3d10.850476512275566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752797e321f8e9%3A0xb3ff69197b10ec4f!2sThu+Duc+College+of+Technology!5e0!3m2!1sen!2s!4v1511772717722"></iframe>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501756.55281938356!2d106.72009549198842!3d10.736558990061582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo+Chi+Minh+City%2C+Ho+Chi+Minh%2C+Vietnam!5e0!3m2!1sen!2s!4v1511773388964"></iframe>
                 </div>
             </div>
             <div class="space"></div>
