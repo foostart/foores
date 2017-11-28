@@ -56,38 +56,7 @@
                                     </h3>
                                 </span>
                             </div>
-                            <div class="col-md-3 tab-content-pic">
-                                <img src="images/sushi-1-800x615.jpg">
-                                <span>
-                                    <h3>
-                                        <a>7 Tips for the Best Sushi Party Ever</a>
-                                    </h3>
-                                </span>
-                            </div>
-                            <div class="col-md-3 tab-content-pic">
-                                <img src="images/Sushi-2-800x615.jpg">
-                                <span>
-                                    <h3>
-                                        <a>Sushi Lovers or Beginners</a>
-                                    </h3>
-                                </span>
-                            </div>
-                            <div class="col-md-3 tab-content-pic">
-                                <img src="images/tea-7-800x615.jpg">
-                                <span>
-                                    <h3>
-                                        <a>Coffee for Your Health</a>
-                                    </h3>
-                                </span>
-                            </div>
-                            <div class="col-md-3 tab-content-pic">
-                                <img src="images/people-800x615.jpg">
-                                <span>
-                                    <h3>
-                                        <a>Coffee with a friend is like capturing</a>
-                                    </h3>
-                                </span>
-                            </div>
+                         
                         </div>
                         <div class="tab-pane" id="coffee">
                             <div class="col-md-3 tab-content-pic">
@@ -184,6 +153,9 @@
                             </div>
                         </div>
                     </div>
+                
+                
+                
                 </div>
             </div>
         </body>
