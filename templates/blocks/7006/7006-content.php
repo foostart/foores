@@ -47,9 +47,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="row">
                                         <div class="swiper-container">
                                             <div class="swiper-wrapper">
-                                              <div class="swiper-slide"><img src="anh/anh6.jpg"></div>
-                                              <div class="swiper-slide"><img src="anh/anh7.jpg"></div>
-                                              <div class="swiper-slide"><img src="anh/anh8.jpg"></div>
+                                              <div class="swiper-slide"><img src="anh/anh6.jpg" alt="anh6"></div>
+                                              <div class="swiper-slide"><img src="anh/anh7.jpg" alt="anh7"></div>
+                                              <div class="swiper-slide"><img src="anh/anh8.jpg" alt="anh8"></div>
                                             </div>
                                             <!-- Add Arrows -->
                                             <div class="swiper-button-next"></div>
@@ -66,13 +66,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </script>
                                     </div>
                                 </blockquote>
-                            </div>
-                            <!-- Quote 2 -->
-                            
-                            <!-- Quote 3 -->
-                            
+                            </div>  
                         </div>        
-                        <!-- Carousel Buttons Next/Prev -->
+                        
     
                     </div>                          
 
