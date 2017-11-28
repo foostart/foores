@@ -13,7 +13,7 @@
         require_once($dir_block.'/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/7023.less', 'css/7023.css');  
+    $less->compileFile('less/7018.less', 'css/7018.css');  
 ?>
 <html>
     <head>
