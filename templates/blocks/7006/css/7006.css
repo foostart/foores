@@ -22,7 +22,6 @@
   opacity: 1;
   color: #ffffff;
   text-decoration: none;
-  box-shadow: inset 0 0 0 25px #fff;
 }
 .Module-6 .active .addtocart {
   text-align: center;
@@ -32,7 +31,7 @@
   z-index: 9;
 }
 .Module-6 .active .addtocart a {
-  opacity: 0.1;
+  opacity: 0.5;
   background: #fff;
   color: #000;
   border: 1px solid #fff;
@@ -40,11 +39,6 @@
   padding: 3px 10px;
   border-radius: 50px;
   transition: 0.1s;
-}
-.Module-6 .active .addtocart a:hover {
-  opacity: 1;
-  color: #ffffff;
-  text-decoration: none;
 }
 .Module-6 .active .home-chef {
   text-align: center;
