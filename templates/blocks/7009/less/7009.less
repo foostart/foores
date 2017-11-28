@@ -1,3 +1,10 @@
+/* màu trắng xám*/
+@color-gray-white: #f5f5f5;
+/* màu trắng*/
+@color-white: #fff;
+/* màu hồng*/
+@color-pink: #cb7152;
+
 .module-9{
     h4{
         font: normal 24px/32px Libre Baskerville;
@@ -48,7 +55,7 @@
             margin-right: -25px;
             clear: both;
             .main{
-                background-color: #ffffff;
+                background-color: @color-whites;
                 padding-top: 0.05px;
                 padding-bottom: 0.05px;
                 .grid1-5,.grid2-5{
@@ -126,14 +133,14 @@
                         clear: both;
                     }
                     .grid1{
-                        color: #f5f5f5;
+                        color: @color-gray-white;
                         padding-bottom: 30px;
                         width: 100%;
                         .grid1-1{ 
                             text-align: center;
                             .button{
                                 .text-button{
-                                    color: #ffffff;
+                                    color: @color-white;
                                     position: relative;
                                     font-weight: 500;
                                     padding: 1em 2em;
@@ -144,7 +151,7 @@
                                     margin: 0 0;
                                     vertical-align: middle!important;
                                 }
-                                border: 1px solid #cb7152;
+                                border: 1px solid @color-pink;
                                 font-style: normal;
                                 overflow: hidden;
                                 transition: color .3s ease-out,border .3s ease-out,background .3s ease-out!important;
@@ -160,7 +167,7 @@
                                 font: normal 13px/1em "Varela Round";
                             }
                             .button::after{
-                                background: #cb7152;
+                                background: @color-pink;
                                 content: '';
                                 position: absolute;
                                 z-index: -1;
@@ -175,7 +182,7 @@
                                 height: 100%;
                             }
                             .button:hover{
-                                border-color: #cb7152;
+                                border-color: @color-pink;
                                 span{
                                     font-size: 1em;
                                     line-height: inherit;
@@ -192,7 +199,7 @@
                                     }
                                     .text-button:before{
                                         color: #fff;
-                                        background: #cb7152;
+                                        background: @color-pink;
                                         position: absolute;
                                         content: attr(data-text);
                                         transform: translate3d(0,0,0);
@@ -229,7 +236,7 @@
                     }
                     a:hover{
                         text-decoration: none;
-                        color: #cb7152;
+                        color: @color-pink;
                         outline: none;
                     }
                     span{
