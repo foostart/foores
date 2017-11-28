@@ -9,10 +9,100 @@
   position: static;
 }
 .Module-6 .swiper-slide {
+  padding-top: 8px;
   text-align: center;
   background: #fff;
-  display: flex;
   justify-content: center;
+}
+.Module-6 .swiper-slide img:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.Module-6 .active .addtocart:hover {
+  opacity: 1;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 25px #fff;
+}
+.Module-6 .active .addtocart {
+  text-align: center;
+  opacity: 0;
+  margin-top: -40px;
+  position: relative;
+  z-index: 9;
+}
+.Module-6 .active .addtocart a {
+  opacity: 0.1;
+  background: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 3px 10px;
+  border-radius: 50px;
+  transition: 0.1s;
+}
+.Module-6 .active .addtocart a:hover {
+  opacity: 1;
+  color: #ffffff;
+  text-decoration: none;
+}
+.Module-6 .active .home-chef {
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  float: none;
+  text-transform: uppercase;
+  font-family: 'Libre Baskerville';
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #2c2c2c;
+  margin-top: 17px;
+}
+.Module-6 .active .home-chef .tagged {
+  margin: 0;
+  display: block;
+  padding: 0px 5px;
+}
+.Module-6 .active .home-chef .tagged a:hover {
+  color: #cb7152;
+  opacity: 1;
+}
+.Module-6 .active .home-chef .tagged a {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6b6b6b;
+  line-height: 1em;
+  font-weight: normal;
+  opacity: 0.5;
+  transition: all .3s;
+}
+.Module-6 .active .home-chef .tagged a:after {
+  content: "\00B7";
+  font-size: 14px;
+  color: #6b6b6b;
+  padding-left: 5px;
+}
+.Module-6 .active .home-chef .tagged h3 {
+  margin-top: 3px;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: .1em;
+  transition: color .3s;
+}
+.Module-6 .active .home-chef .tagged h3:hover {
+  color: #cb7152;
+}
+.Module-6 .active .home-chef .tagged p {
+  display: block;
+  color: #000;
+  transform: translateZ(0);
+  margin: 0px;
+  font: normal 16px/18px Libre Baskerville;
+  font-size: .857em;
+  font-weight: 400;
 }
 .Module-6 .anhcafe {
   margin-left: -100px;
@@ -21,7 +111,6 @@
   color: #cb7152;
   font-size: 80px !important;
   font-family: 'theme' !important;
-  font-family: 'theme';
 }
 .Module-6 .M6-grid-1-2 h2 {
   white-space: nowrap;
@@ -45,11 +134,13 @@
 }
 .Module-6 .swiper-button-next,
 .Module-6 .swiper-button-prev {
-  background-size: 12px 44px;
+  background-size: 16px 44px;
 }
 .Module-6 .swiper-button-prev {
   margin-left: 40px;
   display: block;
+  opacity: 0;
+  margin-top: -65px;
 }
 .Module-6 .swiper-button-prev:hover {
   color: #000;
@@ -57,10 +148,13 @@
   width: 50px;
   transition: all .5s;
   box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+  opacity: 1;
 }
 .Module-6 .swiper-button-next {
   margin-right: 40px;
   display: block;
+  opacity: 0;
+  margin-top: -65px;
 }
 .Module-6 .swiper-button-next:hover {
   color: #000;
@@ -68,6 +162,7 @@
   width: 50px;
   transition: all .5s;
   box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+  opacity: 1;
 }
 .Module-6 .M7 {
   padding-top: 40px;
@@ -123,8 +218,6 @@
   text-transform: uppercase;
   font-family: 'Libre Baskerville';
   line-height: 1.3em;
-  margin: 0;
-  padding: 0;
   font-size: 10px;
   letter-spacing: 1px;
   color: #2c2c2c;
@@ -158,18 +251,19 @@
   font-size: 18px;
   padding-bottom: .1em;
   line-height: 1.4em;
-  transition: color .3s;
   padding: .3em 1.0em;
   transition: all .6s;
   text-align: center;
 }
 .Module-6 .M7 .carousel-inner .price {
   display: block;
-  color: #000;
+  color: #000000;
   position: relative;
   transform: translateZ(0);
   margin: 0px;
-  text-align: center;
+  font-size: .857em;
+  font-weight: 400;
+  font: normal 16px/18px Varela Round;
 }
 .Module-6 .anhdau {
   z-index: 555;
@@ -205,7 +299,6 @@
   .Module-6 .M6-grid-1-2 p .icon {
     color: #cb7152;
     font-family: 'theme' !important;
-    font-family: 'theme';
   }
   .Module-6 .M6-grid-1-2 h2 {
     margin-left: 0px;

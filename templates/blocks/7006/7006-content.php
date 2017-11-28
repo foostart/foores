@@ -12,7 +12,6 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-        
 <div class="Module-6">
     <div class="container">
         <div class="col-md-4">
@@ -44,7 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!-- Quote 1 -->
                             <div class="item active">
                                 <blockquote>
-                                    <div class="row">
+                                    <div class="row"> 
                                         <div class="swiper-container">
                                             <div class="swiper-wrapper">
                                               <div class="swiper-slide"><img src="anh/anh6.jpg" alt="anh6"></div>
@@ -55,15 +54,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="swiper-button-next"></div>
                                             <div class="swiper-button-prev"></div>
                                           </div>
-                                    <!-- Swiper JS -->  
-                                        <script>
-                                        var swiper = new Swiper('.swiper-container', {
-                                          navigation: {
-                                            nextEl: '.swiper-button-next',
-                                            prevEl: '.swiper-button-prev',
-                                          },
-                                        });
-                                    </script>
+
+                                        <div class="addtocart">
+                                            <a href="#">Add to Cart</a>
+                                        </div>
+                                        <div class="home-chef">
+                                            <h5>Home Chef</h5>
+                                            <span class="tagged">
+                                                <a href="#">BREAKFAST</a>
+                                                <a href="#">CAPPUCCINO</a>
+                                                <a href="#">COFFEE</a>
+                                                <a href="#">
+                                                    <h3>Mix of Croissants Breakfast</h3> 
+                                                </a>
+                                                <span class="price">£5.00</span>
+                                            </span>
+                                        </div>
+                                        
+                                    
+                                      
                                     </div>
                                 </blockquote>
                             </div>  

@@ -41,5 +41,6 @@
 
     <body> 
         <?php include '../7006/7006-content.php'; ?>
+        <script src="JS/script_swiper.js"></script>
     </body>
 </html>
