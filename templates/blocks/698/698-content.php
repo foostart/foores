@@ -111,12 +111,12 @@
                     </div>
                     <div class="link-sub col-md-12 col-sm-12 col-xs-12">
                         <div class="image" >
-                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh1.jpg">  
-                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh2.jpg">  
-                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh3.jpg"> 
-                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh4.jpg"> 
-                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh5.jpg">  
-                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh7.jpg"> 
+                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">  
+                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh2">  
+                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh3.jpg" alt="hinh3"> 
+                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh4.jpg" alt="hinh4"> 
+                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh5.jpg" alt="hinh5">  
+                            <img class="img_icon" src="<?php echo $url_path ?>/images/hinh7.jpg" alt="hinh7"> 
                         </div>
                     </div>
                 </div>

@@ -19,12 +19,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>698</title>
         <meta name="viewport" content="width = divice - width, initial - scale = 1.0">
 
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
-        <a href="fonts/FontAwesome.otf"></a>
+        
         <link href="css/843.css" rel="stylesheet" type="text/css"/>
         
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
@@ -37,7 +37,6 @@
 
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
-
         <?php
             if (!class_exists('lessc')) {
                 include ('./libs/lessc.inc.php');
@@ -45,7 +44,6 @@
             $less = new lessc;
             $less->compileFile('less/843.less', 'css/843.css');
         ?>
-
     </head>
     <body>
         <?php 
