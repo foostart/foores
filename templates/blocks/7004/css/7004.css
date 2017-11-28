@@ -94,14 +94,24 @@
   text-align: center;
 }
 @media (max-width: 479px) {
-  .type-7004.module-4_1 .menu-center .content .text-divider-double {
+  .type-7004 .type-7004_2 .content1 
+        p {
+    font-size: 14px;
+  }
+  .type-7004 .m4-limit-thumbnail .has-border img {
+    width: 50%;
+  }
+  .type-7004 .module-4_1 .menu-center .content .text-divider-double {
     font: normal 30px Libre Baskerville;
     font-size: 40px;
     margin: 0 auto;
   }
-  .type-7004.module-4_1 .menu-center .content .text-divider-subtitle {
+  .type-7004 .module-4_1 .menu-center .content .text-divider-subtitle {
     margin-top: -15px;
     font-size: 17px;
     text-align: center;
   }
+}
+.type-7004 .type-7004_2 .content1 .m4-limit-services-title a {
+  font: normal 22px/24px Varela Round;
 }

@@ -28,7 +28,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-
             <div class="type-7004_2">
                 <div class="row">
                     <div class="m4-services">
@@ -36,7 +35,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="<?php echo $url_path ?>/anh/anh1.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh1.jpg " alt="reponsive-img" class="attachment-full size-full">  </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
                                     <a href="/" title="Child Friendly">Coffee & Tea</a>
@@ -52,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="<?php echo $url_path ?>/anh/anh2.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh2.jpg" alt="reponsive-img" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
                                     <a href="/" title="Child Friendly">Coffee & Tea</a>
@@ -68,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="<?php echo $url_path ?>/anh/anh3.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh3.jpg" alt="reponsive-img"  class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
                                     <a href="/" title="Child Friendly">Coffee & Tea</a>
@@ -84,7 +83,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
-                                        <img src="<?php echo $url_path ?>/anh/anh4.jpg" class="attachment-full size-full"> </a>
+                                        <img src="<?php echo $url_path ?>/anh/anh4.jpg" alt="reponsive-img" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
                                     <a href="/" title="Child Friendly">Coffee & Tea</a>
