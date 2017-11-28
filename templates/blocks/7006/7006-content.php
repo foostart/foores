@@ -46,8 +46,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="row">
                                         <div class="swiper-container">
                                             <div class="swiper-wrapper">
-                                              <div class="swiper-slide"><img src="anh/anh8.jpg"></div>
-                                              <div class="swiper-slide"><img src="anh/anh8.jpg"></div>
+                                              <div class="swiper-slide"><img src="anh/anh6.jpg"></div>
+                                              <div class="swiper-slide"><img src="anh/anh7.jpg"></div>
                                               <div class="swiper-slide"><img src="anh/anh8.jpg"></div>
                                             </div>
                                             <!-- Add Arrows -->
