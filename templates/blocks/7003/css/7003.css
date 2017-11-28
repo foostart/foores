@@ -244,7 +244,7 @@ ul {
   .m3-content-left,
   .m3-content-right {
     background-position: center !important;
-    background-size: 100% !important;
+    background-size: 0;
   }
 }
 @font-face {
