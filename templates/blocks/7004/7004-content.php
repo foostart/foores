@@ -54,10 +54,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <img src="<?php echo $url_path ?>/anh/anh2.jpg" alt="reponsive-img" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
-                                    <a href="/" title="Child Friendly">Coffee & Tea</a>
+                                    <a href="/" title="Child Friendly">Bakery & Sweets</a>
                                 </h4>
                                 <div class="m4-services-content">
-                                    <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
+                                    <p>These desserts aren’t simply favorites of ours; they also help define, in their own way…</p>
                                 </div>
                             </div>
                         </div>
@@ -70,10 +70,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <img src="<?php echo $url_path ?>/anh/anh3.jpg" alt="reponsive-img"  class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
-                                    <a href="/" title="Child Friendly">Coffee & Tea</a>
+                                    <a href="/" title="Child Friendly">Lunch Menu</a>
                                 </h4>
                                 <div class="m4-services-content">
-                                    <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
+
+                                    <p>We make our lunches and dinners with the finest ingredients we can find to make our meals as flavorful as possible.</p>
                                 </div>
                             </div>
                         </div>
@@ -86,10 +87,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <img src="<?php echo $url_path ?>/anh/anh4.jpg" alt="reponsive-img" class="attachment-full size-full"> </a>
                                 </div>
                                 <h4 class="m4-limit-services-title">
-                                    <a href="/" title="Child Friendly">Coffee & Tea</a>
+                                    <a href="/" title="Child Friendly">Work Spots</a>
                                 </h4>
                                 <div class="m4-services-content">
-                                    <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
+                                    <p>Coffice in Stockholm is a great place to work from. Food options beyond pastries. Free WiFi.</p>
                                 </div>
                             </div>
                         </div>
