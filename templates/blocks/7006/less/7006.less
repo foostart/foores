@@ -6,6 +6,7 @@
     .swiper-container {
       width: 350px;
       margin: 0;
+      position: static;
     }
     .swiper-slide {
       text-align: center;
@@ -49,7 +50,31 @@
     }
 
 
-
+    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+            opacity: .2;
+            cursor: auto;
+            pointer-events: none;
+            display:none;
+            font-size: 18px;
+        }
+    .swiper-button-next, .swiper-button-prev{
+        background-size: 12px 44px;
+    }
+    .swiper-button-prev{
+        margin-left: 40px;
+        display:block;
+    }
+    .swiper-button-prev:hover{
+        color: #000;
+        border-radius: 60%;
+        width: 50px;
+        transition: all .5s;
+        box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+    }
+    .swiper-button-next{
+        margin-right: 40px;
+        display:block;
+    }
 
     .M7{
         /* carousel */
