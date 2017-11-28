@@ -31,8 +31,13 @@
         ?> 
         <link href="css/7003.css" rel="stylesheet" type="text/css"/>
 		
+<<<<<<< HEAD
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+=======
 	  <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
       <script src="js/modul-3-js.js" type="text/javascript"></script>
+>>>>>>> 5d404169b7a1e85778770295477745ce5eda7d18
 
     </head> 
 

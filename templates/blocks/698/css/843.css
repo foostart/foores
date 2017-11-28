@@ -13,7 +13,7 @@
   color: #fff;
 }
 .type-843 footer {
-  overfow: hidden;
+  overflow: hidden;
 }
 .type-843 footer .logo-footer {
   margin-top: 40px;
@@ -142,10 +142,19 @@
   padding-bottom: 40px;
 }
 .type-843 footer .sub-footer .link-sub .image img {
+<<<<<<< HEAD
+  margin: 5px;
+  height: 35px;
+  opacity: 0.6;
+}
+.type-843 footer .sub-footer .link-sub .image img:hover {
+  opacity: 0.9;
+=======
   width: 40px;
   margin: 0px;
   height: 30px;
   opacity: 0.6;
+>>>>>>> 5d404169b7a1e85778770295477745ce5eda7d18
 }
 .type-843 footer .sub-footer .link-sub .image img:hover {
   opacity: 0.9;

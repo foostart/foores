@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-    <body>
+
         <div class="module-8">
             <div class="container">
                 <div class="row">
@@ -35,6 +35,3 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-
-    </body>
-</html>
