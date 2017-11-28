@@ -18,7 +18,7 @@ $less->compileFile('less/7004.less', 'css/7004.css');
 <html>
     
     <head>
-        <title>Website</title>
+        <title>7004</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>

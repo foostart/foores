@@ -9,7 +9,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-7000">
     <div class="m-splash-screen-progress-wrapper">
-        <img src="<?php echo $url_path ?>/img/logo-dark.svg" class="attachment-full size-full">
+        <img src="<?php echo $url_path ?>/img/logo-dark.svg" alt="reponsive-img" class="attachment-full size-full">
         <div class="m-splash-screen-progress"></div>
     </div>
 </div>

@@ -17,6 +17,7 @@ $less->compileFile('less/7000.less', 'css/7000.css');
 <!DOCTYPE html>
 <html>
     <head>
+        <title>7000</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
