@@ -6,6 +6,7 @@
 .Module-6 .swiper-container {
   width: 350px;
   margin: 0;
+  position: static;
 }
 .Module-6 .swiper-slide {
   text-align: center;
@@ -33,6 +34,34 @@
   font: normal 16px/24px Varela Round;
   font-size: 19px;
   margin-left: -50px;
+}
+.Module-6 .swiper-button-next.swiper-button-disabled,
+.Module-6 .swiper-button-prev.swiper-button-disabled {
+  opacity: .2;
+  cursor: auto;
+  pointer-events: none;
+  display: none;
+  font-size: 18px;
+}
+.Module-6 .swiper-button-next,
+.Module-6 .swiper-button-prev {
+  background-size: 12px 44px;
+  display: block;
+}
+.Module-6 .swiper-button-prev {
+  margin-left: 40px;
+  display: inline-block;
+}
+.Module-6 .swiper-button-prev:hover {
+  color: #000;
+  border-radius: 60%;
+  width: 50px;
+  transition: all .5s;
+  box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.Module-6 .swiper-button-next {
+  margin-right: 40px;
+  display: block;
 }
 .Module-6 .M7 {
   padding-top: 40px;
