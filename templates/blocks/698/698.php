@@ -37,19 +37,12 @@
             <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
             <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>  
 
-                <?php
-                if (!class_exists('lessc')) {
-                include ('./libs/lessc.inc.php');
-            }
-            $less = new lessc;
-            $less->compileFile('less/843.less', 'css/843.css');
-            ?>   
     </head>
 
     <body>
         <?php
             include './698-content.php'; ?>
-          
+
     </body> 
     </html>
 

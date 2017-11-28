@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-    <body>
+
         <footer>
             <div class="row">
                 <div class="m11-title-footer">
@@ -77,5 +77,4 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </footer>
-    </body>
-</html>
+ 

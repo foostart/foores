@@ -11,9 +11,8 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-    <body>
         <header>
-            <!-----------------------NAVIGATOR------------------------------->
+            <!--NAVIGATOR-->
             <div class="m12-navi-boder">
                 <div class="m12-navi">
                     <div class="m12-navi-logo">
@@ -109,7 +108,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <!----------------------SLIDE SHOW-------------------->
+            <!--SLIDE SHOW-->
             <div class="m12-banner">
 
                 <div class="m12-banner-img">
@@ -120,10 +119,5 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="m12-banner-caption-desc">Pure natural food</div>
                     </div>
                 </div>
-
+            </div>
         </header>
-    </body>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="js/modul12-navi-js.js" type="text/javascript"></script>
-    <script src="js/m12-slide-js.js" type="text/javascript"></script>
-</html>
