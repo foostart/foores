@@ -12,7 +12,6 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-    <body>
         <div class="module-17">
             <div class="row">
                 <div class="limit-wapper">
@@ -40,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <h3>Carrot, Orange and Sesame Salad</h3> 
                                     </a>
                                     <span class="price">
-                                        <p>£15.00</p>
+                                        £15.00
                                     </span>
                                 </div>
                             </div>
@@ -66,7 +65,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <h3>Skinny Blueberry Buttermilk Muffins</h3> 
                                     </a>
                                     <span class="price">
-                                        <p>£9.99</p>
+                                        £9.99
                                     </span>
                                 </div>
                             </div>
@@ -91,7 +90,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <h3>Hot Red Carpet</h3> 
                                     </a>
                                     <span class="price">
-                                        <p>£16.00</p>
+                                        £16.00
                                     </span>
                                 </div>
                             </div>
@@ -116,7 +115,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <h3>Raw Blueberry Cheesecake (Vegan)</h3> 
                                     </a>
                                     <span class="price">
-                                        <p>£6.99</p>
+                                        £6.99
                                     </span>
                                 </div>
                             </div>
@@ -126,5 +125,3 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-    </body>
-</html>

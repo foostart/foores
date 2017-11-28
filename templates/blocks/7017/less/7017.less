@@ -1,3 +1,7 @@
+/*Color*/
+@color-white:#000000;
+@color-black:#ffffff;
+/*Module-17*/
 .module-17{
     .clearfix{
         clear: both;
@@ -9,7 +13,7 @@
     padding-bottom: 40px;
     background: rgba(0,0,0,0.02);
     a{
-        color: #000000;
+        color: @color-white;
         transition: color .3s;
         text-decoration: none;
     }
@@ -29,7 +33,7 @@
             margin: 0;
             padding-bottom: 40px;
             text-transform: uppercase;
-            color: #000000;
+            color: @color-white;
             font: normal 18px/22px Libre Baskerville;
         }
         .product:hover{
@@ -85,8 +89,7 @@
                     }
                     .addtocart:hover{
                         opacity: 1;
-                        //background: #000000;
-                        color: #ffffff;
+                        color: @color-black;
                         text-decoration: none;
                     }
                     .addtocart{
@@ -160,7 +163,7 @@
                         margin-top: 3px;
                         box-shadow: none;
                         font-size: 18px;
-                        color: #000000;
+                        color: @color-white;
                         padding-bottom: .1em;
                         line-height: 1.4em;
                         transition: color .3s;
@@ -174,12 +177,12 @@
                     }
                     .price{
                         display: block;
-                        color: #000000;
+                        color: @color-white;
                         position: relative;
                         transform: translateZ(0);
                         margin: 0px;
                         font: normal 16px/18px Libre Baskerville;
-                        font-size: .857em;
+                        font-size: 857em;
                         font-weight: 400;
                         font: normal 16px/18px Varela Round;
                     }
