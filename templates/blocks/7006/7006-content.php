@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="col-md-4">
             <div class="row">
                 <div class="M6-grid-1-2">
-                    <p><span class="icon shortcode theme  use-hover" style="color:#cb7152;font-size:80px !important;"><i class="fa fa-coffee" aria-hidden="true"></i></span>
+                    <p><span class="icon shortcode theme  use-hover" style="color:#cb7152;font-size:50px !important;"><i class="fa fa-coffee" aria-hidden="true"></i></span>
                     </p>
                     <h2>Buddha:<br>
                         How to drink tea?</h2>
