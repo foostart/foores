@@ -98,6 +98,9 @@
         p {
     font-size: 14px;
   }
+  .type-7004 .content1 .m4-limit .m4-limit-thumbnail .has-borde img {
+    width: 100%;
+  }
   .type-7004 .module-4_1 .menu-center .content .text-divider-double {
     font: normal 30px Libre Baskerville;
     font-size: 40px;
