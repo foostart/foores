@@ -93,15 +93,15 @@
   font-size: 18px;
   text-align: center;
 }
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
   .type-7004 .type-7004_2 .content1 
-        .m4-limit .m4-limit-thumbnail .has-border
+        p {
+    font-size: 14px;
+  }
+  .type-7004 .content1 .m4-limit .m4-limit-thumbnail .has-border
 
         img {
-    width: 80%;
-  }
-  .type-7004 p {
-    font-size: 14px;
+    width: 50%;
   }
   .type-7004 .module-4_1 .menu-center .content .text-divider-double {
     font: normal 30px Libre Baskerville;
