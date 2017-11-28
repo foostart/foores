@@ -11,13 +11,7 @@
 
     $url_path = str_replace('\\', '/', $url_path);
     ?>
-<<<<<<< HEAD
 
-=======
->>>>>>> 5d404169b7a1e85778770295477745ce5eda7d18
-
-
-   
          <!--banner-->
         <div class="m3">
             <div class="m3-container">
