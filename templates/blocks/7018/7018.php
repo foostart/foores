@@ -26,7 +26,7 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/7023.less', 'css/7023.css');
+        $less->compileFile('less/7018.less', 'css/7018.css');
         ?> 
         <link href="css/7023.css" rel="stylesheet" type="text/css"/>
 		
@@ -40,6 +40,6 @@
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script> 
     </head> 
     <body> 
-        <?php include '../7023/7023-content.php'; ?>
+        <?php include '../7018/7018-content.php'; ?>
     </body>
 </html>
