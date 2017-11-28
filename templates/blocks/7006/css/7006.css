@@ -25,7 +25,7 @@
 }
 .Module-6 .M6-grid-1-2 h2 {
   white-space: nowrap;
-  color: #000000;
+  color: #000;
   font: normal 56px/68px Libre Baskerville;
   padding-bottom: 20px;
   margin-left: -50px;
@@ -154,7 +154,7 @@
   text-decoration: none;
 }
 .Module-6 .M7 .carousel-inner a h3 {
-  color: #000000;
+  color: #000;
   font-size: 18px;
   padding-bottom: .1em;
   line-height: 1.4em;
@@ -165,7 +165,7 @@
 }
 .Module-6 .M7 .carousel-inner .price {
   display: block;
-  color: #000000;
+  color: #000;
   position: relative;
   transform: translateZ(0);
   margin: 0px;
@@ -204,7 +204,6 @@
   }
   .Module-6 .M6-grid-1-2 p .icon {
     color: #cb7152;
-    font-size: 80px !important;
     font-family: 'theme' !important;
     font-family: 'theme';
   }
