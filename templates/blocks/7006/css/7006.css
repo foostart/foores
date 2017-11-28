@@ -3,6 +3,16 @@
   font: normal 16px/24px Varela Round;
   clear: both;
 }
+.Module-6 .swiper-container {
+  width: 350px;
+  margin: 0;
+}
+.Module-6 .swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
 .Module-6 .anhcafe {
   margin-left: -100px;
 }
@@ -146,7 +156,6 @@
   display: block;
   max-width: 100%;
   height: auto;
-  padding-left: 100px;
   font-size: 100%;
   margin: 0 auto;
   padding-top: 50px;

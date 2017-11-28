@@ -12,24 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 5
-            }
-        }
-    })
-</script>
+        
 <div class="Module-6">
     <div class="container">
         <div class="col-md-4">
@@ -49,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4">
             <div class="M7">
                 <div class='row'>
 
@@ -61,115 +44,35 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="item active">
                                 <blockquote>
                                     <div class="row">
-                                        <div class="product">
-                                            <a href="#" class="woocommerce-LoopProduct-link"></a>
-                                            <div class="col-sm-12 text-center">
-                                                <div class="owl-carousel owl-theme">
-                                                    <div class="item"><h4>1</h4></div>
-                                                    <div class="item"><h4>2</h4></div>
-                                                    <div class="item"><h4>3</h4></div>
-                                                    <div class="item"><h4>4</h4></div>
-                                                    <div class="item"><h4>5</h4></div>
-                                                    <div class="item"><h4>6</h4></div>
-                                                    <div class="item"><h4>7</h4></div>
-                                                    <div class="item"><h4>8</h4></div>
-                                                    <div class="item"><h4>9</h4></div>
-                                                    <div class="item"><h4>10</h4></div>
-                                                    <div class="item"><h4>11</h4></div>
-                                                    <div class="item"><h4>12</h4></div>
-                                                </div>  
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                              <div class="swiper-slide"><img src="anh/anh8.jpg"></div>
+                                              <div class="swiper-slide"><img src="anh/anh8.jpg"></div>
+                                              <div class="swiper-slide"><img src="anh/anh8.jpg"></div>
                                             </div>
-                                            <div class="col-sm-12 text-center">
-                                                <h5>Harney &amp; Sons </h5>
-                                                <span class="tagged_as">
-
-                                                    <a href="#" rel="tag">Coffee</a>
-                                                    <a href="#" rel="tag">Honey</a>
-                                                    <a href="#" rel="tag">Organic</a> 
-                                                    <a href="#" rel="tag">Tea</a>
-                                                </span>
-
-                                                <a href="#">
-                                                    <h3 class="woocommerce-loop-product__title">Wild Flower Honey</h3>
-                                                </a>
-                                                <span class="price">
-                                                    <span class="woocommerce-Price-amount amount">
-                                                        <span class="woocommerce-Price-currencySymbol">£</span>60.00</span>
-
-                                                </span>
-                                            </div>
-                                        </div>
+                                            <!-- Add Arrows -->
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                          </div>
+                                    <!-- Swiper JS -->  
+                                        <script>
+                                        var swiper = new Swiper('.swiper-container', {
+                                          navigation: {
+                                            nextEl: '.swiper-button-next',
+                                            prevEl: '.swiper-button-prev',
+                                          },
+                                        });
+                                    </script>
                                     </div>
                                 </blockquote>
                             </div>
                             <!-- Quote 2 -->
-                            <div class="item active">
-                                <blockquote>
-                                    <div class="row">
-                                        <div class="product">
-                                            <a href="#" class="woocommerce-LoopProduct-link"></a>
-                                            <div class="col-sm-12 text-center">
-                                                <img class="img-circle" src="anh/anh7.jpg" alt="anh7">
-                                            </div>
-
-
-                                            <div class="col-sm-12 text-center">
-                                                <h5>Harney &amp; Sons </h5>
-                                                <span class="tagged_as">
-
-                                                    <a href="#" rel="tag">Coffee</a>
-                                                    <a href="#" rel="tag">Honey</a>
-                                                    <a href="#" rel="tag">Organic</a> 
-                                                    <a href="#" rel="tag">Tea</a>
-                                                </span>
-
-                                                <a href="#">
-                                                    <h3 class="woocommerce-loop-product__title">Wild Flower Honey</h3>
-                                                </a>
-                                                <span class="price">
-                                                    <span class="woocommerce-Price-amount amount">
-                                                        <span class="woocommerce-Price-currencySymbol">£</span>4.90</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
+                            
                             <!-- Quote 3 -->
-                            <div class="item">
-                                <blockquote>
-                                    <div class="product">
-                                        <a href="#" class="woocommerce-LoopProduct-link"></a>
-                                        <div class="col-sm-12 text-center">
-                                            <img class="img-circle" src="anh/anh8.jpg" alt="anh8">
-                                        </div>
-
-
-                                        <div class="col-sm-12 text-center">
-                                            <h5>Harney &amp; Sons </h5>
-                                            <span class="tagged_as">
-
-                                                <a href="#" rel="tag">Coffee</a>
-                                                <a href="#" rel="tag">Honey</a>
-                                                <a href="#" rel="tag">Organic</a> 
-                                                <a href="#" rel="tag">Tea</a>
-                                            </span>
-
-                                            <a href="#">
-                                                <h3 class="woocommerce-loop-product__title">Elea – Tea set with tray</h3>
-                                            </a>
-                                            <span class="price">
-                                                <span class="woocommerce-Price-amount amount">
-                                                    <span class="woocommerce-Price-currencySymbol">£</span>60.00</span>
-                                            </span>     
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
+                            
                         </div>        
                         <!-- Carousel Buttons Next/Prev -->
-                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+    
                     </div>                          
 
                 </div>
