@@ -10,20 +10,22 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-7004">
     <div class="module-4_1">
         <div class="container">
-            <div class="row">
-                <div class="lavender-grid">
-                    <div class="menu-center">
-                        <div class="sep-before"> 
-                            <div class="sep-line"></div>
-                        </div>
-                        <div class="content">
-                            <h2 class="text-divider-double">
-                                We offer
-                            </h2>
-                            <div class="text-divider-subtitle">Today Specials</div>
-                        </div>
-                        <div class="sep-after">
-                            <div class="sep-line"></div>
+            <div class="col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="lavender-grid">
+                        <div class="menu-center">
+                            <div class="sep-before"> 
+                                <div class="sep-line"></div>
+                            </div>
+                            <div class="content">
+                                <h2 class="text-divider-double">
+                                    We offer
+                                </h2>
+                                <div class="text-divider-subtitle">Today Specials</div>
+                            </div>
+                            <div class="sep-after">
+                                <div class="sep-line"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
