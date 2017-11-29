@@ -43,9 +43,7 @@
         
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>  
-
     </head> 
-
     <body> 
         <?php include '../7002/7002-content.php'; ?>
     </body>
