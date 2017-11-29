@@ -38,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                     <div class="addtocart">
                                         <a href="#">Add to Cart</a>
-                                    </div>
+                                    </div> 
                                     <h5>Home Chef</h5>
                                     <span class="tagged">
                                         <a href="#">BREAKFAST</a>
