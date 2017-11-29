@@ -23,70 +23,19 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="tab-content">
             <div class="tab-pane active" id="all">
                 <div class="col-md-3 col-sm-6 tab-content-pic">
-                    <img src="images/Meat-3-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
+                    <div class="portfolio_details">
+                        <h3 class="title">
                             <a>Jamie Oliver: Try Something New</a>
                         </h3>
-                    </span>
+                    </div>
+                    <img src="images/Meat-3-800x615.jpg" alt="reponsive-img">
+
                 </div>
-                <div class="col-md-3 col-sm-6 tab-content-pic">
-                    <img src="images/Seafood-2-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
-                            <a>Creamy Leek & Potato Soup</a>
-                        </h3>
-                    </span>
-                </div>
-                <div class="col-md-3 col-sm-6 tab-content-pic">
-                    <img src="images/Brunch-2-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
-                            <a>Top 10 breakfast spots in Paris</a>
-                        </h3>
-                    </span>
-                </div>
-                <div class="col-md-3 col-sm-6 tab-content-pic">
-                    <img src="images/Coffee-3-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
-                            <a>Caffe Latte Recipe</a>
-                        </h3>
-                    </span>
-                </div>
-                <div class="col-md-3 col-sm-6 tab-content-pic">
-                    <img src="images/sushi-1-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
-                            <a>7 Tips for the Best Sushi Party Ever</a>
-                        </h3>
-                    </span>
-                </div>
-                <div class="col-md-3 col-sm-6 tab-content-pic">
-                    <img src="images/Sushi-2-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
-                            <a>Sushi Lovers or Beginners</a>
-                        </h3>
-                    </span>
-                </div>
-                <div class="col-md-3 col-sm-6 tab-content-pic">
-                    <img src="images/tea-7-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
-                            <a>Coffee for Your Health</a>
-                        </h3>
-                    </span>
-                </div>
-                <div class="col-md-3 col-sm-6  tab-content-pic">
-                    <img src="images/people-800x615.jpg" alt="reponsive-img">
-                    <span>
-                        <h3>
-                            <a>Coffee with a friend is like capturing</a>
-                        </h3>
-                    </span>
-                </div>
+
             </div>
+
+
+
             <div class="tab-pane" id="coffee">
                 <div class="col-md-3 col-sm-6 tab-content-pic">
                     <img src="images/Brunch-2-800x615.jpg" alt="reponsive-img">
