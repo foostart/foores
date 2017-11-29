@@ -10,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-7004">
     <div class="module-4_1">
         <div class="container">
-            <div class="col-md-12 col-sm-12 col-xm-12   ">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="row">
                     <div class="lavender-grid">
                         <div class="menu-center">
@@ -33,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="type-7004_2">
                 <div class="row">
                     <div class="m4-services">
-                        <div class="col-md-3 col-sm-6 col-xs-12 content1">
+                        <div class="col-lg-3 col-md-3 col-sm-6 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>   
                     <div class="m4-services">
-                        <div class="col-md-3 col-sm-6 col-xs-12  content1">
+                        <div class="col-lg-3 col-md-3 col-sm-6 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
@@ -65,7 +65,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>   
                     <div class="m4-services">
-                        <div class="col-md-3 col-sm-6 col-xs-12 content1">
+                        <div class=" col-lg-3  col-md-3 col-sm-6 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
@@ -82,7 +82,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>   
                     <div class="m4-services">
-                        <div class="col-md-3 col-sm-6 col-xs-12   content1">
+                        <div class=" col-lg-3  col-md-3 col-sm-6 content1">
                             <div class="m4-limit">
                                 <div class="m4-limit-thumbnail">
                                     <a href="/" title="Coffee &amp; Tea" class="has-border">
@@ -97,7 +97,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>   
-
                 </div>
             </div>
         </div>
