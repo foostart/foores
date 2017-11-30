@@ -42,6 +42,7 @@ footer .m11-col-footer p {
 }
 footer .m11-col-footer .c1 {
   margin-bottom: 50px;
+  text-align: center;
 }
 footer .m11-col-footer .c1 .c1-btn {
   display: inline-block;
@@ -51,7 +52,6 @@ footer .m11-col-footer .c1 .c1-btn {
 }
 footer .m11-col-footer .c1 .c1-btn a {
   margin-top: 10px;
-  margin-left: 90px;
   position: relative;
   text-decoration: none;
   display: inline-block;
