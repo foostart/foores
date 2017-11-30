@@ -4,9 +4,8 @@
   clear: both;
 }
 .Module-6 .swiper-container {
-  width: 350px;
-  margin: 0;
-  position: static;
+  margin: 0 auto;
+  position: relative;
 }
 .Module-6 .swiper-slide {
   padding-top: 8px;
@@ -107,7 +106,6 @@
   font-family: 'theme' !important;
 }
 .Module-6 .M6-grid-1-2 h2 {
-  white-space: nowrap;
   color: #000;
   font: normal 56px/68px Libre Baskerville;
   padding-bottom: 20px;
@@ -131,10 +129,11 @@
   background-size: 16px 44px;
 }
 .Module-6 .swiper-button-prev {
-  margin-left: 40px;
+  left: 52px;
   display: block;
   opacity: 0;
-  margin-top: -65px;
+  top: 115px;
+  position: absolute;
 }
 .Module-6 .swiper-button-prev:hover {
   color: #000;
@@ -145,10 +144,11 @@
   opacity: 1;
 }
 .Module-6 .swiper-button-next {
-  margin-right: 40px;
+  right: 52px;
   display: block;
   opacity: 0;
-  margin-top: -65px;
+  top: 115px;
+  position: absolute;
 }
 .Module-6 .swiper-button-next:hover {
   color: #000;
@@ -159,12 +159,13 @@
   opacity: 1;
 }
 .Module-6 .M7 {
+  float: none !important;
   padding-top: 40px;
   float: left;
 }
 .Module-6 .M7 #quote-carousel {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px 0px 0px;
+  padding: 0;
+  margin: 30px auto 0px;
 }
 .Module-6 .M7 .carousel-inner {
   max-height: 350px;
@@ -250,7 +251,6 @@
   text-align: center;
 }
 .Module-6 .M7 .carousel-inner .price {
-  display: block;
   color: #000000;
   position: relative;
   transform: translateZ(0);
@@ -299,5 +299,10 @@
   }
   .Module-6 .M6-grid-1-2 p {
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Module-6 .swiper-slide {
+    width: 100% !important;
   }
 }

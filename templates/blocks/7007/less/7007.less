@@ -1,5 +1,5 @@
+@color-donau-main:#cb7152;
 .type-7007{
-
     .type-7007-tabs-all{
         margin-top: 100px;
         text-align:center;
@@ -48,7 +48,7 @@
                     display: block;
                     width: 0%;
                     height: 1px;
-                    background: #cb7152;
+                    background: @color-donau-main;
                     margin: auto;
                     margin-top: 5px;
                     transition: all .4s;
@@ -59,7 +59,7 @@
                 a:hover{
                     border: none;
                     background: none;
-                    color: #cb7152;
+                    color: @color-donau-main;
                 }
                 a:after{
                     width: 40%;
@@ -89,18 +89,23 @@
                     opacity: 1;
                 }
                 a{
-                    color: #cb7152;
+                    color:@color-donau-main;
                 }
             }
         }
         .tab-content{
             .tab-pane{
                 .tab-content-pic{
+                    opacity: 0.5;
+                    overflow: hidden;
                     position: relative;
+
+
                     padding:0px;
                     img{
                         transition: all .4s;
                         width: 100%;
+
                     }
                     span{
                         opacity: 0;
@@ -115,7 +120,7 @@
                         content: '';
                         transition: opacity 0.5s,transform 0.35s;
                         z-index: 1;
-                        border: 1px solid #cb7152;
+                        border: 1px solid @color-donau-main;
 
                         a{
                             color: #ffffff!important;
@@ -128,20 +133,26 @@
 
                     }
                 }
+
                 .tab-content-pic:hover{
+
+                    img{
+                        transform: scale(1.2);
+                    }
+                    opacity: 1;
                     span{
                         opacity: 1;
 
                     }
                     span:before{
-                        opacity: 1;
+
                         border-left: 0;
                         border-right: 0;
                         transform: scale(0,1);
                         transition: opacity 0.35s,transform 0.35s;
                     }
                     span:after{
-                        opacity: 1;
+
                         border-top: 0;
                         border-bottom: 0;
                         transform: scale(1,0);
@@ -150,8 +161,10 @@
                     a:hover{
                         color:#cb7152 !important;
                         transition: opacity 1s,transform 1s;
+                        opacity: 1;
 
                     }
+
                 }            
             }
         }
@@ -167,4 +180,11 @@
     font-family: Libre Baskerville ;
     src:url('../fonts/Libre-Baskerville.woff2');
     font-weight: bold;
+}
+@media (max-width:768px) and (min-width:500px )
+{
+    .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic{
+        width: 60%;
+        margin: 0 auto;
+    }
 }

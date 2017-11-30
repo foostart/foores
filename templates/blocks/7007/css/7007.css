@@ -81,6 +81,8 @@
   color: #cb7152;
 }
 .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic {
+  opacity: 0.5;
+  overflow: hidden;
   position: relative;
   padding: 0px;
 }
@@ -110,18 +112,22 @@
   font: normal 20px/25px Libre Baskerville;
   text-decoration: none;
 }
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover {
+  opacity: 1;
+}
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover img {
+  transform: scale(1.2);
+}
 .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover span {
   opacity: 1;
 }
 .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:before {
-  opacity: 1;
   border-left: 0;
   border-right: 0;
   transform: scale(0,1);
   transition: opacity 0.35s, transform 0.35s;
 }
 .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:after {
-  opacity: 1;
   border-top: 0;
   border-bottom: 0;
   transform: scale(1,0);
@@ -130,6 +136,7 @@
 .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover a:hover {
   color: #cb7152 !important;
   transition: opacity 1s, transform 1s;
+  opacity: 1;
 }
 @font-face {
   font-family: Open Sans;
@@ -140,4 +147,10 @@
   font-family: Libre Baskerville;
   src: url('../fonts/Libre-Baskerville.woff2');
   font-weight: bold;
+}
+@media (max-width: 768px) and (min-width: 500px) {
+  .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic {
+    width: 60%;
+    margin: 0 auto;
+  }
 }

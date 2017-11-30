@@ -35,7 +35,6 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="col-md-4">
             <div class="M7">
                 <div class='row'>
-
                     <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                         <!-- Bottom Carousel Indicators -->
                         <!-- Carousel Slides / Quotes -->
@@ -70,20 +69,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <span class="price">£5.00</span>
                                             </span>
                                         </div>
-                                        
-                                    
-                                      
                                     </div>
                                 </blockquote>
                             </div>  
-                        </div>        
-                        
-    
+                        </div>
                     </div>                          
 
                 </div>
 
             </div>
+        
         </div>
     </div>
 

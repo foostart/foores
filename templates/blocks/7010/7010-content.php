@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row row-all">
                     <div class="m10-description-main">
                         <div class="m10-description-all">
-                            <div class="col-md-3 m10-description-one col-sm-3">
+                            <div class="col-lg-3 col-md-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
                                     <img src="images/Meat-1-292x195.jpg">
                                 </div>
@@ -60,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
 
                             </div>
-                            <div class="col-md-3 m10-description-one col-sm-3">
+                            <div class="col-lg-3 col-md-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
                                     <img src="images/Cocktails-2-292x195.jpg">
                                 </div>
@@ -102,7 +102,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
 
                             </div>
-                            <div class="col-md-3 m10-description-one col-sm-3">
+                            <div class="col-md-3 col-lg-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
                                     <img src="images/Sandwiches-1-292x195.jpg">
                                 </div>
@@ -144,7 +144,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
 
                             </div>
-                            <div class="col-md-3 m10-description-one col-sm-3">
+                            <div class="col-md-3 col-lg-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
                                     <img src="images/Vegetarian-3-292x195.jpg">
                                 </div>
