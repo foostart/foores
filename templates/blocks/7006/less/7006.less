@@ -7,12 +7,12 @@
     margin-top: 50px;
     font: normal 16px/24px Varela Round;
     clear: both;
-
-
+        
+     
     .swiper-container {
       width: 350px;
-      margin: 0;
-      position: static;
+      margin: 0 auto;
+      position:relative;
 
     }
     .swiper-slide {
@@ -39,7 +39,7 @@
                        opacity: 0;
                        margin-top:-40px;
                        position: relative;
-                        z-index: 9;
+                       z-index: 9;
                     }
         .addtocart a{
                         opacity: 0.5;
@@ -146,8 +146,7 @@
         }
     }
 
-
-
+    
     .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
             opacity: .2;
             cursor: auto;
@@ -159,10 +158,11 @@
         background-size: 16px 44px;
     }
     .swiper-button-prev{
-        margin-left: 40px;
+        left: 52px;
         display:block;
         opacity:0;
-        margin-top: -65px;
+        top: 115px;
+        position: absolute;
     }
     .swiper-button-prev:hover{
         color: @color-white;
@@ -173,10 +173,11 @@
         opacity:1;
     }
     .swiper-button-next{
-        margin-right: 40px;
+        right: 52px;
         display:block;
         opacity:0;
-         margin-top: -65px;
+        top: 115px;
+        position: absolute;
     }
 
     .swiper-button-next:hover{
@@ -189,18 +190,16 @@
     }
 
     .M7{
+        float:none !important;
         /* carousel */
         #quote-carousel 
         {
             padding: 0 10px 30px 10px;
-            margin-top: 30px 0px 0px;
-            
+            margin: 30px auto 0px;   
         }
 
 
         .carousel-inner{
-
-
             max-height: 350px;
 
         }
