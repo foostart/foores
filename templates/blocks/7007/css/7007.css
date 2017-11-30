@@ -39,11 +39,21 @@
   transition: transform .25s, opacity .25s;
   background-color: #626161;
 }
-.modul-7 .m7-tabs-all .nav-tabs li:hover a {
+.modul-7 .m7-tabs-all .nav-tabs li a:after {
+  content: " ";
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #cb7152;
+  margin: auto;
+  margin-top: 5px;
+  transition: all .4s;
+  opacity: 0;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover a:hover {
   border: none;
   background: none;
   color: #cb7152;
-  border-bottom: 1px solid #cb7152;
 }
 .modul-7 .m7-tabs-all .nav-tabs li:hover a:after {
   width: 40%;
