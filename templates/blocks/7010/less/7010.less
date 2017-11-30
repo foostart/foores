@@ -8,7 +8,7 @@ ul{
 body{
     overflow-x: hidden;
 }
-.modul-10{
+.type-7010{
     max-width:100%; 
     .m10-description{
         background-color: #F6F6F6;
@@ -81,15 +81,17 @@ body{
                                 background: none;
                                 position: relative;
                                 overflow: hidden;
+
                                 img{
                                     transition: transform 0.5s;
                                     transform: scale(1.2);
                                     width: 100%;
-                                    height: auto;
+
                                 }
                             }
                             .m10-description-one-meta{
                                 font-family: 'Varela Round';
+                                text-align: center;
                                 font-size: 10px;
                                 text-transform: uppercase;
                                 color: #6b6b6b;
@@ -267,3 +269,10 @@ body{
     font-weight: bold;
 }
 
+@media (max-width:768px) and (min-width:453px )
+{
+    .type-7010 .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one{
+        width: 65%;
+        margin: 0 auto;
+    }
+}
