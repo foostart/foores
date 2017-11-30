@@ -11,6 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="container">
 <div class="type-7002">
     <div class="m2-container">
         <div class="m2-grip">
@@ -19,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="m2-grip-content">
                 <div class="m2-grip-content-1 col-md-4 col-sm-4">
-                    <div class="m2-grip-content-1-left col-md-10">
+                    <div class="m2-grip-content-1-left col-md-12">
                         <h4>Tools</h4>
                         <p >“Professional chefs rely on a battery of tools and equipment. Chefs must be conscious of their kitchen tools when planning a menu and understand their use and production capacity.”</p>
                     </div>
@@ -27,10 +28,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="m2-grip-content-2 col-md-4 col-sm-4">
                     <img src="img/coffee1.png" alt="img-responsive" >
                     <h3>Welcome</h3>
-                    <p style=" display: inline-block;">“First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or for the past 15 years in front of the camera on my Food Network cooking shows. Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
+                    <p>“First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or for the past 15 years in front of the camera on my Food Network cooking shows. Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
                 </div>
                 <div class="m2-grip-content-1 m2-grip-content-3 col-md-4 col-sm-4">
-                    <div class="m2-grip-content-1-left col-md-10">
+                    <div class="m2-grip-content-1-left col-md-12">
                         <h4>Food</h4>
                         <p >“Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and <br>I love it.”</p>
                     </div>
@@ -40,3 +41,4 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>    
+</div>

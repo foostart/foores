@@ -20,7 +20,7 @@
 }
 .type-7002 .m2-container .m2-grip .m2-grip-paralax .m2-grip-background {
   width: 100%;
-  height: 1200px;
+  height: 1100px;
   background-position: 50% 0%;
   background-image: url(../img/coffee4.jpg);
   background-color: rgba(0,0,0,0);
@@ -42,7 +42,7 @@
 }
 .type-7002 .m2-container .m2-grip .m2-grip-content .m2-grip-content-1 {
   margin-top: 230px;
-  background: url(../img/coffee2.jpg) no-repeat center top;
+  background: url(../img/coffee2.jpg) no-repeat;
   background-size: auto;
   background-attachment: scroll;
   padding: 0 25px;
@@ -79,7 +79,7 @@
 }
 .type-7002 .m2-container .m2-grip .m2-grip-content .m2-grip-content-3 {
   margin-top: 200px;
-  background: url(../img/coffee3.jpg) no-repeat center top;
+  background: url(../img/coffee3.jpg) no-repeat;
 }
 .type-7002 .m2-container .m2-grip .m2-grip-content .m2-grip-content-3 .m2-grip-content-1-left {
   padding-top: 240px;
@@ -88,7 +88,7 @@
   padding-top: 20px;
   color: #000000;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 748px) {
   .m2 .m2-grip-content .m2-grip-content-1 {
     padding-top: 20px !important;
     margin-top: 0px !important;
