@@ -1,7 +1,6 @@
-.modul-7004{
-    width: 93%;
-    margin: 0 auto;
-    .m7007-tabs-all{
+.modul-7{
+
+    .m7-tabs-all{
         margin-top: 100px;
         text-align:center;
         .nav-tabs{
@@ -23,29 +22,54 @@
                     border: none;
                     padding: 0;
                     text-align: center;
-                }
-                a:focus{
-                    border: none;
-                    outline: none !important;
-                    outline-offset: inherit;
+                    span{
+                        display: inline;
+                        font: 400 11px/18px "Open Sans", sans-serif;
+                        border-radius: 3px;
+                        color: #FFFFFF;
+                        margin: 0 auto;
+                        padding: 4px 0;
+                        text-align: center;
+                        width: 34px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: transform .25s, opacity .25s;
+                        background-color: #626161;
+                    }
+
 
                 }
-                a:hover{
-                    border: none !important;
+
+
+            }
+            li:hover{              
+                a{
+                    border: none;
+                    background: none;
+                    color: #cb7152;
+                    border-bottom: 1px solid #cb7152;
+                   
                 }
                 a:after{
-                    content: " ";
-                    display: block;
-                    width: 0%;
-                    height: 1px;
-                    background: #cb7152;
-                    margin: auto;
-                    margin-top: 5px;
-                    transition: all .4s;
-                    opacity: 0;
+                    width: 40%;
+                    opacity: 1;
                 }
+                span{
+                    -webkit-transform: translateY(-25px);
+                    transform: translateY(-25px);
+                    opacity: 1;
+                }
+
+            }
+            li:focus{
+                outline: none !important;
+
             }
             .active{
+
                 a:hover{
                     border: none !important;
                 }
@@ -69,26 +93,62 @@
                     img{
                         transition: all .4s;
                         width: 100%;
-                    }  
+                    }
+                    span{
+                        opacity: 0;
+                        position: absolute;
+                        display: block;
+                        top: 50%;
+                        transform: translateY(-50%)!important;
+                        margin-top: 0px;
+                        left: 30px;
+                        right:30px;
+                        padding:30px 30px 30px 30px;
+                        content: '';
+                        transition: opacity 0.5s,transform 0.35s;
+                        z-index: 1;
+                        border: 1px solid #cb7152;
+
+                        a{
+                            color: #ffffff!important;
+                            font-weight: normal;
+                            line-height: 1.3em;
+                            font: normal 20px/25px Libre Baskerville;
+                            text-decoration: none;
+                        }
+
+
+                    }
                 }
-                .portfolio_details{
-                    position: absolute;
-
-                    .title a{
-                       
-                    }
-                    .title a:hover{
-
+                .tab-content-pic:hover{
+                    span{
+                        opacity: 1;
 
                     }
-                    h3{
-                        margin-top: 100px;
+                    span:before{
+                        opacity: 1;
+                        border-left: 0;
+                        border-right: 0;
+                        transform: scale(0,1);
+                        transition: opacity 0.35s,transform 0.35s;
                     }
-                }
+                    span:after{
+                        opacity: 1;
+                        border-top: 0;
+                        border-bottom: 0;
+                        transform: scale(1,0);
+                        transition: opacity 0.35s,transform 0.35s;
+                    }
+                    a:hover{
+                        color:#cb7152 !important;
+                        transition: opacity 1s,transform 1s;
 
+                    }
+                }            
             }
         }
     }
+
 }
 @font-face{
     font-family: Open Sans ;
@@ -100,16 +160,3 @@
     src:url('../fonts/Libre-Baskerville.woff2');
     font-weight: bold;
 }
-
-@media (max-width: 1280px){
-    .modul-7004 .m7007-tabs-all .tab-content .tab-pane .tab-content-pic portfolio_details {
-        border: none;
-
-    }h3 a{
-
-        border: 1px solid #cb7152;
-        padding: 40px;
-    }
-}
-
-
