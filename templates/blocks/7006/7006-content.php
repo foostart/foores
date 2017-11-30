@@ -27,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <p><span class="icon shortcode theme  use-hover" style="color:#cb7152;font-size:50px !important;"><i class="fa fa-coffee" aria-hidden="true"></i></span>
                     </p>
                     <h2>Buddha:<br>
-                        <h2>How to drink tea?</h2>
+                        How to drink tea?</h2>
                     <p> The types of tea are white tea, green tea, yellow tea, oolong tea, black tea, and pu-erh tea. “When you have the title ‘white tea’ or ‘green tea’, you’re actually describing the process by which it has been made,” Woollard says.                   </p>
                 </div>
             </div>
