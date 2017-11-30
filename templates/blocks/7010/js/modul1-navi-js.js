@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.m1-navi-icon-mobile-btn').click(function () {
         $('.m1-navi-menus').toggleClass('toggle-transition');
-
+        $('.m1-navi-menus').toggle('slow');
     });
 
     $('header').css("opacity", "0");
@@ -19,5 +19,4 @@ $(document).ready(function () {
             $(this).delay(deplay).animate({'opacity': '1'}, 1000);
         });
     }
-    
 });

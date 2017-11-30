@@ -432,15 +432,13 @@ header .m1-banner .m1-banner-caption .layer-2 {
     display: none;
     position: absolute;
     top: 45px;
-    right: -4%;
-    width: 35% !important;
+    width: 100% !important;
     text-align: right;
-    display: block;
     justify-content: center;
   }
   .m1-navi .m1-navi-menus ul {
     margin-right: 7% !important;
-    text-align: right;
+    text-align: center;
   }
   .m1-navi .m1-navi-menus ul li:hover {
     background-color: rgba(0,0,0,0.1);
@@ -458,7 +456,7 @@ header .m1-banner .m1-banner-caption .layer-2 {
     left: 0% !important;
   }
   .m1-navi .m1-navi-menus ul li .m1-navi-menus-subMenu li {
-    text-align: right !important;
+    text-align: center;
   }
   .m1-navi .m1-navi-menus ul li .m1-navi-menus-subMenu li .m1-navi-menus-subMenu-1 {
     margin-right: 7% !important;
