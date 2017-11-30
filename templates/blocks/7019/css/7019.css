@@ -72,6 +72,9 @@ ul {
   color: #000;
   line-height: 130%;
 }
+.m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3:hover {
+  color: #cb7152;
+}
 .m3 .m3-container .m3-content .m3-content-menu .m3-content-menu-food h3:before {
   display: block;
   line-height: 1em;
