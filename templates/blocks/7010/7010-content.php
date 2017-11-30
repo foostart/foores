@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="modul-10">
+<div class="type-7010">
     <div class="row">
         <div class="m10-description">
             <div class="m10-limit">
@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="m10-description-all">
                             <div class="col-lg-3 col-md-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
-                                    <img src="images/Meat-1-292x195.jpg">
+                                    <img src="images/Meat-1-292x195.jpg" alt="reponsive-img">
                                 </div>
                                 <div class="m10-description-one-meta">
                                     <a href="#">Recipes</a>
@@ -62,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-lg-3 col-md-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
-                                    <img src="images/Cocktails-2-292x195.jpg">
+                                    <img src="images/Cocktails-2-292x195.jpg" alt="reponsive-img">
                                 </div>
                                 <div class="m10-description-one-meta">
                                     <a href="#">Recipes</a>
@@ -104,7 +104,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-3 col-lg-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
-                                    <img src="images/Sandwiches-1-292x195.jpg">
+                                    <img src="images/Sandwiches-1-292x195.jpg" alt="reponsive-img">
                                 </div>
                                 <div class="m10-description-one-meta">
                                     <a href="#">Recipes</a>
@@ -146,7 +146,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-3 col-lg-3 m10-description-one col-sm-6">
                                 <div class="m10-description-one-pic">
-                                    <img src="images/Vegetarian-3-292x195.jpg">
+                                    <img src="images/Vegetarian-3-292x195.jpg" alt="reponsive-img">
                                 </div>
                                 <div class="m10-description-one-meta">
                                     <a href="#">Recipes</a>
