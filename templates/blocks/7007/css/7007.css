@@ -1,13 +1,13 @@
-.modul-7 .m7-tabs-all {
+.type-7007 .type-7007-tabs-all {
   margin-top: 100px;
   text-align: center;
 }
-.modul-7 .m7-tabs-all .nav-tabs {
+.type-7007 .type-7007-tabs-all .nav-tabs {
   border: none;
   display: inline-block;
   margin-bottom: 20px;
 }
-.modul-7 .m7-tabs-all .nav-tabs li a {
+.type-7007 .type-7007-tabs-all .nav-tabs li a {
   color: #2c2c2c;
   cursor: default;
   width: auto;
@@ -22,7 +22,7 @@
   padding: 0;
   text-align: center;
 }
-.modul-7 .m7-tabs-all .nav-tabs li a span {
+.type-7007 .type-7007-tabs-all .nav-tabs li a span {
   display: inline;
   font: 400 11px/18px "Open Sans", sans-serif;
   border-radius: 3px;
@@ -39,7 +39,7 @@
   transition: transform .25s, opacity .25s;
   background-color: #626161;
 }
-.modul-7 .m7-tabs-all .nav-tabs li a:after {
+.type-7007 .type-7007-tabs-all .nav-tabs li a:after {
   content: " ";
   display: block;
   width: 0%;
@@ -50,45 +50,45 @@
   transition: all .4s;
   opacity: 0;
 }
-.modul-7 .m7-tabs-all .nav-tabs li:hover a:hover {
+.type-7007 .type-7007-tabs-all .nav-tabs li:hover a:hover {
   border: none;
   background: none;
   color: #cb7152;
 }
-.modul-7 .m7-tabs-all .nav-tabs li:hover a:after {
+.type-7007 .type-7007-tabs-all .nav-tabs li:hover a:after {
   width: 40%;
   opacity: 1;
 }
-.modul-7 .m7-tabs-all .nav-tabs li:hover span {
+.type-7007 .type-7007-tabs-all .nav-tabs li:hover span {
   -webkit-transform: translateY(-25px);
   transform: translateY(-25px);
   opacity: 1;
 }
-.modul-7 .m7-tabs-all .nav-tabs li:focus {
+.type-7007 .type-7007-tabs-all .nav-tabs li:focus {
   outline: none !important;
 }
-.modul-7 .m7-tabs-all .nav-tabs .active a:hover {
+.type-7007 .type-7007-tabs-all .nav-tabs .active a:hover {
   border: none !important;
 }
-.modul-7 .m7-tabs-all .nav-tabs .active a:focus {
+.type-7007 .type-7007-tabs-all .nav-tabs .active a:focus {
   border: none !important;
 }
-.modul-7 .m7-tabs-all .nav-tabs .active a:after {
+.type-7007 .type-7007-tabs-all .nav-tabs .active a:after {
   width: 40%;
   opacity: 1;
 }
-.modul-7 .m7-tabs-all .nav-tabs .active a {
+.type-7007 .type-7007-tabs-all .nav-tabs .active a {
   color: #cb7152;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic {
   position: relative;
   padding: 0px;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic img {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic img {
   transition: all .4s;
   width: 100%;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic span {
   opacity: 0;
   position: absolute;
   display: block;
@@ -103,31 +103,31 @@
   z-index: 1;
   border: 1px solid #cb7152;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span a {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic span a {
   color: #ffffff !important;
   font-weight: normal;
   line-height: 1.3em;
   font: normal 20px/25px Libre Baskerville;
   text-decoration: none;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover span {
   opacity: 1;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:before {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:before {
   opacity: 1;
   border-left: 0;
   border-right: 0;
   transform: scale(0,1);
   transition: opacity 0.35s, transform 0.35s;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:after {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:after {
   opacity: 1;
   border-top: 0;
   border-bottom: 0;
   transform: scale(1,0);
   transition: opacity 0.35s, transform 0.35s;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover a:hover {
+.type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic:hover a:hover {
   color: #cb7152 !important;
   transition: opacity 1s, transform 1s;
 }

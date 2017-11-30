@@ -12,9 +12,9 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="modul-7">
+<div class="type-7007">
     <div class="container">
-        <div class="row m7-tabs-all">
+        <div class="row type-7007-tabs-all">
             <div class="col-md-12">
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#all" data-toggle="tab">All<span>8</span></a></li>
