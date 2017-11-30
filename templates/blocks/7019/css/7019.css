@@ -13,13 +13,6 @@ ul {
 .m3 .m3-container .m3-content {
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 }
-.m3 .m3-container .m3-content .m3-content-left {
-  transition: all 1s;
-  background: url(../img/coffee-photo-1.jpg) left center / auto no-repeat scroll;
-  padding-top: 100px;
-  padding-bottom: 0.05px;
-  min-height: 611px;
-}
 .m3 .m3-container .m3-content .m3-content-menu {
   transition: all 1s;
   padding-top: 60px;
