@@ -1,0 +1,391 @@
+/* font-color */
+@color-white: #000;
+@color-pink: #cb7152;
+
+
+.Module-6{
+    margin-top: 50px;
+    font: normal 16px/24px Varela Round;
+    clear: both;
+        
+     
+    .swiper-container {
+     
+      margin: 0 auto;
+      position:relative;
+
+    }
+    .swiper-slide {
+    padding-top: 8px;
+      text-align: center;
+      background: #fff;
+      justify-content: center;
+        
+      img:hover{    
+        transition:  0.5s;
+        transform: scale(1.1);
+            }
+
+    }
+    .active{
+        .addtocart:hover{
+                        opacity: 1;
+                        color: #ffffff;
+                        text-decoration: none;
+
+                    }
+        .addtocart{
+                       text-align:center;
+                       opacity: 0;
+                       margin-top:-40px;
+                       position: relative;
+                       z-index: 9;
+                    }
+        .addtocart a{
+                        opacity: 0.5;
+                        background: #fff;
+                        color: #000;
+                        border: 1px solid #fff;
+                        text-decoration: none;
+                        padding:3px 10px;
+                        border-radius: 50px;
+                        transition: 0.1s; 
+                    }
+        .home-chef{
+                        text-align:center;
+                        padding-top: 30px;
+                        position: relative;
+                        float: none;
+                        text-transform: uppercase;
+                        font-family: 'Libre Baskerville';
+                        line-height: 1.3em;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 10px;
+                        letter-spacing: 1px;
+                        color: #2c2c2c;
+                        margin-top: 17px;
+                        .tagged{
+                        margin: 0;
+                        display: block;
+                        padding: 0px 5px;
+                        a:hover{
+                            color: #cb7152;
+                            opacity: 1;
+                        }
+                        a{
+                            text-transform: uppercase;
+                            font-size: 10px;
+                            color: #6b6b6b;
+                            line-height: 1em;
+                            font-weight: normal;
+                            opacity: 0.5;
+                            transition: all .3s;
+
+                        }
+                        a:after{
+                            content: "\00B7";
+                            font-size: 14px;
+                            color: #6b6b6b;
+                            padding-left: 5px;
+                        }
+
+                        h3{
+                            margin-top: 3px;
+                            font-size: 16px;
+                            color: #000000;
+                            padding-bottom: .1em;
+                            transition: color .3s;
+                        }
+                        h3:hover
+                            {
+                            color: #cb7152;
+                        }
+                        p{
+                        display: block;
+                        color: #000;
+                     
+                        transform: translateZ(0);
+                        margin: 0px;
+                        font: normal 16px/18px Libre Baskerville;
+                        font-size: .857em;
+                        font-weight: 400;
+                    }
+                        
+                
+                }
+            }
+    } 
+   
+
+    .anhcafe{
+        margin-left: -100px;
+
+    }
+    .M6-grid-1-2{
+
+        p{
+            .icon{
+                color: @color-pink;
+                font-size: 80px !important;
+                font-family: 'theme'!important;
+            }
+        }
+        h2{
+            color: @color-white;
+            font: normal 56px/68px Libre Baskerville;
+            padding-bottom: 20px;
+            margin-left: -50px;
+        }
+        p{
+            font: normal 16px/24px Varela Round;
+            font-size: 19px;    
+           
+            margin-left: -50px;
+        }
+    }
+
+    
+    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+            opacity: .2;
+            cursor: auto;
+            pointer-events: none;
+            display:none;
+            font-size: 18px;
+        }
+    .swiper-button-next, .swiper-button-prev{
+        background-size: 16px 44px;
+    }
+    .swiper-button-prev{
+        left: 52px;
+        display:block;
+        opacity:0;
+        top: 115px;
+        position: absolute;
+    }
+    .swiper-button-prev:hover{
+        color: @color-white;
+        border-radius: 60%;
+        width: 50px;
+        transition: all .5s;
+        box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+        opacity:1;
+    }
+    .swiper-button-next{
+        right: 52px;
+        display:block;
+        opacity:0;
+        top: 115px;
+        position: absolute;
+    }
+
+    .swiper-button-next:hover{
+        color: @color-white;
+        border-radius: 60%;
+        width: 50px;
+        transition: all .5s;
+        box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
+        opacity:1;
+    }
+
+    .M7{
+        float:none !important;
+        /* carousel */
+        #quote-carousel 
+        {
+            padding: 0;
+            margin: 30px auto 0px;   
+        }
+
+
+        .carousel-inner{
+            max-height: 350px;
+
+        }
+
+        /* Control buttons  */
+        #quote-carousel .carousel-control
+        {
+            background: none;
+            color: #222;
+            font-size: 2.3em;
+            text-shadow: none;
+            margin-top: 90px;
+        }
+        /* Previous button  */
+
+        /* Next button  */
+
+        /* Changes the position of the indicators */
+        #quote-carousel .carousel-indicators 
+        {
+            right: 50%;
+            top: auto;
+            bottom: 0px;
+            margin-right: -19px;
+            padding-top: 20px;
+        }
+        /* Changes the color of the indicators */
+        #quote-carousel .carousel-indicators li 
+        {
+            background: #c0c0c0;
+
+        }
+        #quote-carousel .carousel-indicators .active 
+        {
+            background: #333333;
+        }
+        #quote-carousel img
+        {
+            width: 250px;
+            border-radius: 8px;
+        }
+        /* End carousel */
+
+        .item blockquote {
+            border-left: none; 
+            margin: 0;
+        }
+
+        .item blockquote img {
+            margin-bottom: 10px;
+        }
+
+        .item blockquote p:before {
+            content: "\f10d";
+            font-family: 'Fontawesome';
+            float: left;
+            margin-right: 10px;
+        }
+        h5{
+            position: relative;
+            float: none;
+            text-transform: uppercase;
+            font-family: 'Libre Baskerville';
+            line-height: 1.3em;
+            font-size: 10px;
+            letter-spacing: 1px;
+            color: #2c2c2c;
+            margin-top: -5px;
+            padding-top: 10px;
+        }
+        .carousel-inner a:hover {
+            color:#ec971f;
+        }
+        .carousel-inner{
+
+            .tagged_as {
+                margin: 0;
+                display: block;
+                padding: 0px 5px;
+                line-height: 1em;
+                a {
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    color: #6b6b6b;
+                    text-decoration: none;
+                }
+            }
+            .tagged_as a:hover {
+                color:@color-pink;
+                opacity: 1;
+            }
+
+
+            a{
+                text-decoration: none;
+                h3{
+                    color: @color-white;
+                    font-size: 18px;
+                    padding-bottom: .1em;
+                    line-height: 1.4em;
+                    padding: .3em 1.0em;
+                    transition: all .6s;
+                    text-align: center;
+
+
+                }
+            }
+
+            .price{
+                        color: #000000;
+                        position: relative;
+                        transform: translateZ(0);
+                        margin: 0px;
+                        font-size: .857em;
+                        font-weight: 400;
+                        font: normal 16px/18px Varela Round;
+                    }
+
+        }
+        padding-top: 40px;
+        float: left;
+
+    }
+
+
+
+
+
+    .anhdau{
+        z-index: 555;
+        display: block;
+        float: none;
+        margin: auto;
+        max-width: 1260px;
+        width: auto;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+
+        p{
+            img{
+                box-sizing: border-box;
+                display: block;
+                max-width: 100%;
+                height: auto;
+                font-size: 100%;
+                margin: 0 auto;
+                padding-top: 50px;
+            }
+        }
+    }
+
+}
+@font-face{
+    font-family:theme;
+    src: url(../fonts/theme);
+    font-weight: normal;
+}
+@media screen and (max-width: 990px) {
+    .Module-6 {
+            .anhcafe{
+                display:none;
+            }
+            .M6-grid-1-2{
+
+            p{
+                .icon{
+                    color: @color-pink;
+                    font-family: 'theme'!important;
+                }
+            }
+            h2{
+                margin-left: 0px;
+            }
+            p{
+                margin-left: 0px;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 540px) {
+    .Module-6 {
+            .swiper-slide{
+                width: 100% !important;
+            }
+    } 
+}
