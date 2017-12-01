@@ -12,6 +12,66 @@ body {
 .type-7010 {
   max-width: 100%;
 }
+.type-7010 .menu-center {
+  position: relative;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.type-7010 .menu-center .sep-before {
+  width: 50%;
+  font-size: 10px;
+  text-align: right;
+  vertical-align: middle;
+  display: table-cell;
+  padding-top: 24px;
+}
+.type-7010 .menu-center:last-child {
+  margin-bottom: 20px;
+}
+.type-7010 .sep-line {
+  display: inline-block;
+  width: 35%;
+  border-top: 0 solid;
+  border-bottom: 1px solid;
+  color: #EDEDED;
+  vertical-align: baseline;
+}
+.type-7010 .sep-after {
+  width: 50%;
+  font-size: 10px;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 24px;
+}
+.type-7010 .content {
+  display: table-cell;
+  white-space: nowrap;
+}
+.type-7010 .content .text-divider-double {
+  position: relative;
+  letter-spacing: 2px;
+  color: #000000;
+  font-size: 70px;
+  font-family: Libre Baskerville;
+}
+.type-7010 .content .text-divider-subtitle {
+  color: #cb7152;
+  font-family: 'Handlee';
+  opacity: 0.8;
+  letter-spacing: 0.3em;
+  vertical-align: baseline;
+  font-size: 16px;
+}
+.type-7010 .content .text-divider-subtitle:before,
+.type-7010 .content .text-divider-subtitle:after {
+  display: inline-block;
+  max-width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0px 5px;
+}
 .type-7010 .m10-description {
   background-color: #F6F6F6;
   padding-top: 60px;
@@ -241,8 +301,13 @@ body {
   font-weight: bold;
 }
 @media (max-width: 768px) and (min-width: 453px) {
-  .type-7010 .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one {
+  .type-7010  .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one {
     width: 65%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .type-7010 .content  .text-divider-double {
+    font-size: 30px;
   }
 }
