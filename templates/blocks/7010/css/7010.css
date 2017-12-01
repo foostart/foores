@@ -12,6 +12,66 @@ body {
 .type-7010 {
   max-width: 100%;
 }
+.type-7010 .menu-center {
+  position: relative;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.type-7010 .menu-center .sep-before {
+  width: 50%;
+  font-size: 10px;
+  text-align: right;
+  vertical-align: middle;
+  display: table-cell;
+  padding-top: 24px;
+}
+.type-7010 .menu-center:last-child {
+  margin-bottom: 20px;
+}
+.type-7010 .sep-line {
+  display: inline-block;
+  width: 35%;
+  border-top: 0 solid;
+  border-bottom: 1px solid;
+  color: #EDEDED;
+  vertical-align: baseline;
+}
+.type-7010 .sep-after {
+  width: 50%;
+  font-size: 10px;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 24px;
+}
+.type-7010 .content {
+  display: table-cell;
+  white-space: nowrap;
+}
+.type-7010 .content .text-divider-double {
+  position: relative;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 70px;
+  font-family: Libre Baskerville;
+}
+.type-7010 .content .text-divider-subtitle {
+  color: #cb7152;
+  font-family: 'Handlee';
+  opacity: 0.8;
+  letter-spacing: 0.3em;
+  vertical-align: baseline;
+  font-size: 16px;
+}
+.type-7010 .content .text-divider-subtitle:before,
+.type-7010 .content .text-divider-subtitle:after {
+  display: inline-block;
+  max-width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0px 5px;
+}
 .type-7010 .m10-description {
   background-color: #F6F6F6;
   padding-top: 60px;
@@ -25,7 +85,7 @@ body {
   padding: 0 25px;
 }
 .type-7010 .m10-description a {
-  color: #000000;
+  color: black;
 }
 .type-7010 .m10-description a:hover {
   transition: all .3s ease-out;
@@ -67,7 +127,7 @@ body {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background: #ffffff;
+  background: white;
   border-radius: 6px;
   margin-bottom: 40px;
   transition: all .3s ease;
@@ -97,7 +157,7 @@ body {
   border-radius: 20em;
   padding: 8px 16px;
   border: solid 1px #EDEDED;
-  color: #000000;
+  color: black;
   font-size: 11px;
   margin-right: 5px;
   transition: all .3s ease;
@@ -105,7 +165,7 @@ body {
   margin-bottom: 5px;
 }
 .type-7010 .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one .m10-description-one-meta a:hover {
-  color: #ffffff;
+  color: white;
   background: #cb7152 !important;
 }
 .type-7010 .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one .m10-description-one-title a h4 {
@@ -137,7 +197,7 @@ body {
   padding: 0px;
   font-size: 10px;
   font-style: normal;
-  color: #000000;
+  color: black;
 }
 .type-7010 .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one .m10-description-one-category a span:hover {
   transition: all .3s ease-out;
@@ -185,7 +245,6 @@ body {
   background: #cb7152;
   content: '';
   position: absolute;
-  z-index: -1;
   width: 100%;
   height: 0;
   bottom: 0;
@@ -197,11 +256,11 @@ body {
   display: inline-block;
   width: 100%;
   position: relative;
-  color: #000000;
+  color: black;
   font-size: 14px;
 }
 .type-7010 .m10-description .m10-limit .row-all .m10-button .c1-btn span:before {
-  color: #ffffff;
+  color: white;
   position: absolute;
   content: "Load more";
   transform: translateY(0);
@@ -210,7 +269,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 10px 24px;
-  background: #000000;
+  background: black;
 }
 .type-7010 .m10-description .m10-limit .row-all .m10-button .c1-btn a:after {
   background: #cb7152;
@@ -241,8 +300,13 @@ body {
   font-weight: bold;
 }
 @media (max-width: 768px) and (min-width: 453px) {
-  .type-7010 .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one {
+  .type-7010  .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one {
     width: 65%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .type-7010 .content  .text-divider-double {
+    font-size: 30px;
   }
 }

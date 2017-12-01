@@ -1,3 +1,5 @@
+@color-den:black;
+@color-trang: white;
 a, a:hover{
     text-decoration: none;
 }
@@ -10,6 +12,69 @@ body{
 }
 .type-7010{
     max-width:100%; 
+    .menu-center{
+        position:relative;
+        margin: 30px 0 30px 0;
+        text-align:  center;
+        .sep-before
+        {
+            width: 50%;
+            font-size: 10px;
+            text-align: right;
+            vertical-align: middle;
+            display: table-cell;
+            padding-top: 24px;  
+        }
+    }
+    .menu-center:last-child{
+        margin-bottom: 20px;
+    }
+    .sep-line{
+        display: inline-block;
+        width: 35%;
+        border-top: 0 solid;
+        border-bottom: 1px solid;
+        color: #EDEDED;
+        vertical-align: baseline;
+    }
+    .sep-after{
+        width: 50%;
+        font-size: 10px;
+        text-align: left;
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 24px;
+    }
+    .content{
+
+        display: table-cell;
+
+        white-space:nowrap;
+        .text-divider-double{
+            position: relative;
+            letter-spacing: 2px;
+            color:@color-den;
+            font-size: 70px;
+            font-family: Libre Baskerville;
+        }
+        .text-divider-subtitle{
+            color: #cb7152;
+            font-family: 'Handlee';
+            opacity: 0.8;
+            letter-spacing: 0.3em;
+            vertical-align: baseline;
+            font-size: 16px;
+        }
+        .text-divider-subtitle:before,
+            .text-divider-subtitle:after{
+            display: inline-block;
+            max-width: auto;
+            height: 15px;
+            content: "~";
+            font-size: 1.2em;
+            padding: 0px 5px;
+        }
+    }
     .m10-description{
         background-color: #F6F6F6;
         padding-top: 60px;
@@ -22,7 +87,7 @@ body{
         display: block;
         padding: 0 25px;
         a{
-            color: #000000;
+            color: @color-den;
         }
         a:hover{
             transition: all .3s ease-out;
@@ -30,11 +95,9 @@ body{
 
         }
         .m10-limit{
-            //z-index: 555;
-            // display: block;
-            //float: none;
+
             margin: auto;
-            //max-width: 93%;
+
             width: auto;
             div{
                 position: relative;
@@ -68,7 +131,7 @@ body{
                             position: relative;
                             z-index: 1;
                             overflow: hidden;
-                            background: #ffffff;
+                            background:@color-trang;
                             border-radius: 6px;
                             margin-bottom: 40px;
                             transition: all .3s ease;
@@ -76,7 +139,7 @@ body{
                             display:block;
 
 
-                            //margin: 0 10px 0 10px;
+
                             .m10-description-one-pic{
                                 background: none;
                                 position: relative;
@@ -102,7 +165,7 @@ body{
                                     border-radius: 20em;
                                     padding: 8px 16px;
                                     border: solid 1px #EDEDED;
-                                    color: #000000;
+                                    color: @color-den;
                                     font-size: 11px;
                                     margin-right: 5px;
                                     transition: all .3s ease;
@@ -110,7 +173,7 @@ body{
                                     margin-bottom: 5px;
                                 }
                                 a:hover{
-                                    color: #ffffff;
+                                    color: @color-trang;
                                     background: #cb7152!important;
                                 }
                             }
@@ -146,7 +209,7 @@ body{
                                     padding: 0px;
                                     font-size: 10px;
                                     font-style: normal;
-                                    color: #000000;
+                                    color:  @color-den;
                                     span:hover{
                                         transition: all .3s ease-out;
                                         color: #cb7152;
@@ -199,7 +262,7 @@ body{
                             background: #cb7152;
                             content: '';
                             position: absolute;
-                            z-index: -1;
+                        
                             width: 100%;
                             height: 0;
                             bottom: 0;
@@ -212,12 +275,12 @@ body{
                             display: inline-block;
                             width: 100%;
                             position: relative;
-                            color: #000000;
+                            color:  @color-den;
                             font-size: 14px;
 
                         }
                         span:before{
-                            color: #ffffff;
+                            color: @color-trang;
                             position: absolute;
                             content: "Load more";
                             transform: translateY(0);
@@ -226,7 +289,7 @@ body{
                             width: 100%;
                             height: 100%;
                             padding: 10px 24px;
-                            background: #000000;
+                            background:  @color-den;
                         }
                         a:after{
                             background: #cb7152;
@@ -271,8 +334,16 @@ body{
 
 @media (max-width:768px) and (min-width:453px )
 {
-    .type-7010 .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one{
+    .type-7010  .m10-description .m10-limit .row-all .m10-description-main .m10-description-all .m10-description-one{
         width: 65%;
         margin: 0 auto;
+    }
+}
+
+@media( max-width:480px){
+    .type-7010 .content  .text-divider-double
+    {
+        font-size: 30px;
+
     }
 }

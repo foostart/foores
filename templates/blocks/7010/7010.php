@@ -20,12 +20,8 @@ $less->compileFile('less/7010.less', 'css/7010.css');
         <title> 7010 </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/7010.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/m1-slide-js.js" type="text/javascript"></script>
-        <script src="js/modul1-navi-js.js" type="text/javascript"></script>
-
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/7010.css" rel="stylesheet" type="text/css"/>
     </head> 
 
     <body> 
