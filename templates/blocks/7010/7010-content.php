@@ -14,24 +14,24 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-7010">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-           
-                <div class="lavender-grid">
-                    <div class="menu-center">
-                        <div class="sep-before"> 
-                            <div class="sep-line"></div>
-                        </div>
-                        <div class="content">
-                            <h2 class="text-divider-double">
-                                News & Events
-                            </h2>
-                            <div class="text-divider-subtitle">Today Specials</div>
-                        </div>
-                        <div class="sep-after">
-                            <div class="sep-line"></div>
-                        </div>
+
+            <div class="lavender-grid">
+                <div class="menu-center">
+                    <div class="sep-before"> 
+                        <div class="sep-line"></div>
+                    </div>
+                    <div class="content">
+                        <h2 class="text-divider-double">
+                            News & Events
+                        </h2>
+                        <div class="text-divider-subtitle">Today Specials</div>
+                    </div>
+                    <div class="sep-after">
+                        <div class="sep-line"></div>
                     </div>
                 </div>
-            
+            </div>
+
         </div>
         <div class="m10-description">
             <div class="m10-limit">
