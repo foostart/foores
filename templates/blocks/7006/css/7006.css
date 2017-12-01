@@ -4,18 +4,31 @@
   clear: both;
 }
 .Module-6 .swiper-container {
+  width: 250px;
   margin: 0 auto;
   position: relative;
+  border-radius: 8px;
 }
-.Module-6 .swiper-slide {
-  padding-top: 8px;
+.Module-6 .swiper-wrapper {
+  height: 210px !important;
+}
+.Module-6 .swiper-wrapper .swiper-slide {
+  padding-bottom: 0px;
   text-align: center;
   background: #fff;
   justify-content: center;
 }
-.Module-6 .swiper-slide img:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
+.Module-6 .swiper-wrapper .swiper-slide img {
+  height: 210px;
+  width: 100% !important;
+  -moz-transition: -moz-transform 0.5s ease-in;
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  -o-transition: -o-transform 0.5s ease-in;
+}
+.Module-6 .swiper-wrapper .swiper-slide img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 .Module-6 .active .addtocart:hover {
   opacity: 1;
@@ -129,7 +142,6 @@
   background-size: 16px 44px;
 }
 .Module-6 .swiper-button-prev {
-  left: 52px;
   display: block;
   opacity: 0;
   top: 115px;
@@ -144,7 +156,6 @@
   opacity: 1;
 }
 .Module-6 .swiper-button-next {
-  right: 52px;
   display: block;
   opacity: 0;
   top: 115px;
