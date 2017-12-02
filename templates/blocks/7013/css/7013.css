@@ -1,10 +1,6 @@
 a {
   text-decoration: none !important;
 }
-.modul-7013 {
-  width: 93%;
-  margin: 0 auto;
-}
 .modul-7013 .m7013-tabs-all {
   margin-top: 100px;
   text-align: center;
@@ -27,7 +23,7 @@ a {
   padding: 0;
   text-align: center;
   font: normal 20px/32px Libre Baskerville;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 .modul-7013 .m7013-tabs-all .nav-tabs li a:focus {
   border: none;
@@ -78,8 +74,10 @@ a {
 .modul-7013 .m7013-tabs-all .nav-tabs .active a {
   color: #cb7152;
 }
+.modul-7013 .tab-content .tab-pane .tab-content-pic {
+  margin-top: 20px;
+}
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product {
-  margin-top: 10px;
   padding: 0px 0px 20px 0px;
   text-align: center;
   border: solid 1px #EDEDED;
@@ -119,19 +117,35 @@ a {
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product .addtocart {
   display: inline-block;
+  text-align: center;
+  cursor: pointer;
   position: relative;
   z-index: 0;
   vertical-align: middle;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+  text-shadow: none;
   border-radius: 10em;
+  border: none;
+  text-align: center !important;
   font: normal 13px/1em "Varela Round";
+  padding: 1em 2em;
   transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
+  background: transparent;
+  border: solid 1px #cb7152;
   font-size: 11px;
   padding: 1em 1.9em;
-  margin-top: -100px;
+  margin-top: -60px;
   background: #ffffff;
+  border: none !important;
   opacity: 0;
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product h5 {
+  padding-top: 30px;
+  position: relative;
+  float: none;
   text-transform: uppercase;
   font-family: 'Libre Baskerville';
   line-height: 1.3em;
@@ -170,15 +184,27 @@ a {
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product h3 {
   margin-top: 3px;
+  box-shadow: none;
+  font-size: 18px;
   color: #000000;
+  padding-bottom: .1em;
+  line-height: 1.4em;
+  transition: color .3s;
+  transition: all .6s;
   font: normal 18px/25px Libre Baskerville;
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product h3:hover {
   color: #cb7152;
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product .price {
+  display: block;
   color: #000000;
+  position: relative;
+  transform: translateZ(0);
   margin: 0px;
+  font: normal 16px/18px Libre Baskerville;
+  font-size: .857em;
+  font-weight: 400;
   font: normal 16px/18px Varela Round;
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic:hover span {
