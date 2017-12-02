@@ -16,7 +16,7 @@
     $less->compileFile('less/7019.less', 'css/7019.css');
     
 ?>
-<html>
+<html lang="en">
     <head>
         <title>7019</title>
         <meta charset="UTF-8">
@@ -31,8 +31,8 @@
         ?> 
         <link href="css/7019.css" rel="stylesheet" type="text/css"/>
 		
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
 
     </head> 
 

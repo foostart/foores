@@ -63,9 +63,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <a href="#">BREAKFAST</a>
                                                 <a href="#">CAPPUCCINO</a>
                                                 <a href="#">COFFEE</a>
-                                                <a href="#">
-                                                    <h3>Mix of Croissants Breakfast</h3> 
-                                                </a>
+                                                <br>
+                                                <a href="#" style="font-size: 16px;">Mix of Croissants Breakfast</a>
+                                                <br>
                                                 <span class="price">£5.00</span>
                                             </span>
                                         </div>
