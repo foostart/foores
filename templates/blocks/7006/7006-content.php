@@ -45,7 +45,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="row"> 
                                         <div class="swiper-container">
                                             <div class="swiper-wrapper">
-                                              <div class="swiper-slide"><img src="anh/anh6.jpg" alt="anh6"></div>
+                                              <div class="swiper-slide"><img src="anh/anh6.jpg" alt="anh6" style="width: 250px !important;"></div>
                                               <div class="swiper-slide"><img src="anh/anh7.jpg" alt="anh7"></div>
                                               <div class="swiper-slide"><img src="anh/anh8.jpg" alt="anh8"></div>
                                             </div>

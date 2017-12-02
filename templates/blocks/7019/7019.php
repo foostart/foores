@@ -32,6 +32,7 @@
         <link href="css/7019.css" rel="stylesheet" type="text/css"/>
 		
         <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/bootstrap.js"></script>
 
     </head> 
