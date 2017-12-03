@@ -339,7 +339,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </span>
                             </div>
                         </div>
-                            <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -358,11 +358,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h3>Mix of Croissants Breakfast</h3> 
                                 </a>
                                 <span class="price">
-                                   ï¿½5.00
+                                    ï¿½5.00
                                 </span>
                             </div>
                         </div>
-                            <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -381,11 +381,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h3>Mix of Croissants Breakfast</h3> 
                                 </a>
                                 <span class="price">
-                                   ï¿½5.00
+                                    ï¿½5.00
                                 </span>
                             </div>
                         </div>
-                            <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -404,11 +404,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h3>Mix of Croissants Breakfast</h3> 
                                 </a>
                                 <span class="price">
-                                   ï¿½5.00
+                                    ï¿½5.00
                                 </span>
                             </div>
                         </div>
-                            <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -427,11 +427,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h3>Mix of Croissants Breakfast</h3> 
                                 </a>
                                 <span class="price">
-                                   ï¿½5.00
+                                    ï¿½5.00
                                 </span>
                             </div>
                         </div>
-                        
+
 
                     </div>
                     <div class="tab-pane" id="main">
@@ -458,7 +458,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </span>
                             </div>
                         </div>
-                         <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -481,7 +481,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </span>
                             </div>
                         </div>
-                         <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -504,7 +504,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </span>
                             </div>
                         </div>
-                         <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6 tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -631,7 +631,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </span>
                             </div>
                         </div>
-                          <div class="col-lg-3 col-md-3  col-sm-6  tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6  tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -654,7 +654,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </span>
                             </div>
                         </div>
-                          <div class="col-lg-3 col-md-3  col-sm-6  tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6  tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -677,7 +677,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </span>
                             </div>
                         </div>
-                          <div class="col-lg-3 col-md-3  col-sm-6  tab-content-pic">
+                        <div class="col-lg-3 col-md-3  col-sm-6  tab-content-pic">
                             <div class="product">
                                 <a href="#"></a>
                                 <div class="productimg">
@@ -696,11 +696,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h3>Mix of Croissants Breakfast</h3> 
                                 </a>
                                 <span class="price">
-                                    ï¿½5.00
+                                   
+                                    £5.00
+                               
                                 </span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

@@ -23,7 +23,7 @@ a {
   padding: 0;
   text-align: center;
   font: normal 20px/32px Libre Baskerville;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 .modul-7013 .m7013-tabs-all .nav-tabs li a:focus {
   border: none;
@@ -86,7 +86,7 @@ a {
   position: relative;
   z-index: 0;
   box-sizing: border-box;
-  background: #ffffff;
+  background: white;
   transition: all .2s ease;
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product .productimg {
@@ -112,24 +112,19 @@ a {
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product .addtocart:hover {
   opacity: 1;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product .addtocart {
   display: inline-block;
   text-align: center;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   z-index: 0;
-  vertical-align: middle;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
   text-decoration: none;
   text-shadow: none;
   border-radius: 10em;
   border: none;
-  text-align: center !important;
   font: normal 13px/1em "Varela Round";
   padding: 1em 2em;
   transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
@@ -138,7 +133,8 @@ a {
   font-size: 11px;
   padding: 1em 1.9em;
   margin-top: -60px;
-  background: #ffffff;
+  margin-left: -50px;
+  background: white;
   border: none !important;
   opacity: 0;
 }
@@ -186,7 +182,7 @@ a {
   margin-top: 3px;
   box-shadow: none;
   font-size: 18px;
-  color: #000000;
+  color: black;
   padding-bottom: .1em;
   line-height: 1.4em;
   transition: color .3s;
@@ -198,12 +194,11 @@ a {
 }
 .modul-7013 .tab-content .tab-pane .tab-content-pic .product .price {
   display: block;
-  color: #000000;
+  color: black;
   position: relative;
   transform: translateZ(0);
   margin: 0px;
   font: normal 16px/18px Libre Baskerville;
-  font-size: .857em;
   font-weight: 400;
   font: normal 16px/18px Varela Round;
 }
@@ -227,6 +222,9 @@ a {
 .modul-7013 .tab-content .tab-pane .tab-content-pic:hover a:hover {
   color: #cb7152 !important;
   transition: opacity 1s, transform 1s;
+}
+.modul-7013 .tab-content .tab-pane .tab-content-pic:hover .product:hover {
+  box-shadow: 2px 2px 2px 2px #888888;
 }
 @font-face {
   font-family: Open Sans;
