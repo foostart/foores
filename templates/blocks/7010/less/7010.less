@@ -1,5 +1,6 @@
 @color-den:black;
 @color-trang: white;
+@color-naudo:#cb7152;
 a, a:hover{
     text-decoration: none;
 }
@@ -58,7 +59,7 @@ body{
             font-family: Libre Baskerville;
         }
         .text-divider-subtitle{
-            color: #cb7152;
+            color:@color-naudo;
             font-family: 'Handlee';
             opacity: 0.8;
             letter-spacing: 0.3em;
@@ -91,7 +92,7 @@ body{
         }
         a:hover{
             transition: all .3s ease-out;
-            color: #cb7152;
+            color: @color-naudo;
 
         }
         .m10-limit{
@@ -212,7 +213,7 @@ body{
                                     color:  @color-den;
                                     span:hover{
                                         transition: all .3s ease-out;
-                                        color: #cb7152;
+                                        color: @color-naudo;
                                     }
                                 }
                                 .cate-1:after{
@@ -220,13 +221,13 @@ body{
                                     content: "\00B7";
                                     font-size: 16px;
                                     padding-left: 5px;
-                                    color: #cb7152;
+                                    color: @color-naudo;
                                 }
                                 .cate-3:before{
                                     content: "\00B7";
                                     font-size: 16px;
                                     padding-left: 5px;
-                                    color: #cb7152;
+                                    color: @color-naudo;
                                 }
                             }
                         }
@@ -254,12 +255,12 @@ body{
                             text-transform: uppercase;
                             display: inline-block;
                             border-radius: 10em;
-                            border: 1px solid #cb7152;
+                            border: 1px solid @color-naudo;
                             overflow: hidden;
                             transition: color .3s ease-out,border .3s ease-out,background .3s ease-out!important;
                         }
                         a:after{
-                            background: #cb7152;
+                            background: @color-naudo;
                             content: '';
                             position: absolute;
                         
@@ -292,7 +293,7 @@ body{
                             background:  @color-den;
                         }
                         a:after{
-                            background: #cb7152;
+                            background: @color-naudo;
                             content: '';
                             position: absolute;
                             z-index: -1;

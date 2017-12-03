@@ -13,12 +13,12 @@
         require_once($dir_block.'/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/7009.less', 'css/7009.css');
+    $less->compileFile('less/7019.less', 'css/7019.css');
     
 ?>
-<html>
+<html lang="en">
     <head>
-        <title>7009</title>
+        <title>7019</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -27,18 +27,17 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/7009.less', 'css/7009.css');
+        $less->compileFile('less/7019.less', 'css/7019.css');
         ?> 
-        <link href="css/7009.css" rel="stylesheet" type="text/css"/>
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-        
-    	<script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/m1-slide-js.js"></script>
-        <script src="js/modul1-navi-js.js"></script>
+        <link href="css/7019.css" rel="stylesheet" type="text/css"/>
+		
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
 
     </head> 
 
     <body> 
-        <?php include '../7009/7009-content.php'; ?>
+        <?php include '../7019/7019-content.php'; ?>
     </body>
 </html>

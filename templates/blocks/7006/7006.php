@@ -33,9 +33,9 @@
         <link href="css/7006.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         
-        <script src="JS/m1-slide-js_1.js" type="text/javascript"></script>
-        <script src="JS/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="JS/jquery.min.js" type="text/javascript"></script>
+        
+        <script src="JS/m1-slide-js_1.js"></script>
+        <script src="JS/jquery-2.1.4.min.js"></script>
         <script src="JS/swiper.min.js"></script>
     </head> 
 
