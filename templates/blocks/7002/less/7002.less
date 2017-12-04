@@ -1,10 +1,14 @@
-/*Color*/
-@color-black: #000000;
-
-.type-7002{
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.m2{
     .m2-container{
         margin: 0 auto;
-        width: 93%;
+     
         .m2-grip{
             transition: all 1s;
             position: relative;
@@ -18,19 +22,18 @@
                 width: 100%;
                 height: 100%;
                 z-index: 10;
-                margin-top:150px;
 
                 .m2-grip-background{
                     width: 100%;
-                    height: 1100px;
-                    background-position: 50% 0%;
-                    background-image: url(../img/coffee4.jpg) ;
+                    height: 1200px;
+                    background-position: 48% 0%;
+                    background-image: url(../img/coffee-img-4-1.jpg);
                     background-color: rgba(0, 0, 0, 0);
                     background-size: auto;
                     background-attachment: scroll;
                     background-repeat: no-repeat;
-                    //transform: translateY(-480px);
-
+                    
+                    
                 }
             }
             .m2-grip-content{
@@ -41,14 +44,11 @@
                 padding-bottom: 60px;
                 p{
                     font: normal 16px/24px Varela Round;
-                    margin: 0 0 0 10px;
-                    color: @color-black;
-                    display:block;
                 }
 
                 .m2-grip-content-1{
                     margin-top: 230px;
-                    background: url(../img/coffee2.jpg) no-repeat;
+                    background: url(../img/coffee-img-2.jpg) no-repeat center top;
                     background-size: auto;
                     background-attachment: scroll;
                     padding: 0 25px;
@@ -64,7 +64,6 @@
                             font: normal 24px/32px Libre Baskerville;
                             margin-top: 0.6em;
                             margin-bottom: 0.6em;
-                            margin-left: 9px;
 
                         }
                     }
@@ -78,22 +77,20 @@
                     }
                     h3, p{
                         text-align: center;
-                        color: @color-black;
+                        margin: 16px 0;
                     }
                     h3{
                         margin: 24px 0;
                         font: normal 40px/50px Libre Baskerville;
-                        color: @color-black;
                     }
                 }
                 .m2-grip-content-3{
                     margin-top: 200px;
-                    background: url(../img/coffee3.jpg) no-repeat;
+                    background: url(../img/coffee-img-3.jpg) no-repeat center top;
                     .m2-grip-content-1-left{
                         padding-top: 240px;
                         h4{
                             padding-top: 20px;
-                            color: @color-black;
                         }
                     }
                 }
@@ -102,7 +99,7 @@
     }
 }
 
-@media screen and (min-width: 748px){
+@media (max-width: 767px){
     .m2{
         .m2-grip-content{
             .m2-grip-content-1{
