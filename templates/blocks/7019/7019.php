@@ -21,19 +21,13 @@
         <title>7019</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <?php
-        if (!class_exists('lessc')) {
-            include ('libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/7019.less', 'css/7019.css');
-        ?> 
-        <link href="css/7019.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+       
+        <link href="<?php echo $url_path ?>/css/7019.css" rel="stylesheet" type="text/css"/>
 		
-        <script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/bootstrap.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.js"></script>
 
     </head> 
 
