@@ -136,19 +136,22 @@
   opacity: .2;
   cursor: auto;
   pointer-events: none;
-  display: none;
   font-size: 18px;
 }
 .Module-6 .swiper-button-next,
 .Module-6 .swiper-button-prev {
   background-size: 16px 44px;
+  transition: all 0.5s;
 }
 .Module-6 .swiper-button-prev {
   left: 0px;
   display: block;
-  opacity: 0;
   top: 100px;
   position: absolute;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0 15px;
+  opacity: .5;
 }
 .Module-6 .swiper-button-prev:hover {
   color: #000;
@@ -161,9 +164,12 @@
 .Module-6 .swiper-button-next {
   right: 0px;
   display: block;
-  opacity: 0;
   top: 100px;
   position: absolute;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0 15px;
+  opacity: .5;
 }
 .Module-6 .swiper-button-next:hover {
   color: #000;

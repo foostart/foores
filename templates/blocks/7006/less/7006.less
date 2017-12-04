@@ -1,5 +1,5 @@
 /* font-color */
-@color-white: #000;
+@color-black: #000;
 @color-pink: #cb7152;
 
 
@@ -149,7 +149,7 @@
             }
         }
         h2{
-            color: @color-white;
+            color: @color-black;
             font: normal 56px/68px Libre Baskerville;
             padding-bottom: 20px;
             margin-left: -50px;
@@ -167,21 +167,24 @@
             opacity: .2;
             cursor: auto;
             pointer-events: none;
-            display:none;
             font-size: 18px;
         }
     .swiper-button-next, .swiper-button-prev{
         background-size: 16px 44px;
+        transition: all 0.5s; 
     }
     .swiper-button-prev{
         left: 0px;
         display:block;
-        opacity:0;
         top: 100px;
         position: absolute;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 0 15px;
+        opacity:.5;
     }
     .swiper-button-prev:hover{
-        color: @color-white;
+        color: @color-black;
         border-radius: 60%;
         width: 50px;
         transition: all .5s;
@@ -191,13 +194,16 @@
     .swiper-button-next{
         right: 0px;
         display:block;
-        opacity:0;
         top: 100px;
         position: absolute;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 0 15px;
+        opacity:.5;
     }
 
     .swiper-button-next:hover{
-        color: @color-white;
+        color: @color-black;
         border-radius: 60%;
         width: 50px;
         transition: all .5s;
@@ -312,7 +318,7 @@
             a{
                 text-decoration: none;
                 h3{
-                    color: @color-white;
+                    color: @color-black;
                     font-size: 18px;
                     padding-bottom: .1em;
                     line-height: 1.4em;
