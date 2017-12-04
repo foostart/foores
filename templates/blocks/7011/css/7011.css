@@ -113,6 +113,7 @@ footer .m11-col-footer .c2 .c2-input {
   margin-bottom: 10px;
 }
 footer .m11-col-footer .c2 .c2-input [type=email] {
+  outline: none;
   display: inline-block;
   vertical-align: top;
   border-top-left-radius: 50px;
