@@ -23,6 +23,7 @@ $less->compileFile('less/7004.less', 'css/7004.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/7004.css" rel="stylesheet" type="text/css"/>
+       
     </head> 
 
     <body> 
