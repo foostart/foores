@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="grid1">
                                     <div class="grid1-1">
                                         <p>
-                                            <img src="image/icon.JPG" alt=""/>
+                                            <img src="images/icon.JPG" alt=""/>
                                             <span></span>
                                         </p>
                                         <h4>Directions</h4>

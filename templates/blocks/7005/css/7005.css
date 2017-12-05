@@ -8,7 +8,7 @@ ul {
 }
 .m5 {
   position: relative;
-  background: url(../img/waves-decoration.svg) repeat-x center top;
+  background: url(../images/waves-decoration.svg) repeat-x center top;
   background-size: auto;
   background-attachment: scroll;
   overflow: hidden;
@@ -16,7 +16,7 @@ ul {
 .m5 .m5-parallax {
   position: absolute;
   background-position: 50% 0%;
-  background-image: url(../img/coffee33.jpg);
+  background-image: url(../images/coffee33.jpg);
   background-color: #3b3b3b;
   background-size: cover;
   background-attachment: scroll;

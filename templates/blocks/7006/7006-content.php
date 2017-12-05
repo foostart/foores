@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="col-md-4">
             <div class="row ">
                 <div class="anhcafe">
-                    <img src="anh/anh1.jpg" alt="anh1">
+                    <img src="images/anh1.jpg" alt="anh1">
                 </div>
             </div>
         </div>  
@@ -45,9 +45,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="row"> 
                                         <div class="swiper-container">
                                             <div class="swiper-wrapper">
-                                              <div class="swiper-slide"><img src="anh/anh6.jpg" alt="anh6" style="width: 250px !important;"></div>
-                                              <div class="swiper-slide"><img src="anh/anh7.jpg" alt="anh7"></div>
-                                              <div class="swiper-slide"><img src="anh/anh8.jpg" alt="anh8"></div>
+                                              <div class="swiper-slide"><img src="images/anh6.jpg" alt="anh6" style="width: 250px !important;"></div>
+                                              <div class="swiper-slide"><img src="images/anh7.jpg" alt="anh7"></div>
+                                              <div class="swiper-slide"><img src="images/anh8.jpg" alt="anh8"></div>
                                             </div>
                                             <!-- Add Arrows -->
                                             <div class="swiper-button-next"></div>
@@ -86,7 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <p>
-                    <img src="anh/anh3.jpg" alt="anh3">
+                    <img src="images/anh3.jpg" alt="anh3">
                 </p>
             </div>
         </div>

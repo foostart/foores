@@ -15,7 +15,7 @@ ul {
 }
 .m3 .m3-container .m3-content .m3-content-left {
   transition: all 1s;
-  background: url(../img/coffee-photo-1.jpg) left center / auto no-repeat scroll;
+  background: url(../images/coffee-photo-1.jpg) left center / auto no-repeat scroll;
   padding-top: 100px;
   padding-bottom: 0.05px;
   min-height: 611px;
@@ -217,7 +217,7 @@ ul {
 }
 .m3 .m3-container .m3-content .m3-content-right {
   transition: all 1s;
-  background: url(../img/coffee-photo-2.jpg) right center / auto no-repeat scroll;
+  background: url(../images/coffee-photo-2.jpg) right center / auto no-repeat scroll;
   padding-top: 100px;
   padding-bottom: 0.05px;
   min-height: 610px;
@@ -233,7 +233,7 @@ ul {
   height: 450px;
   position: absolute;
   background-position: 50% 0%;
-  background-image: url(../img/coffee-img-5.jpg);
+  background-image: url(../images/coffee-img-5.jpg);
   background-color: rgba(0,0,0,0);
   background-size: auto;
   background-attachment: scroll;

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var k = 0;
-    $('.m2').css("opacity", "0");
+    $('.m2').css("opacity","0");
     
     paralax(".m2-grip-background");
     var top = $(window).scrollTop();
