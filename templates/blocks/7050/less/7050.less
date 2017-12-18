@@ -1,0 +1,124 @@
+.type-7050{
+	padding-top:70px;
+	*{
+		outline: none;
+	}
+	a, a:hover{
+		text-decoration: none;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+	}
+	body{
+		overflow-x: hidden;
+	}
+	.row-content-7050{
+		margin-bottom: 30px;
+	}
+
+	.img-type-7050{
+		border-radius: 6px;
+	    position: relative;
+	    overflow: hidden;
+	    z-index: 1;
+	    margin-bottom: 5px;
+
+		img{
+			width:100%;
+			transform: scale(1.10);
+    		transition: transform 0.60s;
+		}
+		.fp_price{
+			background: #ffffff;
+		    padding: 8px 22px;
+		    min-width: 30px;
+		    text-align: center;
+		    bottom: 10px;
+		    font-size: 14px;
+		    border-radius: 25px;
+		    color: #cb7152;
+		    position: absolute;
+		    left: 17px;
+		}
+	}
+	.img-type-7050 img:hover{
+	    transform: scale(1.0);
+	}
+	.menu-info-7050{
+		position: relative;
+		.content-menu-info-7050{
+			padding: 15px 0px;
+			h3{
+			    font-size: 18px;
+			    margin-top:0px;
+			    margin-bottom: 5px;
+			    padding-bottom: 20px;
+    			position: relative;
+			}
+		}
+		
+	}
+	.menu_description-7050{
+		font-size: 12px;
+		color: #6b6b6b;
+	}
+	.content-menu-info-7050 h3:before{
+	    display: block;
+	    line-height: 1em;
+	    font-size: 0.4em;
+	    letter-spacing: 4px;
+	    color: #6b6b6b;
+	    content: "...................................................................................................................................................................................................................................................";
+	    width: 100%;
+	    overflow: hidden;
+	    height: 10px;
+	    bottom: 0px;
+	    position: absolute
+	}
+
+	.row-content-7050:hover .menu-info-7050 .content-menu-info-7050 h3{
+		color: #cb7152!important;
+	}
+	.row-menuitem-7050{
+		border: none;
+		margin-bottom: 30px;
+		.fp_inner_box{
+			cursor: pointer;
+			h3{
+				font-size: 16px;
+			    margin-top:0px;
+			    margin-bottom: 5px;
+			    padding-bottom: 20px;
+    			position: relative;
+    			padding-right: 10px;
+    			&:before{
+				    display: block;
+				    line-height: 1em;
+				    font-size: 0.4em;
+				    letter-spacing: 4px;
+				    color: #6b6b6b;
+				    content: "...................................................................................................................................................................................................................................................";
+				    width: 100%;
+				    overflow: hidden;
+				    height: 10px;
+				    bottom: 0px;
+				    position: absolute
+				}
+			}
+			.fp_price{
+				background: transparent;
+			    position: absolute;
+			    right: 0px;
+			    top: 0px;
+			    border-radius: 25px;
+			    padding: 0px;
+			    color: #cb7152;
+			}
+		}
+
+	} 
+	.row-menuitem-7050:hover h3{
+		color: #cb7152!important;
+	}
+}

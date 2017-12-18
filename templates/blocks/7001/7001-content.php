@@ -101,8 +101,8 @@ $url_path = str_replace('\\', '/', $url_path);
 							</ul>
 						</div>
 					</div>
-					<div class="m1-navi-icon-search">
-						<i class="fa fa-search"></i>
+					<div class="m1-navi-icon-search" id="search_icon">
+						<i class="fa fa-search"></i> 
 					</div>
 					<div class="m1-navi-icon-mobile-btn">
 						<i class="fa fa-reorder"></i>
@@ -128,10 +128,10 @@ $url_path = str_replace('\\', '/', $url_path);
 	</header> 
 	<div id="vamtam-overlay-search" class="vamtam-animated vamtam-fadein">
 		<button id="vamtam-overlay-search-close" style="display: block; animation-duration: 300ms;" class="vamtam-animated vamtam-zoomin">
-			<span class="icon shortcode theme  use-hover" style=""></span>
+			<span class="fa fa-times" style=""></span>
 		</button>
-		<form action="https://vip-restaurant.vamtam.com/" class="searchform vamtam-animated vamtam-zoomin" method="get" role="search" novalidate="" style="display: block; animation-duration: 300ms;">
-			<input type="search" required="required" placeholder="Search..." name="s" value="">
+		<form action="#" class="searchform vamtam-animated vamtam-zoomin">
+			<input type="search" required="required" placeholder="Search..." name="s" value="" style="max-width: calc(100% - 100px);">
 		</form>
 	</div>
 </div>

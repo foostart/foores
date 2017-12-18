@@ -1,0 +1,179 @@
+a,
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.type-7070 {
+  max-width: 100%;
+}
+.type-7070 .content {
+  padding: 50px 20px 40px 20px;
+  text-align: center;
+  position: relative;
+  font: normal 74px/82px Libre Baskerville;
+  font-size: 54px;
+  line-height: 1.4em;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  color: #000000;
+}
+.type-7070 .content .line span {
+  display: block;
+  background: #CB7152;
+  border-radius: 30px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 120px;
+}
+.type-7070 a {
+  color: #000000;
+  transition: color .3s;
+}
+.type-7070 a:hover {
+  color: #CB7152;
+  text-decoration: none;
+}
+.type-7070 a:hover span {
+  color: #CB7152;
+}
+.type-7070 .des {
+  margin: 30px 0;
+}
+.type-7070 title-des h3,
+.type-7070 .title-des a {
+  color: #000000;
+  font-size: 32px !important;
+  font: normal 74px/82px Libre Baskerville;
+  line-height: 1.3em;
+  margin: 0 auto;
+  transition: color .3s ease;
+}
+.type-7070 .img-content img {
+  height: 100% !important;
+  width: 100%;
+  max-width: 100% !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.type-7070 span,
+.type-7070 p {
+  font: normal 16px/24px Varela Round;
+}
+.type-7070 .post-des,
+.type-7070 p {
+  margin: 1em 0;
+  text-align: justify;
+  font: normal 16px/24px Varela Round;
+}
+.type-7070 .post-meta {
+  margin: 1em 0;
+  line-height: 1.3em;
+}
+.type-7070 .vamtam-meta-tax {
+  float: left;
+  padding-right: 20px;
+  min-height: 20px;
+  line-height: 19px;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.type-7070 .hour {
+  width: 100px;
+  vertical-align: top;
+  text-align: center;
+  padding-right: 10px;
+  box-sizing: border-box;
+  order: 1;
+}
+.type-7070 .loop-wrapper .post-date {
+  display: inline-block;
+}
+.type-7070 .vamtam-meta-author,
+.type-7070 .vamtam-meta-comments {
+  border-top: 1px solid #EDEDED;
+  padding: 10px 0px 0px 0px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1em;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.type-7070 .post-date .top-part {
+  font: normal 56px/68px Libre Baskerville;
+  line-height: 1;
+  font-size: 36px;
+}
+.type-7070 .post-date .top-part,
+.type-7070 .post-date .bottom-part {
+  display: block;
+  text-align: center;
+  width: 100%;
+  transition: color .3s ease;
+}
+.type-7070 .vamtam-meta-author a,
+.type-7070 .vamtam-meta-comments a {
+  font-size: 10px;
+  line-height: 1em;
+  transition: color .3s ease !important;
+}
+.type-7070 .post-date .bottom-part {
+  padding-top: 10px;
+  line-height: 1;
+}
+.type-7070 .des:hover .vamtam-meta-author,
+.type-7070 .des:hover .vamtam-meta-comments,
+.type-7070 .title-des h3,
+.type-7070 .title-des a {
+  opacity: 1;
+}
+.type-7070 .des1:hover .vamtam-meta-author,
+.type-7070 .des1:hover .vamtam-meta-comments,
+.type-7070 .title-des h3,
+.type-7070 .title-des a {
+  opacity: 1;
+}
+.type-7070 .vamtam-meta-author span,
+.type-7070 .vamtam-meta-comments span {
+  font: normal 10px/20px Varela Round !important;
+  color: #6b6b6b;
+  padding: 5px 0px 5px 0px !important;
+}
+@media screen and (max-width: 480px) {
+  .type-7070 .hour {
+    width: 100%;
+    text-align: center;
+    margin: 0 15%;
+  }
+  .type-7070 .img-content img {
+    height: auto !important;
+  }
+}
+.type-7070 .des1 {
+  margin: 30px 0;
+}
+@font-face {
+  font-family: Libre Baskerville;
+  src: url(../fonts/Libre-Baskerville.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Varela Round;
+  src: url(../fonts/Varela-Round.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: theme;
+  src: url(../fonts/theme-icons.ttf);
+  font-weight: bold;
+}

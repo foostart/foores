@@ -60,3 +60,12 @@ $(document).ready(function () {
     }
     
 });
+
+$(document).ready(function(){
+    $("#search_icon").click(function(){
+        $("#vamtam-overlay-search").fadeIn();
+    });
+    $("#vamtam-overlay-search-close").click(function(){
+        $("#vamtam-overlay-search").fadeOut();
+    })
+})

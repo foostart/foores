@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'HandleeFont';
+  src: url('../fonts/Handlee-Regular.ttf');
+}
+@font-face {
+  font-family: 'LibreBaskervilleFontR';
+  src: url('../fonts/LibreBaskerville-Regular.ttf');
+}
+::selection {
+  background: #cb7152;
+  color: #fff;
+}
+.type-7026 .row {
+  padding: 60px 0px;
+}
+.type-7026 .row h3 {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  font: normal 40px/50px LibreBaskervilleFontR;
+}
+.type-7026 .row h6 {
+  color: #cb7152 !important;
+  font: normal 14px/22px HandleeFont;
+  margin-top: -1em;
+  letter-spacing: 0.3em;
+  margin-bottom: 1.6em;
+}
+.type-7026 .row h6:before,
+.type-7026 .row h6:after {
+  display: inline-block;
+  width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.1em;
+  padding: 0px 5px;
+}
+.type-7026 .row .blank-space {
+  display: block;
+}
+.type-7026 .row p {
+  font: normal 16px/24px Varela Round;
+  margin: 1em 0;
+}

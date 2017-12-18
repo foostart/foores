@@ -1,0 +1,36 @@
+.Module-7029 {
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+  padding: 0 30px;
+  text-align: center;
+}
+.Module-7029 .chef {
+  padding-top: 150px;
+}
+.Module-7029 .chef img {
+  width: 100px;
+  height: 100px;
+}
+.Module-7029 .text {
+  font: normal 20px/25px Libre Baskerville;
+  padding: 15px;
+}
+.Module-7029 .text .title h3 {
+  font-size: 2.6em;
+  margin-bottom: 25px;
+}
+.Module-7029 .text .name {
+  margin-bottom: 30px;
+}
+.Module-7029 button {
+  font-size: 0.9em;
+  border: 1px solid #cb7152;
+  background: none;
+  border-radius: 30px;
+  padding: 9px 35px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.9s;
+  transition-duration: 0.9s;
+  color: #cb7152;
+}

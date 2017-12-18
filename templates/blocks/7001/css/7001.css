@@ -1,3 +1,6 @@
+.type-7001 * {
+  outline: none;
+}
 .type-7001 a,
 .type-7001 a:hover {
   text-decoration: none;
@@ -159,7 +162,7 @@
   line-height: 40px;
   cursor: pointer;
   transition: all .3s;
-  margin-right: 10px;
+  padding-right: 30px;
   height: 45px;
 }
 .type-7001 header .m1-navi-boder .m1-navi .m1-navi-icon .m1-navi-icon-cart .m1-navi-cart-icon .icon {
@@ -179,7 +182,6 @@
   font-size: 0.3em;
   transition: all .3s;
   position: absolute;
-  display: none;
   top: 5px;
   right: -12px;
   padding: 5px 6px;
@@ -206,14 +208,20 @@
   font: normal 16px/24px Varela Round;
   line-height: 1em;
 }
+.type-7001 header .m1-navi-boder .m1-navi .m1-navi-icon .m1-navi-icon-cart:hover .m1-widget_shopping_cart {
+  display: block;
+}
 .type-7001 header .m1-navi-boder .m1-navi .m1-navi-icon .m1-navi-cart:hover .m1-widget_shopping_cart {
   transition: all 0.5s ease-in;
   display: block;
 }
+.type-7001 header .m1-navi-boder .m1-navi .m1-navi-icon .m1-navi-icon-search {
+  height: 45px;
+  width: 50px;
+}
 .type-7001 header .m1-navi-boder .m1-navi .m1-navi-icon .m1-navi-icon-search .fa {
-  font-size: 20px;
-  padding: 0 10px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  padding: 15px;
 }
 .type-7001 header .m1-navi-boder .m1-navi .m1-navi-icon .m1-navi-icon-mobile-btn {
   width: 24px;
@@ -525,7 +533,6 @@
 .type-7001 #vamtam-overlay-search input[type="search"] {
   width: 100%;
   height: 140px;
-  max-width: calc(0%);
   color: #000000;
   border: none;
   text-align: center;
@@ -537,6 +544,12 @@
   transition: all .5s;
   -webkit-appearance: none;
   border-radius: 0px;
+}
+.type-7001 #vamtam-overlay-search input[type="search"]:focus,
+.type-7001 #vamtam-overlay-search input[type="search"]:hover {
+  outline: none;
+  border: none !important;
+  border-bottom: 1px solid #cb7152 !important;
 }
 .type-7001 .vamtam-fadein {
   animation-name: vamtam-fadein;
