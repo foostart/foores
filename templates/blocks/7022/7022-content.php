@@ -25,61 +25,61 @@
             }
         </style>
         <script>
-            $(document).ready(function(){
+            $(document).ready(function () {
                 $("#style-switcher").hide();
-                $("#span-setting").click(function(){
+                $("#span-setting").click(function () {
                     $("#span-setting").show();
                     $("#style-switcher").toggle(500);
                 });
             });
         </script>
 
-</head>
-<body>
-    <div id="span-setting" class="open">
-        <span id="toggle-style-switcher" class="open"></span>
-    </div>
-    <div id="style-switcher" class="open">
-        <section class="style-switcher-group clearfix buttons">
-            <h4>- Styles -</h4>
-            <div class="section-contents">
-                <a href="#" name="Orange" class="active" style="background-color: rgb(203, 113, 82); width: 50px; height: 50px;"></a><a href="#" name="Gold" style="background-color: rgb(205, 155, 51); width: 50px; height: 50px;"></a>
-                <a href="#" name="Green" style="background-color: rgb(136, 182, 73); width: 50px; height: 50px;"></a><a href="#" name="Blue" style="background-color: rgb(95, 177, 178); width: 50px; height: 50px;"></a>
-            </div>
-        </section>
-        <section class="style-switcher-group clearfix select">
-            <h4>- Header Layout -</h4>
-            <div class="section-contents">
-                <div class="clearfix">
-                    <select>
-                        <option value="#">Single Row</option>
-                        <option value="#">Logo - Left</option>
-                        <option value="#">Logo - Centered</option>
-                    </select>
+    </head>
+    <body>
+        <div id="span-setting" class="open">
+            <span id="toggle-style-switcher" class="open"></span>
+        </div>
+        <div id="style-switcher" class="open">
+            <section class="style-switcher-group clearfix buttons">
+                <h4>- Styles -</h4>
+                <div class="section-contents">
+                    <a href="#" name="Orange" class="active" style="background-color: rgb(203, 113, 82); width: 50px; height: 50px;"></a><a href="#" name="Gold" style="background-color: rgb(205, 155, 51); width: 50px; height: 50px;"></a>
+                    <a href="#" name="Green" style="background-color: rgb(136, 182, 73); width: 50px; height: 50px;"></a><a href="#" name="Blue" style="background-color: rgb(95, 177, 178); width: 50px; height: 50px;"></a>
                 </div>
-            </div>
-        </section>
-        <section class="style-switcher-group clearfix select">
-            <h4>- Top Bar -</h4>
-            <div class="section-contents">
-                <div class="clearfix">
-                    <select>
-                        <option value="#">Off</option>
-                        <option value="#">Menu, Social Icons</option>
-                        <option value="#">Social Icons, Menu</option>
-                        <option value="#">Social Icons, Text</option>
-                        <option value="#">Text, Menu</option>
-                        <option value="#">Menu, Text</option>
-                        <option value="#">Text, Social Icons</option>
-                    </select>
+            </section>
+            <section class="style-switcher-group clearfix select">
+                <h4>- Header Layout -</h4>
+                <div class="section-contents">
+                    <div class="clearfix">
+                        <select>
+                            <option value="#">Single Row</option>
+                            <option value="#">Logo - Left</option>
+                            <option value="#">Logo - Centered</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="style-switcher-group clearfix buttons">
-            <div class="section-contents"><a href="#" name="Reset">Reset</a></div>
-        </section>
-    </div>
-</body>
+            </section>
+            <section class="style-switcher-group clearfix select">
+                <h4>- Top Bar -</h4>
+                <div class="section-contents">
+                    <div class="clearfix">
+                        <select>
+                            <option value="#">Off</option>
+                            <option value="#">Menu, Social Icons</option>
+                            <option value="#">Social Icons, Menu</option>
+                            <option value="#">Social Icons, Text</option>
+                            <option value="#">Text, Menu</option>
+                            <option value="#">Menu, Text</option>
+                            <option value="#">Text, Social Icons</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+            <section class="style-switcher-group clearfix buttons">
+                <div class="section-contents"><a href="#" name="Reset">Reset</a></div>
+            </section>
+        </div>
+    </body>
 </html>
 
 

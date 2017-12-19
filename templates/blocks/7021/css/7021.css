@@ -17,6 +17,8 @@
   background: #f5f3f0;
   height: 26px;
   content: " ";
+  -webkit-mask-image: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg);
+  mask: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg#mask);
   width: 156px;
   position: absolute;
   left: 50%;

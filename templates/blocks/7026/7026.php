@@ -18,8 +18,8 @@
     </head>
     <body>
         <div class="type-7026">
-            <div class = "container-fluid">    
-                <div class="row">
+            <div class ="container-fluid">    
+                <div class="row col">
                     <div class="col-md-10 col-md-push-1"> 
                         <h3 style="text-align: center;">If you want to become a great chef, you have to work with great chefs. And that’s exactly what I did.</h3>
                         <h6 class="vamtam-font-style-2 with-color" style="text-align: center;">Michael Strahan</h6>
