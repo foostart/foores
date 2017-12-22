@@ -15,9 +15,8 @@ $less = new lessc;
 $less->compileFile('less/7023.less', 'css/7023.css');
 ?>
 <!DOCTYPE html>
-<html>
-    <head>
-    <head>
+<html lang="en">
+    <head> 
         <meta charset="UTF-8">
         <title>7023</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,9 +25,8 @@ $less->compileFile('less/7023.less', 'css/7023.css');
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/owl.carousel.min.css" type="text/css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/owl.theme.min.css" type="text/css">
         <link href="<?php echo $url_path ?>/css/7023.css" rel="stylesheet" type="text/css"/>   
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/jquery-1.12.0.min.js"></script>
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
-
+        <script  src="<?php echo $url_path ?>/js/jquery-1.12.0.min.js"></script>
+        <script  src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
         <script src="js/7023.js"></script>
 
     </head>

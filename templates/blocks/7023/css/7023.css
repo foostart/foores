@@ -12,10 +12,17 @@ body {
 .type-7023 {
   font: normal 16px/24px Varela Round;
 }
-.type-7023 .icon-star-half:before {
+.type-7023 .content {
+  margin: 0 50px;
+}
+.type-7023 .content .quote-text {
+  overflow: hidden;
+  text-align: center;
+}
+.type-7023 .content .quote-text .icon-star-half:before {
   content: "\e9d8";
 }
-.type-7023 .quote-summary {
+.type-7023 .content .quote-text .quote-summary {
   margin-top: 0;
   margin-bottom: 0.6em;
   color: #000000;
@@ -26,26 +33,22 @@ body {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
-.type-7023 .quote-title-wrapper {
+.type-7023 .content .quote-text .quote-title-wrapper {
   margin: 0;
 }
-.type-7023 .quote-text {
-  overflow: hidden;
-  text-align: center;
-}
-.type-7023 .the-title {
+.type-7023 .content .quote-text .the-title {
   font-family: inherit;
   font-size: 10px;
   color: #6b6b6b;
   font-weight: 600;
 }
-.type-7023 .quote-title {
+.type-7023 .content .quote-text .quote-title {
   font-size: 10px;
   text-align: center;
   line-height: 24px;
   margin: 0 0 15px 0;
 }
-.type-7023 .icon {
+.type-7023 .content .quote-text .icon {
   font-family: "icommon";
   font-size: 16px;
   letter-spacing: 1px;
@@ -55,7 +58,7 @@ body {
   background-color: #FFFFFF;
   padding: 0 0 2px 0;
 }
-.type-7023 .owl-page {
+.type-7023 .content .owl-carousel .owl-page {
   width: 13px;
   height: 13px;
   border: 1px solid #000000;
@@ -66,17 +69,14 @@ body {
   display: inline-block;
   -webkit-transition: background 0.5s;
 }
-.type-7023 .owl-page:hover {
+.type-7023 .content .owl-carousel .owl-page:hover {
   border: 3px solid #cb7152;
 }
-.type-7023 .owl-pagination .active {
+.type-7023 .content .owl-carousel .owl-pagination .active {
   background-color: #cb7152;
   border-color: #cb7152;
 }
-.type-7023 .content {
-  margin: 0 50px;
-}
-.type-7023 .owl-wrapper-outer {
+.type-7023 .content .owl-carousel .owl-wrapper-outer {
   margin-bottom: 20px !important;
 }
 @font-face {
@@ -85,8 +85,8 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-.type-7023 [class^="icon-"],
-.type-7023 [class*=" icon-"] {
+.type-7023 .content [class^="icon-"],
+.type-7023 .content [class*=" icon-"] {
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -97,6 +97,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.type-7023 .icon-star-half:before {
+.type-7023 .content .icon-star-half:before {
   content: "\e9d8";
+}
+@media screen and (max-width: 480px) {
+  .type-7023 .content .quote-text .quote-summary {
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    color: #000000;
+    font: normal 20px Libre Baskerville;
+    vertical-align: baseline;
+    -webkit-margin-before: 1.3em;
+    -webkit-margin-after: 0.6em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
 }
