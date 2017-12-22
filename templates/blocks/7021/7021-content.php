@@ -1,3 +1,16 @@
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
+
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+
+$url_path = $url_host . $matches[1][0];
+
+$url_path = str_replace('\\', '/', $url_path);
+?>
 <div class="mui_ten"></div>
 <div class="type-7021">
 
@@ -5,7 +18,7 @@
 
     <!-- TOP ROW -->
 
-    <div class="vamtam-grid-top col-md-12">
+    <div class="vamtam-grid-top">
         <div class="grid-dot">
             <p>❈</p>
         </div>
@@ -24,18 +37,22 @@
     <!-- BOTTOM ROW -->
     <div class="vamtam-grid-bottom">
         <div class="limit-wrapper">
-            <div class="col-sm-12 col-md-4">
-                <h4 class="color-accent-1">1995</h4>
-                <p>Opens Osteria Francescana, Via Stella 22 Modena Italy</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <h4 class="color-accent-1">2002</h4>
-                <p>Michelin Guide One-Michelin-Star. Gambero Rosso Up and Coming Chef Award.</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <h4 class="color-accent-1">2016</h4>
-                <p>The world’s 50 restaurants 1st best restaurant in the world. Michelin Guide<br>
-                    three-michelin-stars.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h4 class="color-accent-1">1995</h4>
+                        <p>Opens Osteria Francescana, Via Stella 22 Modena Italy</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h4 class="color-accent-1">2002</h4>
+                        <p>Michelin Guide One-Michelin-Star. Gambero Rosso Up and Coming Chef Award.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h4 class="color-accent-1">2016</h4>
+                        <p>The world’s 50 restaurants 1st best restaurant in the world. Michelin Guide<br>
+                            three-michelin-stars.</p>
+                    </div>  
+                </div>
             </div>
         </div>
     </div>

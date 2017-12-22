@@ -9,7 +9,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-7032">
     <!-- BEGIN FOOTER -->
-    <div class="row">
+    
         <div class="container">
             <a href="https://vip-restaurant.vamtam.com/reviews/#comments" style=" text-decoration:none;
                text-align:center;">
@@ -117,7 +117,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- BEGIN COLUMNS -->
             </div>
         </div>
-    </div>
+  
     <!-- END FOOTER -->
 </div>
 

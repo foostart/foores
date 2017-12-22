@@ -3,8 +3,8 @@
   background: #fff;
   height: 26px;
   content: " ";
-  -webkit-mask-image: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg);
-  mask: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg#mask);
+  -webkit-mask-image: url(../images/ornament-top.svg);
+  mask: url(../images/ornament-top.svg);
   width: 156px;
   position: absolute;
   left: 50%;
@@ -17,8 +17,8 @@
   background: #f5f3f0;
   height: 26px;
   content: " ";
-  -webkit-mask-image: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg);
-  mask: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg#mask);
+  -webkit-mask-image: url(../images/ornament-top.svg);
+  mask: url(../images/ornament-top.svg);
   width: 156px;
   position: absolute;
   left: 50%;
@@ -27,13 +27,12 @@
   z-index: 10;
 }
 .type-7021 .cone-bottom {
-  margin-top: 100px;
   display: block;
   background: #fff;
   height: 26px;
   content: " ";
-  -webkit-mask-image: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-bottom.svg);
-  mask: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-bottom.svg#mask);
+  -webkit-mask-image: url(../images/ornament-top.svg);
+  mask: url(../images/ornament-top.svg);
   width: 156px;
   position: absolute;
   margin-bottom: -25px;
@@ -73,14 +72,6 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.type-7021 .vamtam-grid-bottom .limit-wrapper {
-  z-index: 555;
-  display: block;
-  float: none;
-  margin: auto;
-  max-width: 1260px;
-  width: auto;
-}
 .type-7021 .vamtam-grid-bottom .limit-wrapper .col-sm-12 {
   padding-top: 0.05px;
   padding-bottom: 0.05px;
@@ -119,12 +110,15 @@
   line-height: 24px;
   font-family: "Varela Round";
 }
-@media screen and (max-width: 940px) {
-  .type-7021 .vamtam-grid-top {
+@media screen and (max-width: 480px) {
+  .vamtam-grid-top {
     background-color: #F5F3F0;
     padding-top: 60px;
     padding-bottom: 70px;
     padding-left: 50px !important;
     padding-right: 50px !important;
+  }
+  .type-7021 .vamtam-grid-top .grid-text p {
+    font-size: 15px;
   }
 }

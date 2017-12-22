@@ -116,9 +116,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="extended-column-inner">
 
                     <div class="title">
-                        <p><image src="images/De-logo.svg"></p>
+                        <p><img src="images/De-logo.svg" alt="img-responsive"></p>
+
                         <h2>Minimalism is a way of living at the maximum of your potential.</h2>
-                        <a class="" href="#intro"><img src="images/arrow-long-down.svg"> </a>
+                        <a class="" href="#"><img src="images/arrow-long-down.svg" alt="img-responsive"></a>
                     </div>
 
                 </div>

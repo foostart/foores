@@ -18,7 +18,7 @@ $less->compileFile('less/7021.less', 'css/7021.css');
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>7021</title>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/css1.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/css2.css" rel="stylesheet" type="text/css"/>
