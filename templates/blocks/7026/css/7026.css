@@ -10,25 +10,22 @@
   background: #cb7152;
   color: #fff;
 }
-.type-7026 .row {
-  padding: 60px 0px;
-  margin-left: 0;
-  margin-right: 0;
-}
-.type-7026 .row h3 {
+.type-7026 .col-md-push-1 h3 {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
   font: normal 40px/50px LibreBaskervilleFontR;
+  text-align: center;
 }
-.type-7026 .row h6 {
+.type-7026 .col-md-push-1 h6 {
   color: #cb7152 !important;
   font: normal 14px/22px HandleeFont;
   margin-top: -1em;
   letter-spacing: 0.3em;
   margin-bottom: 1.6em;
+  text-align: center;
 }
-.type-7026 .row h6:before,
-.type-7026 .row h6:after {
+.type-7026 .col-md-push-1 h6:before,
+.type-7026 .col-md-push-1 h6:after {
   display: inline-block;
   width: auto;
   height: 15px;
@@ -36,10 +33,16 @@
   font-size: 1.1em;
   padding: 0px 5px;
 }
-.type-7026 .row .blank-space {
+.type-7026 .col-md-push-1 .blank-space {
   display: block;
 }
-.type-7026 .row p {
+.type-7026 .col-md-push-1 p {
   font: normal 16px/24px Varela Round;
   margin: 1em 0;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .type-7026 h3 {
+    font-size: 20px;
+  }
 }

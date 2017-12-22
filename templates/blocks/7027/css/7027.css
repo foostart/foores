@@ -16,20 +16,16 @@
   max-width: 1260px;
   width: auto;
 }
-.type-7027 .hoangnghiep .left {
+.type-7027 .hoangnghiep .limit-wrapper .left {
   background: url(../images/chef-dark.jpg) center top / auto no-repeat scroll;
   padding-top: 0.05px;
   padding-bottom: 0.05px;
   min-height: 618px;
   transition: opacity .8s ease-out;
   opacity: 1;
-  width: 50%;
 }
 .type-7027 .hoangnghiep .right {
   text-align: center;
-}
-.type-7027 .hoangnghiep .right .blank-space {
-  height: 70px;
 }
 .type-7027 .hoangnghiep .right img {
   width: 200px;
@@ -59,10 +55,12 @@
 .type-7027 .hoangnghiep .right .font-p {
   font: normal 16px/24px Varela Round;
 }
-.type-7027 .hoangnghiep .right .size-white {
-  width: 110px;
-}
 .type-7027 .hoangnghiep .blank-space {
   display: block;
   height: 60px;
+}
+@media screen and (max-width: 480px) {
+  .type-7027 .hoangnghiep .right h2 {
+    font-size: 25px;
+  }
 }

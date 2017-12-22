@@ -26,7 +26,6 @@ $less->compileFile('less/7024.less', 'css/7024.css');
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
         <link href="<?php echo $url_path ?>/css/7024.css" rel="stylesheet" type="text/css"/>
     </head> 
-
     <body> 
         <?php include '../7024/7024-content.php'; ?>
     </body>
