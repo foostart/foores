@@ -11,7 +11,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <!-- BEGIN FOOTER -->
     
         <div class="container">
-            <a href="https://vip-restaurant.vamtam.com/reviews/#comments" style=" text-decoration:none;
+            <a href="#" style=" text-decoration:none;
                text-align:center;">
                 18 PEOPLE WROTE TO US:
             </a>

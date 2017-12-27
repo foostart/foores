@@ -1,4 +1,4 @@
-.type-7028 .team-member {
+.type-7028 .banner .team-member {
   padding: 0 !important;
   margin: 0px 0px 20px 0px;
   border-radius: 6px;
@@ -8,31 +8,36 @@
   z-index: 1;
   position: relative;
 }
-.type-7028 .team-member .thumbnail {
+.type-7028 .banner .team-member .thumbnail {
   overflow: hidden;
   background: #000000;
   position: relative;
 }
-.type-7028 .team-member img {
+.type-7028 .banner .team-member img {
   transition: opacity 0.40s, transform 0.60s;
   transform: scale(1.10);
 }
-.type-7028 .team-member:hover img {
+.type-7028 .banner .team-member:hover img {
   opacity: 0.6;
   transform: scale(1.0);
 }
-.type-7028 .boxed-layout img {
+.type-7028 .banner .boxed-layout img {
   box-sizing: border-box;
   display: block;
   max-width: 100%;
   height: auto;
 }
-.type-7028 a {
+.type-7028 .banner .fa {
+  position: relative;
+  top: -6px;
+  margin-left: -6px;
+}
+.type-7028 .banner a {
   text-decoration: none;
   color: #000000;
   transition: color .3s;
 }
-.type-7028 img {
+.type-7028 .banner img {
   margin: 0px;
   padding: 0;
   border: 0;
@@ -40,26 +45,26 @@
   font: inherit;
   vertical-align: baseline;
 }
-.type-7028 share-icons:hover {
+.type-7028 .banner share-icons:hover {
   transition: color .3s ease;
 }
-.type-7028 h6 {
+.type-7028 .banner h6 {
   color: #000000;
   padding: 0;
   border: 0;
   font: normal 11px/12px Varela Round;
   vertical-align: baseline;
 }
-.type-7028 .team-member .team-member-info h6 {
+.type-7028 .banner .team-member .team-member-info h6 {
   margin: 0px;
   padding-bottom: 10px;
   font-size: 11px;
   opacity: 0.7;
 }
-.type-7028 .grid-1-1 {
+.type-7028 .banner .grid-1-1 {
   width: 100%;
 }
-.type-7028 p {
+.type-7028 .banner p {
   vertical-align: baseline;
   padding: 0;
   border: 0;
@@ -67,7 +72,7 @@
   margin: 1em 0;
   color: #2c2c2c;
 }
-.type-7028 .team-member .share-icons {
+.type-7028 .banner .team-member .share-icons {
   position: absolute;
   left: 0;
   top: auto;
@@ -83,26 +88,26 @@
   display: block;
   margin: 10px 5px 0px 5px;
 }
-.type-7028 div {
+.type-7028 .banner div {
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
-.type-7028 a .icon.shortcode.use-hover {
+.type-7028 .banner a .icon.shortcode.use-hover {
   transition: all .3s ease-out;
   border-radius: 20em;
   line-height: 1em;
 }
-.type-7028 .team-member:hover .share-icons {
+.type-7028 .banner .team-member:hover .share-icons {
   opacity: 1;
   bottom: 35%;
   white-space: normal;
 }
-.type-7028 .team-member:hover .share-icons .icon {
+.type-7028 .banner .team-member:hover .share-icons .icon {
   margin: 10px 5px 0px 5px;
 }
-.type-7028 .icon {
+.type-7028 .banner .icon {
   font-family: 'icomoon' !important;
   font-weight: normal !important;
   font-style: normal !important;
@@ -110,41 +115,36 @@
   min-width: 1em;
   -webkit-font-smoothing: antialiased;
 }
-.type-7028 span {
+.type-7028 .banner span {
   font: inherit;
   vertical-align: baseline;
 }
-.type-7028 .team-member .share-icons a {
+.type-7028 .banner .team-member .share-icons a {
   display: inline-block;
 }
-.type-7028 a:visited {
+.type-7028 .banner a:visited {
   color: #000000;
 }
-.type-7028 a:hover {
+.type-7028 .banner a:hover {
   text-decoration: none;
   color: #cb7152;
 }
-.type-7028 a {
-  text-decoration: none;
-  color: #000000;
-  transition: color .3s;
-}
-.type-7028 .team-member .team-member-info {
+.type-7028 .banner .team-member .team-member-info {
   background: #ffffff;
   margin-top: 0px;
   padding: 15px 20px 20px 20px;
 }
-.type-7028 .team-member .team-member-info h4 a {
+.type-7028 .banner .team-member .team-member-info h4 a {
   font-size: 24px;
   display: block;
 }
-.type-7028 .team-member .team-member-info h6 {
+.type-7028 .banner .team-member .team-member-info h6 {
   margin: 0px;
   padding-bottom: 10px;
   font-size: 11px;
   opacity: 0.7;
 }
-.type-7028 .team-member .team-member-info h6:after {
+.type-7028 .banner .team-member .team-member-info h6:after {
   content: "";
   display: block;
   width: 20px;
@@ -154,11 +154,11 @@
   opacity: 1;
   background: #cb7152;
 }
-.type-7028 html.touchevents .team-member,
-.type-7028 .team-member:hover {
+.type-7028 .banner html.touchevents .team-member,
+.type-7028 .banner .team-member:hover {
   box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.1);
 }
-.type-7028 .team-member .share-icons .icon {
+.type-7028 .banner .team-member .share-icons .icon {
   margin: 0px 5px 0px 5px;
   width: 16px;
   height: 16px;
@@ -167,12 +167,12 @@
   font-size: 16px !important;
   line-height: 1;
   display: inline-block;
-  padding: 10px !important;
+  padding: 16px !important;
   border-radius: 100%;
   border: solid 1px rgba(255,255,255,0.5);
   background: transparent;
 }
-.type-7028 .team-member .share-icons a:hover .icon.shortcode.use-hover {
+.type-7028 .banner .team-member .share-icons a:hover .icon.shortcode.use-hover {
   background: #ffffff;
   color: #cb7152 !important;
 }

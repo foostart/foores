@@ -13,17 +13,17 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/7028.less', 'css/7028.css');
 ?>
-<html lang="en">
+<html  lang="en">
     <head>
         <title>7028</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/7028.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/modul-3-js.js" type="text/javascript"></script>
-    
+        <link href="<?php echo $url_path ?>/css/7028.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+
+
     </head> 
 
     <body> 
