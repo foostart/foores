@@ -42,7 +42,7 @@
   text-align: center;
 }
 @media screen and (max-width: 480px) {
-  .type-7026 h3 {
-    font-size: 20px;
+  .type-7026 .col-md-push-1 h3 {
+    font-size: 19px;
   }
 }

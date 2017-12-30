@@ -23,16 +23,16 @@ body {
         background-size: cover;
     }
 
-.nf-after-field .nf-error-msg {
-    margin-right: 10px;
-}
-.hide{
-    display:none;
-}
+    .nf-after-field .nf-error-msg {
+        margin-right: 10px;
+    }
+    .hide{
+        display:none;
+    }
 
-.nf-error-msg, .ninja-forms-req-symbol {
-    color: #e80000;
-}
+    .nf-error-msg, .ninja-forms-req-symbol {
+        color: #e80000;
+    }
     // input style
     input[type="text"], input[type="email"], input[type="tel"], textarea  {
         box-sizing: border-box;
@@ -155,8 +155,8 @@ body {
             background: #fff;
             border: solid 1px #cb7152;
             color: #000000;
-			text-align:center;
-			width: 16%;
+            text-align:center;
+            width: 16%;
 
             &:focus {
                 box-shadow: none;
@@ -172,17 +172,22 @@ body {
 }
 
 // responsive
-@media (max-width: 479px) {
+@media (max-width: 480px) {
     .type-15 {
         .form {
             padding-left: 25px;
             padding-right: 25px;
 
             &-title {
-                font-size: 25px;
+                font-size: 19px;
                 line-height: 1.5;
             }
         }
     }
 
+}
+@media screen and(max-width: 480px){
+    .type-15 .form .btn-form{
+        width: 40%;
+    }
 }

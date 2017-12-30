@@ -23,7 +23,6 @@ $less->compileFile('less/7035.less', 'css/7035.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/7035.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/modul-0-splash.js" ></script>
     </head> 
     <body>
         <?php include './7035-content.php'; ?>

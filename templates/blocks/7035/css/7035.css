@@ -147,13 +147,18 @@ body {
   background: #000;
   color: #fff;
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   .type-15 .form {
     padding-left: 25px;
     padding-right: 25px;
   }
   .type-15 .form-title {
-    font-size: 25px;
+    font-size: 19px;
     line-height: 1.5;
+  }
+}
+@media screen and (max-width: 480px) {
+  .type-15 .form .btn-form {
+    width: 40%;
   }
 }
