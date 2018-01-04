@@ -13,3 +13,8 @@
   margin: 0px;
   color: #fff;
 }
+@media screen and (max-width: 480px) {
+  .type-7043 .parallax-bg-wrapper h2 {
+    font-size: 22px;
+  }
+}
