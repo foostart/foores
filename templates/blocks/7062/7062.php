@@ -34,14 +34,14 @@ $less->compileFile('less/7062.less', 'css/7062.css');
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/datepicker.min.js" ></script>
-    <script type="text/javascript">
+    <script >
         $(function () {
             $("#datepicker").datepicker();
         });
     </script>
 
 
-    <script type="text/javascript">
+    <script >
         $(document).ready(function () {
             $("#text-require").click(function () {
                 $(".error-mes1").css('color', 'red');

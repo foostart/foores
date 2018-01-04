@@ -36,10 +36,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="contact-form-inner">
                         <ul class="list-inline text-center tabNav" role="tablist">
                             <li role="presentation" class="active">
-                                <a href="#book" aria-controls="home" role="tab" data-toggle="tab">Book</a>
+                                <a href="#book"  role="tab" data-toggle="tab">Book</a>
                             </li>
                             <li role="presentation">
-                                <a href="#write" aria-controls="profile" role="tab" data-toggle="tab">Write</a>
+                                <a href="#write"  role="tab" data-toggle="tab">Write</a>
                             </li>
                         </ul>
 
@@ -55,13 +55,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="inline-group row">
                                             <div class="field date">
                                                 <!-- add class error show error -->
-                                                <label for="name">Date</label>
+                                                <label>Date</label>
                                                 <input id="datepicker" type="text" placeholder="Select Date" />
                                                 <div class="error-mes">This is a required field.</div>
                                             </div>
                                             <div class="field time">
                                                 <!-- add class error show error -->
-                                                <label for="email">Time</label>
+                                                <label >Time</label>
                                                 <select>
                                                     <option>1:00am</option>
                                                     <option>2:00am</option>
@@ -92,18 +92,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
 
                                             <div class="field size">
-                                                <label for="phone">Party size</label>
+                                                <label >Party size</label>
                                                 <input type="text" value="1" />
                                                 <div class="error-mes">This is a required field.</div>
                                             </div>
                                         </div>
                                         <div class="field">
-                                            <label for="message">Your name </label>
+                                            <label >Your name </label>
                                             <input type="text" placeholder="Your Name" />
                                             <div class="error-mes">This is a required field.</div>
                                         </div>
                                         <div class="field">
-                                            <label for="message">EMAIL ADDRESS </label>
+                                            <label >EMAIL ADDRESS </label>
                                             <input type="text" placeholder="Email Address" />
                                             <div class="error-mes">This is a required field.</div>
                                         </div>
@@ -126,24 +126,24 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="inline-group row">
                                             <div class="field required col-sm-4">
                                                 <!-- add class error show error -->
-                                                <label for="name">Name</label>
-                                                <input type="text" id="text-require" />
+                                                <label>Name</label>
+                                                <input type="text" />
                                                 <div class="error-mes error-mes1">This is a required field.</div>
                                             </div>
                                             <div class="field required col-sm-4">
                                                 <!-- add class error show error -->
-                                                <label for="email">Email</label>
-                                                <input type="email"  id="text-require" />
+                                                <label >Email</label>
+                                                <input type="email"  />
                                                 <div class="error-mes error-mes1">This is a required field.</div>
                                             </div>
                                             <div class="field col-sm-4">
-                                                <label for="phone">Phone</label>
+                                                <label >Phone</label>
                                                 <input type="tel" />
                                             </div>
                                         </div>
                                         <div class="field required">
-                                            <label for="message">Message </label>
-                                            <textarea  id="text-require" ></textarea>
+                                            <label >Message </label>
+                                            <textarea></textarea>
                                             <div class="error-mes error-mes1">This is a required field.</div>
                                         </div>
                                         <input class="btn-form" type="button" value="Send" />
