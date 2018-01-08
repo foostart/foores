@@ -97,13 +97,11 @@ body {
 }
 .type-25 .time-col {
   padding: 50px 0 30px;
-  padding-left: 50px;
 }
 .type-25 .con-col {
-  padding-top: 60px;
-  padding-right: 60px;
+  margin-top: 60px !important;
 }
-.type-25 .con-col h3 {
+.type-25 .time-col h3 {
   padding-top: 30px;
 }
 .type-25 .contact-col .large-icon {
@@ -310,17 +308,36 @@ body {
   left: 0;
   right: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
+  .type-25 .contact-col 
+        .title,
+  .type-25 .type-25 .time-col .title {
+    text-align: center !important;
+  }
   .type-25 .contact-form {
-    margin-top: 0;
+    margin-top: 28px;
     height: 655px;
     wight: 630px;
   }
   .type-25 .wrap-map {
     margin-top: 0px;
   }
+  .type-25 .form-book .form-header .form-title {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.6em;
+    margin-top: 0;
+  }
+  .type-25 input[type="text"],
+  .type-25 input[type="email"],
+  .type-25 input[type="tel"],
+  .type-25 textarea,
+  .type-25 select {
+    padding: 9px;
+    margin-bottom: 0;
+  }
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   .type-25 .form {
     padding-left: 25px;
     padding-right: 25px;
