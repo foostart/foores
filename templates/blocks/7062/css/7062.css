@@ -316,7 +316,7 @@ body {
   }
   .type-25 .contact-form {
     margin-top: 28px;
-    height: 655px;
+    height: 786px;
     wight: 630px;
   }
   .type-25 .wrap-map {
@@ -335,6 +335,10 @@ body {
   .type-25 select {
     padding: 9px;
     margin-bottom: 0;
+  }
+  textarea {
+    height: 100px !important;
+    resize: none;
   }
 }
 @media (max-width: 480px) {

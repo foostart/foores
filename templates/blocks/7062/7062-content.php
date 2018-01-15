@@ -176,18 +176,14 @@ $url_path = str_replace('\\', '/', $url_path);
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDwaeroZWoFDb7a6nXtexnqA-mwgBqoeYM'></script>
         <div style='overflow:hidden'>
             <div id='gmap_canvas'></div>
-            <style>
-                #gmap_canvas img {
-                    max-width: none!important;
-                    background: none!important
-                }
-            </style>
+
         </div>
         <a href='http://maps-generator.com/'>add google map</a>
-        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=87f441691c59e42c1f8984d69e623db8714cf424'></script>
-        <script type='text/javascript'>function init_map() { var myOptions = { zoom: 16, center: new google.maps.LatLng(40.712784, - 74.005941), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(40.712784, - 74.005941), icon: '/images/maker.png' }); infowindow = new google.maps.InfoWindow({ content: '<strong>Osteria Francescana</strong><br>Open<br>Tuesday<br>Saturday<br>Lunch and Dinner' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
+        <script  src='https://embedmaps.com/google-maps-authorization/script.js?id=87f441691c59e42c1f8984d69e623db8714cf424'></script>
+        <script >function init_map() { var myOptions = { zoom: 16, center: new google.maps.LatLng(40.712784, - 74.005941), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(40.712784, - 74.005941), icon: '/images/maker.png' }); infowindow = new google.maps.InfoWindow({ content: '<strong>Osteria Francescana</strong><br>Open<br>Tuesday<br>Saturday<br>Lunch and Dinner' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
 
     </div>
+   
 
 
 </div>

@@ -26,29 +26,27 @@ $less->compileFile('less/7062.less', 'css/7062.css');
         <script src="<?php echo $url_path ?>/js/modul-0-splash.js" ></script>
         <link rel='stylesheet' id='fp_res_jquery_ui_style-css' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.min.css' type='text/css' media='all' />
 
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/datepicker.min.js" ></script>
+        <script >
+            $(function () {
+                $("#datepicker").datepicker();
+            });
+        </script>
 
+
+        <script >
+            $(document).ready(function () {
+                $("#text-require").click(function () {
+                    $(".error-mes1").css('color', 'red');
+                    $(".error-mes1").show();
+                });
+
+            });
+        </script>
     </head> 
     <body>
         <?php include './7062-content.php'; ?>
     </body>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/datepicker.min.js" ></script>
-    <script >
-        $(function () {
-            $("#datepicker").datepicker();
-        });
-    </script>
-
-
-    <script >
-        $(document).ready(function () {
-            $("#text-require").click(function () {
-                $(".error-mes1").css('color', 'red');
-                $(".error-mes1").show();
-            });
-
-        });
-    </script>
 
 </html>
