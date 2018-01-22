@@ -218,56 +218,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div><!-- kết thúc -->
 
-            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                <div class="fb_khung">
-                    <div class="post-media">
-                        <div class="fb_slider slider single-item" role="toolbar"">
-                            <a href="#" title="How to make sushi" class="has-border sushi">
-                                <img src="<?php echo $url_path ?>/images/anh6-1.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
-                            </a>
-
-                            <a href="#" title="How to make sushi" class="has-border sushi">
-                                <img src="<?php echo $url_path ?>/images/anh6-2.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
-                            </a>
-                            <a href="#" title="How to make sushi" class="has-border sushi">
-                                <img src="<?php echo $url_path ?>/images/anh6-3.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
-                            </a>
-                            <a href="#" title="How to make sushi" class="has-border sushi">
-                                <img src="<?php echo $url_path ?>/images/anh6-3.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
-                            </a>
-                        </div>
-                    </div>
-                    <div class="post-content">
-                        <div class="fb_content">
-                            <h4>
-                                <a href="" title="How to make sushi" class="entry-title">How to make sushi</a>
-                            </h4>
-                            <div class="post-actions">
-                                <div class="post-author meta-author">
-                                    <a href="">
-                                        <span class="icon-pen">
-                                            <i class="fa fa-pencil" aria-hidden="true"></i>
-                                        </span>
-                                        Jon Madison
-                                    </a>
-                                </div>
-                                <div class="post-date meta-author">
-                                    <a href="" title="How to make sushi">
-                                    23 Mar, 2014</a>
-                                </div>
-                                <div class="comment-count">
-                                    <a href="">
-                                        <span>
-                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                        </span>
-                                        0
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- kết thúc -->
+          
 
             <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
                 <div class="fb_khung">

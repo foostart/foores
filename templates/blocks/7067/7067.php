@@ -26,17 +26,17 @@ $less->compileFile('less/7067.less', 'css/7067.css');
         <link rel="stylesheet" href="<?php echo $url_path ?>/font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+        <script  src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="<?php echo $url_path ?>/slick/slick.min.js"></script>
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/7067.js"></script>
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        
+        <script src="<?php echo $url_path ?>/js/7067.js"></script>
+        <script  src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+
     </head> 
 
     <body> 
         <?php include '../7067/7067-content.php'; ?>
-        <script type="text/javascript">
+        <script >
             jQuery.noConflict();
         </script>
     </body>
