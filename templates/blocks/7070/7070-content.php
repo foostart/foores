@@ -64,7 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 <div class="col-md-4">
                     <div class="img-content">
-                        <a href="#" class="href"><img src="images/blog1.jpg"></a>
+                        <a href="#" class="href"><img src="images/blog1.jpg" alt="img-reponsive"></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -139,7 +139,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="col-md-4">
                     <div class="img-content">
-                        <a href="#"><img src="images/blog2.jpg"></a>
+                        <a href="#"><img src="images/blog2.jpg" alt="img-reponsive"></a>
                     </div>
                 </div>
                 <div class="col-md-6">

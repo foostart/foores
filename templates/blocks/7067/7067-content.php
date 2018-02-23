@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="post-media">
                         <div class="fb_thumbnail">
                             <a href="#" title="Which Lamb is the Best: American, Australian or New Zealand?" class="has-border">
-                                <img src="<?php echo $url_path ?>/images/anh1.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
+                                <img src="<?php echo $url_path ?>/images/anh1.jpg "  alt = "img-reponsive" class="attachment-full size-full img-responsive">  
                             </a>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="post-media">
                         <div class="fb_thumbnail">
                             <a href="#" title="The Caipirinha Is The Brazilian Cocktail You’ve Been Too Afraid To Pronounce" class="has-border">
-                                <img src="<?php echo $url_path ?>/images/anh2.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
+                                <img src="<?php echo $url_path ?>/images/anh2.jpg " alt="reponsive-img"  class="attachment-full size-full img-responsive">  
                             </a>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="post-media">
                         <div class="fb_thumbnail">
                             <a href="#" title="The Plum Recipes That’ll Make You Fall In Love With This Stone Fruit" class="has-border">
-                                <img src="<?php echo $url_path ?>/images/anh3.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
+                                <img src="<?php echo $url_path ?>/images/anh3.jpg " alt="img-reponsnive"   class="attachment-full size-full img-responsive">  
                             </a>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="post-media">
                         <div class="fb_thumbnail">
                             <a href="#" title="24 Reasons To Seek Out Fresh Figs">
-                                <img src="<?php echo $url_path ?>/images/anh4.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
+                                <img src="<?php echo $url_path ?>/images/anh4.jpg " alt="img-reponsnive" class="attachment-full size-full img-responsive">  
                             </a>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="post-media">
                         <div class="fb_thumbnail">
                             <a href="#" title="40 Truly Amazing Blueberry Recipes YUM!" class="has-border">
-                                <img src="<?php echo $url_path ?>/images/anh5.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
+                                <img src="<?php echo $url_path ?>/images/anh5.jpg "  alt="img-reponsnive"  class="attachment-full size-full img-responsive">  
                             </a>
                         </div>
                     </div>
@@ -225,7 +225,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="post-media">
                         <div class="fb_thumbnail">
                             <a href="#" title="How to crimp a pie" class="has-border">
-                                <img src="<?php echo $url_path ?>/images/anh7.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
+                                <img src="<?php echo $url_path ?>/images/anh7.jpg " alt="img-reponsnive" class="attachment-full size-full img-responsive">  
                             </a>
                         </div>
                     </div>
@@ -266,7 +266,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="post-media">
                         <div class="fb_thumbnail">
                             <a href="#" title="The Basil Recipes That Define Summer" class="has-border">
-                                <img src="<?php echo $url_path ?>/images/anh3.jpg " alt="reponsive-img" width="360px" heigth="267px" class="attachment-full size-full img-responsive">  
+                                <img src="<?php echo $url_path ?>/images/anh3.jpg " alt="img-reponsnive" class="attachment-full size-full img-responsive">  
                             </a>
                         </div>
                     </div>
