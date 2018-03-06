@@ -49,6 +49,11 @@
 .type-7054 .img-products {
   padding: 25px 0;
 }
+.type-7054 .img-products p {
+  color: #6b6b6b;
+  font-style: normal;
+  font-size: 14px;
+}
 .type-7054 .img-products .menu-products {
   position: relative;
   overflow: hidden;
