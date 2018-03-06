@@ -29,6 +29,8 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <div class="row">
             <div class="col-md-4">
+
+                 <!--- 1 ---->
                 <div class="img-products">
                     <div class="menu-products">
                         <img src="../7054/images/8.jpg" alt="img-reponsive">
@@ -41,86 +43,94 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
+                
+                <br>
+                
+                <!--- 2 ---->
                 <div class="img-products">
                     <div class="menu-products">
-                        <img src="../7054/images/Desserts-10-700x469.jpg" alt="img-reponsive">
-                        <span class="pd-price">$5</span>
-                    </div>    
-                    <div class="menu_info">
-                        <div class="fp_inner_box">
-                            <h3>Traditional pancakes with maple syrup butter &amp; berry jam</h3>
-                        </div>
-                    </div>
-                    <p>Milk, eggs, strawberries, butter, maple syrup</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="img-products">
-                    <div class="menu-products">
-                        <img src="../7054/images/Desserts-11-800x535.jpg" alt="img-reponsive">
-                        <span class="pd-price">$7</span>
-                    </div>    
-                    <div class="menu_info">
-                        <div class="fp_inner_box">
-                            <h3>Fig and lemon cake</h3>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-        </div>  
-        <div class="row">
-            <div class="col-md-4">
-                <div class="img-products">
-                    <div class="menu-products">
-                        <img src="../7054/images/8.jpg" alt="img-reponsive">
-                        <span class="pd-price">$8</span>
+                        <img src="../7054/images/Desserts-3-800x535.jpg" alt="img-reponsive">
+                        <span class="pd-price">$4</span>
                     </div>    
 
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Antioxidant Fruits Mix</h3>
+                            <h3>Pain au chocolat</h3>
+                            <p>Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for an impressive and indulgent addition to ...</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class="col-md-4">
+                <!--- 3 ---->
                 <div class="img-products">
                     <div class="menu-products">
                         <img src="../7054/images/Desserts-12-700x469.jpg" alt="img-reponsive">
                         <span class="pd-price">$5</span>
                     </div>    
+
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Traditional pancakes with maple syrup butter &amp; berry jam</h3>
+                            <h3>Traditional pancakes with maple syrup butter & berry jam</h3>
+                            <p>Milk, eggs, strawberries, butter, maple syrup</p>
                         </div>
                     </div>
-                    <p>Milk, eggs, strawberries, butter, maple syrup</p>
                 </div>
-            </div>
-            <div class="col-md-4">
+                
+                <br>
+                
+                <!--- 4 ---->
                 <div class="img-products">
                     <div class="menu-products">
-                        <img src="../7054/images/Sandwiches-1-800x535.jpg" alt="img-reponsive">
+                        <img src="../7054/images/Desserts-11-800x535.jpg" alt="img-reponsive">
+                        <span class="pd-price">$5</span>
+                    </div>    
+
+                    <div class="menu_info">
+                        <div class="fp_inner_box">
+                            <h3>Blueberry banana pancakes</h3>
+                            <p>Banana, almond milk, vanilla, cinnamon, blueberry topping</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!--- 5 ---->
+                <div class="img-products">
+                    <div class="menu-products">
+                        <img src="../7054/images/Desserts-10-700x469.jpg" alt="img-reponsive">
                         <span class="pd-price">$7</span>
                     </div>    
+
                     <div class="menu_info">
                         <div class="fp_inner_box">
                             <h3>Fig and lemon cake</h3>
                         </div>
                     </div>
+                </div>
+                
+                <br>
+                
+                <!--- 6 ---->
+                <div class="img-products">
+                    <div class="menu-products">
+                        <img src="../7054/images/Sandwiches-1-800x535.jpg" alt="img-reponsive">
+                        <span class="pd-price">$7</span>
+                    </div>    
 
+                    <div class="menu_info">
+                        <div class="fp_inner_box">
+                            <h3>Sun-Dried Tomato Bruschetta</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-
         </div>  
+
+        
+        </div>
     </div>
 </div>
 
