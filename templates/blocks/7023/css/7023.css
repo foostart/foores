@@ -2,10 +2,6 @@ a,
 a:hover {
   text-decoration: none;
 }
-ul {
-  list-style: none;
-  padding: 0;
-}
 body {
   overflow-x: hidden;
 }
@@ -16,6 +12,7 @@ body {
   margin: 0 50px;
 }
 .type-7023 .content .quote-text {
+  cursor: pointer;
   overflow: hidden;
   text-align: center;
 }
@@ -26,12 +23,8 @@ body {
   margin-top: 0;
   margin-bottom: 0.6em;
   color: #000000;
-  font: normal 30px Libre Baskerville;
+  font: normal 25px Libre Baskerville;
   vertical-align: baseline;
-  -webkit-margin-before: 1.3em;
-  -webkit-margin-after: 0.6em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
 }
 .type-7023 .content .quote-text .quote-title-wrapper {
   margin: 0;
@@ -85,21 +78,6 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-.type-7023 .content [class^="icon-"],
-.type-7023 .content [class*=" icon-"] {
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.type-7023 .content .icon-star-half:before {
-  content: "\e9d8";
-}
 @media screen and (max-width: 480px) {
   .type-7023 .content .quote-text .quote-summary {
     margin-top: 0;
@@ -107,9 +85,5 @@ body {
     color: #000000;
     font: normal 20px Libre Baskerville;
     vertical-align: baseline;
-    -webkit-margin-before: 1.3em;
-    -webkit-margin-after: 0.6em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
   }
 }

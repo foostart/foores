@@ -113,8 +113,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-        <div class="space img-bottom">
-            <img src="images/ornament-bottom.png" alt="img-reponsive">
-        </div>
+        
     </div>
 </div>

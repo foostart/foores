@@ -1,5 +1,9 @@
-.type-7021{
-    .cone-midle{
+@fontsize-big: 24px;
+@fontsize-small: 16px;
+@color: #cb7152;
+.type-7021 {
+    position: relative;
+    .cone {
         display: block;
         background: #fff;
         height: 26px;
@@ -9,123 +13,75 @@
         width: 156px;
         position: absolute;
         left: 50%;
-        margin-top:-25px;
+    }
+    .cone-midle {
+        margin-top: -25px;
         margin-left: -78px;
+        z-index: 10;
+        bottom: 0;
+    }
+
+    .cone-bottom {
+        margin-left: -78px;
+        transform: rotate(180deg);
         z-index: 10;
     }
 
-    .cone-top{
-        display: block;
-        background: #f5f3f0;
-        height: 26px;
-        content: " ";
-        -webkit-mask-image: url(../images/ornament-top.svg);
-        mask: url(../images/ornament-top.svg);
-        width: 156px;
-        position: absolute;
-        left: 50%;
-        margin-top:-25px;
+    .cone-top {
         margin-left: -78px;
         z-index: 10;
+        top: -26px;
     }
 
-    .cone-bottom{
 
-        display: block;
-        background: #fff;
-        height: 26px;
-        content: " ";
-        -webkit-mask-image: url(../images/ornament-top.svg);
-        mask: url(../images/ornament-top.svg);
-        width: 156px;
-        position: absolute;
-        margin-bottom: -25px;
-        left: 50%;
-        margin-left: -78px;
-        z-index: 10;
-    }
-
-    .vamtam-grid-top{
-        background-color:#F5F3F0;
-        padding-top:60px;
-        padding-bottom:70px;
-        padding-left:225px;
-        padding-right:225px;
-
-        .grid-dot p{
+    .vamtam-grid-top {
+        position: relative;
+        background-color: #F5F3F0;
+        padding: 60px 225px 70px 225px;
+        .grid-dot p {
             text-align: center;
-            font-size: 16px;
+            font-size: fontsize-small;
             line-height: 24px;
         }
-
-        .grid-text p{
-            text-align: center;
-            font-style: normal;
-            font-variant-ligatures: normal;
-            font-variant-caps: normal;
-            font-variant-numeric: normal;
-            font-weight: normal;
-            font-stretch: normal;
-            font-size: 24px;
-            line-height: 32px;
-            font-family: "Libre Baskerville";
+        .grid-text {
+            padding: 9px 0;
+            p {
+                text-align: center;
+                font-size: @fontsize-big;
+                line-height: 32px;
+                font-family: "Libre Baskerville";
+            }
         }
+
     }
 
-    .vamtam-blank-space{
-        height:20px
-    }
-
-    .vamtam-grid-bottom{
-        background-color:#ffffff;
-        padding-top:80px;
-        padding-bottom:80px;
-
-        .limit-wrapper{
-
-            .col-sm-12{
-                padding-top:0.05px;
-                padding-bottom:0.05px;
-                position: relative;
-                float: left;
-                box-sizing: border-box;
-                display: block;
-                padding: 0 16px;
-
-                .color-accent-1{
-                    margin-top: 0.6em;
-                    margin-bottom: 0.6em;
-                    text-align: center;
-                    color: #cb7152;
-                    font-style: normal;
-                    font-variant-ligatures: normal;
-                    font-variant-caps: normal;
-                    font-variant-numeric: normal;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    font-size: 24px;
-                    line-height: 32px;
-                    font-family: "Libre Baskerville";
-                }
-
-                p{
-                    text-align: center;
-                    color: #333;
-                    margin: 1em 0;
-                    font-style: normal;
-                    font-variant-ligatures: normal;
-                    font-variant-caps: normal;
-                    font-variant-numeric: normal;
-                    font-weight: normal;
-                    font-stretch: normal;
-                    font-size: 16px;
-                    line-height: 24px;
-                    font-family: "Varela Round";
-                }
+    .vamtam-grid-bottom {
+        background-color: #ffffff;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .limit-wrapper {
+            .color-accent-1 {
+                margin-top: 0.6em;
+                margin-bottom: 0.6em;
+                text-align: center;
+                color: @color;
+                font-size: @fontsize-big;
+                line-height: 32px;
+                font-family: "Libre Baskerville";
+            }
+            p {
+                text-align: center;
+                color: #333;
+                margin: 1em 0;
+                font-style: normal;
+                font-size: fontsize-small;
+                line-height: 24px;
+                font-family: "Varela Round";
             }
         }
     }
 }
+
 @media screen and (max-width: 480px) {
     .vamtam-grid-top {
         background-color: #F5F3F0;
@@ -134,10 +90,7 @@
         padding-left: 50px !important;
         padding-right: 50px !important;
     }
-    .type-7021 .vamtam-grid-top .grid-text p{
-
-        font-size: 15px ;
+    .type-7021 .vamtam-grid-top .grid-text p {
+        font-size: 15px;
     }
 }
-
-

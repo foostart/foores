@@ -8,18 +8,15 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-7027">
-    <div class="blank-space"></div>
-    <div class="hoangnghiep">
-        <div class="limit-wrapper">
-            <div class="extended-column-inner">
+    <div class="type-7027">
+        <div class="hoangnghiep">
+            <div class="limit-wrapper">
                 <div class="container">
-                    <div class="row  has-nomargin-column">
+                    <div class="row ">
                         <div class="col-md-6 left"></div>
-                        <div class="row">
-                            <div class="col-md-6 right">
-                                <span class="blank-space"></span>
-                                <div><img src="<?php echo $url_path ?>/images/sushi-icon-4.1.svg" alt="sushi-icon-4.1"></div>
+                        <div class="col-md-6 right">
+                               
+                                <div class="img-banner"><img src="<?php echo $url_path ?>/images/sushi-icon-4.1.svg" alt="sushi-icon-4.1"></div>
                                 <h2>Massimo Bottura</h2>
                                 <h6 class="font-color">Our Chef</h6>
                                 <p class="font-p">“First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or for the past 15 years in front of the camera on my Food Network cooking shows. Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
@@ -28,11 +25,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <span class="blank-space "></span>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
-    <div class="blank-space"></div>
-</div>

@@ -16,10 +16,6 @@
   border-top: 1px solid;
   color: #EDEDED;
 }
-.type-7024 .m24-container .grid-1-1 .vamtam-blank-space {
-  height: 60px;
-  display: block;
-}
 .type-7024 .m24-container .limit-wrapper {
   z-index: 555;
   display: block;
@@ -57,13 +53,6 @@
   border: 0;
   vertical-align: baseline;
 }
-.type-7024 .m24-container .limit-wrapper .grid-2-3 .carousel-indicators {
-  bottom: -50px;
-}
-.type-7024 .m24-container .limit-wrapper .grid-2-3 .carousel-indicators li {
-  background: #000000;
-  border: 1px #000000 solid;
-}
 .type-7024 .m24-container .limit-wrapper .grid-2-3 p {
   text-align: center;
   margin: 1em 0;
@@ -73,25 +62,14 @@
   border: 0;
   vertical-align: baseline;
 }
-.type-7024 .m24-container .limit-wrapper .grid-2-3 .vamtam-blank-space {
-  height: 20px;
-  display: block;
-}
 .type-7024 .m24-container .limit-wrapper .grid-2-3 .logos {
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .type-7024 .m24-container .limit-wrapper .grid-2-3 .logos li {
   list-style: none;
 }
 .type-7024 .m24-container .limit-wrapper .grid-2-3 .logos li img {
   margin: 0 auto;
-}
-.type-7024 .m24-container .limit-wrapper .grid-2-3 .logos .img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.type-7024 .m24-container .limit-wrapper .grid-2-3 ul {
-  margin-top: 0;
-  margin-bottom: 10px;
 }

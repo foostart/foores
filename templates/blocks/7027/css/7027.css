@@ -1,7 +1,3 @@
-.type-7027 .vamtam-blank-space {
-  height: 60px;
-  display: block;
-}
 .type-7027 .hoangnghiep {
   background-color: #22272d;
   padding-top: 0.05px;
@@ -26,6 +22,9 @@
 }
 .type-7027 .hoangnghiep .right {
   text-align: center;
+}
+.type-7027 .hoangnghiep .right .img-banner {
+  margin-top: 30px;
 }
 .type-7027 .hoangnghiep .right img {
   width: 200px;

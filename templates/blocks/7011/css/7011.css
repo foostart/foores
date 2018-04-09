@@ -2,13 +2,6 @@ a,
 a:hover {
   text-decoration: none;
 }
-ul {
-  list-style: none;
-  padding: 0;
-}
-body {
-  overflow-x: hidden;
-}
 footer {
   position: relative;
   background-color: #23282f;
@@ -22,12 +15,9 @@ footer .m11-title-footer h2 {
   text-align: center;
   padding-top: 85px;
   padding-bottom: 45px;
+  margin: 0;
 }
-footer .m11-col-footer {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-footer .m11-col-footer h4 {
+footer h4 {
   border: none;
   text-align: center;
   padding: 0;
@@ -35,22 +25,22 @@ footer .m11-col-footer h4 {
   font: normal 24px/30px Libre Baskerville !important;
   color: #ffffff !important;
 }
-footer .m11-col-footer p {
+footer p {
   line-height: 170%;
   margin-bottom: 0;
   text-align: center;
 }
-footer .m11-col-footer .c1 {
+footer .c1 {
   margin-bottom: 50px;
   text-align: center;
 }
-footer .m11-col-footer .c1 .c1-btn {
+footer .c1 .c1-btn {
   display: inline-block;
   font: normal 16px/24px Varela Round;
   color: #2c2c2c;
   margin-bottom: 0;
 }
-footer .m11-col-footer .c1 .c1-btn a {
+footer .c1 .c1-btn a {
   margin-top: 10px;
   position: relative;
   text-decoration: none;
@@ -60,7 +50,7 @@ footer .m11-col-footer .c1 .c1-btn a {
   overflow: hidden;
   transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
 }
-footer .m11-col-footer .c1 .c1-btn a:after {
+footer .c1 .c1-btn a:after {
   background: #cb7152;
   content: '';
   position: absolute;
@@ -71,7 +61,7 @@ footer .m11-col-footer .c1 .c1-btn a:after {
   left: 0;
   transition: all 0.3s ease-out !important;
 }
-footer .m11-col-footer .c1 .c1-btn span {
+footer .c1 .c1-btn span {
   padding: 10px 24px;
   display: inline-block;
   width: 100%;
@@ -79,7 +69,7 @@ footer .m11-col-footer .c1 .c1-btn span {
   color: #ffffff;
   font-size: 14px;
 }
-footer .m11-col-footer .c1 .c1-btn span:before {
+footer .c1 .c1-btn span:before {
   color: #fff;
   position: absolute;
   content: "Buy this Delicious Theme";
@@ -91,7 +81,7 @@ footer .m11-col-footer .c1 .c1-btn span:before {
   padding: 10px 24px;
   background: #cb7152;
 }
-footer .m11-col-footer .c1 .c1-btn a:after {
+footer .c1 .c1-btn a:after {
   background: #cb7152;
   content: '';
   position: absolute;
@@ -102,17 +92,17 @@ footer .m11-col-footer .c1 .c1-btn a:after {
   left: 0;
   transition: all 0.3s;
 }
-footer .m11-col-footer .c1 .c1-btn a:hover .span-hover {
+footer .c1 .c1-btn a:hover .span-hover {
   transform: translateY(-100%);
   transition: all 0.3s;
 }
-footer .m11-col-footer .c1 p:hover a:after {
+footer .c1 p:hover a:after {
   height: 100%;
 }
-footer .m11-col-footer .c2 .c2-input {
+footer .c2 .c2-input {
   margin-bottom: 10px;
 }
-footer .m11-col-footer .c2 .c2-input [type=email] {
+footer .c2 .c2-input [type=email] {
   outline: none;
   display: inline-block;
   vertical-align: top;
@@ -133,7 +123,7 @@ footer .m11-col-footer .c2 .c2-input [type=email] {
   border: solid 1px rgba(255,255,255,0.3);
   margin-right: -5px;
 }
-footer .m11-col-footer .c2 .c2-input input[type=submit] {
+footer .c2 .c2-input input[type=submit] {
   font-size: 13px;
   line-height: 18px;
   color: #fff;
@@ -147,44 +137,44 @@ footer .m11-col-footer .c2 .c2-input input[type=submit] {
   border-bottom-right-radius: 50px;
   width: 33%;
 }
-footer .m11-col-footer .c2 .c2-input input[type=submit]:hover {
+footer .c2 .c2-input input[type=submit]:hover {
   background: #cb7152 !important;
   transition: all .3s ease-out;
 }
-footer .m11-col-footer .c2 .c2-input p {
+footer .c2 .c2-input p {
   font-size: 11px;
   color: #6b6b6b;
   text-align: center;
   margin: 10px 0 20px 0;
 }
-footer .m11-col-footer .c2 .c2-icon {
+footer .c2 .c2-icon {
   text-align: center;
 }
-footer .m11-col-footer .c2 .c2-icon a {
+footer .c2 .c2-icon a {
   transition: all .3s ease;
 }
-footer .m11-col-footer .c2 .c2-icon a span {
+footer .c2 .c2-icon a span {
   font-size: 22px !important;
   color: #cb7152;
   padding: 0.3em;
   border-radius: 20em;
   line-height: 1em;
 }
-footer .m11-col-footer .c2 .c2-icon a span:hover {
+footer .c2 .c2-icon a span:hover {
   color: #ffffff;
   transition: all .3s ease-out;
 }
-footer .m11-col-footer .c3 {
+footer .c3 {
   text-align: center;
 }
-footer .m11-col-footer .c3 p {
+footer .c3 p {
   line-height: 170%;
   margin-bottom: 10px;
 }
-footer .m11-col-footer .c3 a {
+footer .c3 a {
   color: #cb7152;
 }
-footer .m11-col-footer .c3 a:hover {
+footer .c3 a:hover {
   color: #ffffff;
   transition: all .3s ease-out;
 }

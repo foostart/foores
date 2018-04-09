@@ -1,61 +1,53 @@
-
-a, a:hover{
+a,
+a:hover {
     text-decoration: none;
 
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-}
-body{
+body {
     overflow-x: hidden;
 }
 
 
-.type-7023{
+.type-7023 {
     font: normal 16px/24px Varela Round;
 
-    .content{
+    .content {
 
         margin: 0 50px;
 
-        .quote-text{
+        .quote-text {
+            cursor: pointer;
             overflow: hidden;
             text-align: center;
             .icon-star-half:before {
                 content: "\e9d8";
             }
 
-            .quote-summary{
+            .quote-summary {
                 margin-top: 0;
                 margin-bottom: 0.6em;
                 color: #000000;
-                font: normal 30px Libre Baskerville;
+                font: normal 25px Libre Baskerville;
                 vertical-align: baseline;
-                -webkit-margin-before: 1.3em;
-                -webkit-margin-after: 0.6em;
-                -webkit-margin-start: 0px;
-                -webkit-margin-end: 0px;
-
             }
 
-            .quote-title-wrapper{
-                margin:0;
+            .quote-title-wrapper {
+                margin: 0;
             }
-            .the-title{
-                font-family:inherit;
+            .the-title {
+                font-family: inherit;
                 font-size: 10px;
                 color: #6b6b6b;
                 font-weight: 600;
             }
-            .quote-title{
+            .quote-title {
                 font-size: 10px;
                 text-align: center;
                 line-height: 24px;
                 margin: 0 0 15px 0;
             }
-            .icon{
+            .icon {
                 font-family: "icommon";
                 font-size: 16px;
                 letter-spacing: 1px;
@@ -69,8 +61,8 @@ body{
         }
 
 
-        .owl-carousel{
-            .owl-page{
+        .owl-carousel {
+            .owl-page {
                 width: 13px;
                 height: 13px;
                 border: 1px solid #000000;
@@ -81,17 +73,17 @@ body{
                 display: inline-block;
                 -webkit-transition: background 0.5s;
             }
-            .owl-page:hover{
+            .owl-page:hover {
 
                 border: 3px solid rgb(203, 113, 82);
 
             }
-            .owl-pagination .active{
+            .owl-pagination .active {
                 background-color: rgb(203, 113, 82);
-                border-color:rgb(203, 113, 82); 
+                border-color: rgb(203, 113, 82);
             }
 
-            .owl-wrapper-outer{
+            .owl-wrapper-outer {
                 margin-bottom: 20px !important;
 
             }
@@ -100,34 +92,15 @@ body{
 
         @font-face {
             font-family: 'icomoon';
-            src:
-                url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.ttf?sphd9') format('truetype'),
-                url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.woff?sphd9') format('woff'),
-                url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.svg?sphd9#icomoon') format('svg');
+            src: url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.ttf?sphd9') format('truetype'),
+            url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.woff?sphd9') format('woff'),
+            url('https://i.icomoon.io/public/temp/8b554102da/UntitledProject/icomoon.svg?sphd9#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
-        }
-
-        [class^="icon-"], [class*=" icon-"] {
-            /* use !important to prevent issues with browser extensions that change fonts */
-            font-family: 'icomoon' !important;
-            speak: none;
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            text-transform: none;
-            line-height: 1;
-
-            /* Better Font Rendering =========== */
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .icon-star-half:before {
-            content: "\e9d8";
         }
     }
 }
+
 @media screen and (max-width: 480px) {
     .type-7023 .content .quote-text .quote-summary {
         margin-top: 0;
@@ -135,9 +108,5 @@ body{
         color: #000000;
         font: normal 20px Libre Baskerville;
         vertical-align: baseline;
-        -webkit-margin-before: 1.3em;
-        -webkit-margin-after: 0.6em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
     }
 }
