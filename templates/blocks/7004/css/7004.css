@@ -79,10 +79,9 @@
 }
 .type-7004 .type-7004_2 .content1 .m4-limit-services-title a {
   text-decoration: none;
-  color: black;
-  font: normal 29px/24px Varela Round;
+  color: #000000;
+  font: normal 22px/24px Varela Round;
   transition: all 0.2s;
-  outline: none;
 }
 .type-7004 .type-7004_2 .content1 .m4-limit-services-title a:hover {
   color: #cb7152;
@@ -113,7 +112,4 @@
     font-size: 17px;
     text-align: center;
   }
-}
-.type-7004 .type-7004_2 .content1 .m4-limit-services-title a {
-  font: normal 22px/24px Varela Round;
 }

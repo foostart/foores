@@ -6,16 +6,6 @@
 .type-7067 img.attachment-full.size-full.img-responsive {
   width: 100%;
 }
-.type-7067 .slick-prev {
-  left: 100px;
-  content: '<';
-  z-index: 2;
-}
-.type-7067 .slick-next {
-  right: 100px;
-  content: '>';
-  z-index: 2;
-}
 .type-7067 .title {
   text-align: center;
   padding: 30px 0px 0px 0px;
@@ -26,7 +16,6 @@
 }
 .type-7067 .full {
   padding-top: 30px;
-  width: 100%;
   cursor: -webkit-grab;
   cursor: -o-grab;
   cursor: -ms-grab;
@@ -46,15 +35,12 @@
   transition: transform 0.5s;
   transform: scale(1.10);
 }
-.type-7067 .fb_khung .post-media .fb_slider img {
-  transition: transform 0.5s;
-  transform: scale(1.10);
-}
 .type-7067 .fb_khung .fb_content h4 {
   font-size: 22px;
   padding: 0 25px;
 }
 .type-7067 .fb_khung .fb_content a {
+  text-decoration: none;
   color: #000;
   line-height: 1.4em;
   margin-bottom: 15px;
@@ -96,36 +82,4 @@
 .type-7067 .fb_khung:hover .fb_slider img {
   opacity: 1;
   transform: scale(1);
-}
-.type-7067 .sushi {
-  padding: 0 !important;
-}
-.type-7067 .slick-slide {
-  padding: 15px;
-}
-.type-7067 .slick-dots {
-  display: none !important;
-}
-.type-7067 .slick-prev {
-  left: -11px;
-}
-.type-7067 .slick-next {
-  right: 27px;
-}
-.type-7067 .slick-prev:hover:before,
-.type-7067 .slick-next:hover:before {
-  color: #cb7152;
-}
-.type-7067 .slick-prev:before,
-.type-7067 .slick-next:before {
-  font-size: 60px;
-}
-@media all and (max-width: 768px) {
-  .type-7067 .full {
-    padding-top: 0;
-    margin: 0;
-  }
-  .slick-track {
-    margin: 0 15px;
-  }
 }

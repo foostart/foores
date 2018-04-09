@@ -27,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row ">
             <div class="col-md-4">
 
                  <!--- 1 ---->
@@ -46,20 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 
                 <br>
                 
-                <!--- 2 ---->
-                <div class="img-products">
-                    <div class="menu-products">
-                        <img src="../7054/images/Desserts-3-800x535.jpg" alt="img-reponsive">
-                        <span class="pd-price">$4</span>
-                    </div>    
-
-                    <div class="menu_info">
-                        <div class="fp_inner_box">
-                            <h3>Pain au chocolat</h3>
-                            <p>Beautiful homemade croissants, each containing a bar of high-quality dark chocolate, make for an impressive and indulgent addition to ...</p>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
             
             <div class="col-md-4">
@@ -80,20 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 
                 <br>
                 
-                <!--- 4 ---->
-                <div class="img-products">
-                    <div class="menu-products">
-                        <img src="../7054/images/Desserts-11-800x535.jpg" alt="img-reponsive">
-                        <span class="pd-price">$5</span>
-                    </div>    
-
-                    <div class="menu_info">
-                        <div class="fp_inner_box">
-                            <h3>Blueberry banana pancakes</h3>
-                            <p>Banana, almond milk, vanilla, cinnamon, blueberry topping</p>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
 
             <div class="col-md-4">
@@ -113,19 +87,67 @@ $url_path = str_replace('\\', '/', $url_path);
                 
                 <br>
                 
-                <!--- 6 ---->
+                
+            </div>
+            <div class="col-md-4">
+
+                 <!--- 1 ---->
                 <div class="img-products">
                     <div class="menu-products">
-                        <img src="../7054/images/Sandwiches-1-800x535.jpg" alt="img-reponsive">
-                        <span class="pd-price">$7</span>
+                        <img src="../7054/images/8.jpg" alt="img-reponsive">
+                        <span class="pd-price">$8</span>
                     </div>    
 
                     <div class="menu_info">
                         <div class="fp_inner_box">
-                            <h3>Sun-Dried Tomato Bruschetta</h3>
+                            <h3>Antioxidant Fruits Mix</h3>
                         </div>
                     </div>
                 </div>
+                
+                <br>
+                
+               
+            </div>
+            <div class="col-md-4">
+
+                 <!--- 1 ---->
+                <div class="img-products">
+                    <div class="menu-products">
+                        <img src="../7054/images/8.jpg" alt="img-reponsive">
+                        <span class="pd-price">$8</span>
+                    </div>    
+
+                    <div class="menu_info">
+                        <div class="fp_inner_box">
+                            <h3>Antioxidant Fruits Mix</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+               
+            </div>
+            <div class="col-md-4">
+
+                 <!--- 1 ---->
+                <div class="img-products">
+                    <div class="menu-products">
+                        <img src="../7054/images/8.jpg" alt="img-reponsive">
+                        <span class="pd-price">$8</span>
+                    </div>    
+
+                    <div class="menu_info">
+                        <div class="fp_inner_box">
+                            <h3>Antioxidant Fruits Mix</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+               
             </div>
         </div>  
 

@@ -11,21 +11,20 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
-
 ?>
 <div class="type-843">
     <footer>
         <!-- BEGIN FOOTER -->
         <div class="container">
             <div class="row">
-                <div class="logo-footer col-md-3 col-sm-3 col-xs-6">
+                <div class="logo-footer col-sm-3">
                     <div class="logo">
                         <img alt="" src="http://<?php echo $url_path ?>/images/footer-logo.png"/>
                     </div>
                     <div class="address">
-                        <p style=" display: initial;"> 507-Union Trade Center,Udhana Darvaja Surat </p>
-                        <p style=" display: inline-block;"> Call us: 0123-456-789</p>
-                        <p style=" display: block;"><a href="#"> support@templatemela.com</a></p>
+                        <p> 507-Union Trade Center,Udhana Darvaja Surat </p>
+                        <p> Call us: 0123-456-789</p>
+                        <p><a href="#"> support@templatemela.com</a></p>
                     </div>
                     <div class="link">
                         <ul>
@@ -41,11 +40,12 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <!-- BEGIN COLUMNS -->
-                <div class="columns col-md-3 col-sm-3 col-xs-6">
-                    <div class="title">
-                        <h6>MY ACCOUNT</h6>
-                    </div>
+                <div class="columns col-sm-3">
+
                     <div class="list">
+                        <div class="title">
+                            <h6>MY ACCOUNT</h6>
+                        </div>
                         <ul>
                             <li><a href="#">Ask In forum  </a></li>
                             <li><a href="#"> Help Desk</a></li>
@@ -59,11 +59,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <!-- END COLUMNS -->
                 <!-- BEGIN COLUMNS -->
-                <div class="columns col-md-3 col-sm-3 col-xs-6">
-                    <div class="title">
-                        <h6>SHOP</h6>
-                    </div>
+                <div class="columns col-sm-3">
+
                     <div class="list">
+                        <div class="title">
+                            <h6>SHOP</h6>
+                        </div>
                         <ul>
                             <li><a href="#">Accessories</a></li>
                             <li><a href="#">Balcony Tables</a></li>
@@ -76,11 +77,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <!-- END COLUMNS -->
                 <!-- BEGIN COLUMNS -->
-                <div class="columns col-md-3 col-sm-3 col-xs-6">
-                    <div class="title">
-                        <h6>SELLERS</h6>
-                    </div>
+                <div class="columns col-sm-3">
+
                     <div class="list">
+                        <div class="title">
+                            <h6>SELLERS</h6>
+                        </div>
                         <ul>
                             <li><a href="#">Seller Login</a></li>
                             <li><a href="#">Seller Signup</a></li>
@@ -115,7 +117,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="copy">
                     <p>© 2016 Magento Demo Store. All Rights Reserved.</p>
                 </div>
-                <div class="link-sub col-md-12 col-sm-12 col-xs-12">
+                <div class="link-sub col-md-12">
                     <div class="image">
                         <img alt="img-responsive" src="http://<?php echo $url_path ?>/images/hinh1.jpg"/>
                         <img alt="img-responsive" src="http://<?php echo $url_path ?>/images/hinh2.jpg" />

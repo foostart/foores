@@ -1,11 +1,8 @@
 // import google font
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Varela+Round');
 
-body {
-    font-family: 'Varela Round', sans-serif;
-}
 
-.type-15 {
+.type-7000 {
     background: #eee url('../images/slider-faq.jpg') no-repeat 50% 50%;
     background-size: cover;
     position: relative;
@@ -102,12 +99,15 @@ body {
 
         .field {
             margin-bottom: 25px;
+            
             label {
+                display:flex;
                 text-transform: uppercase;
                 font-weight: normal!important;
                 font-size: 11px;
                 margin-bottom: 10px;
                 color: #6b6b6b;
+                
             }
 
             .error-mes {
@@ -156,12 +156,7 @@ body {
             border: solid 1px #cb7152;
             color: #000000;
             text-align:center;
-            width: 16%;
-
-            &:focus {
-                box-shadow: none;
-            }
-
+            width: 92px;
             &:hover {
                 border-color: #000;
                 background: #000;
@@ -170,24 +165,16 @@ body {
         }
     }
 }
-
-// responsive
-@media (max-width: 480px) {
-    .type-15 {
-        .form {
-            padding-left: 25px;
-            padding-right: 25px;
-
-            &-title {
-                font-size: 19px;
-                line-height: 1.5;
-            }
-        }
+@media (max-width: 486px) 
+{
+    .type-7000 .form-title {
+        font: bold 19px/50px 'Libre Baskerville';
+        
     }
-
 }
-@media screen and(max-width: 480px){
-    .type-15 .form .btn-form{
-        width: 40%;
+@media (max-width: 320px)
+{
+    .type-7000 .form {
+        padding: 20px 10px !important;
     }
 }

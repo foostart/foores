@@ -1,4 +1,5 @@
-
+@color-title: #000000;
+@color-hover: #cb7152;
 .type-7004{
     .module-4_1{
         .menu-center{
@@ -43,12 +44,12 @@
             .text-divider-double{
                 position: relative;
                 letter-spacing: 2px;
-                color: #000000;
+                color: @color-title;
                 font-size: 70px;
                 font-family: Libre Baskerville;
             }
             .text-divider-subtitle{
-                color: #cb7152;
+                color: @color-hover;
                 font-family: 'Handlee';
                 opacity: 0.8;
                 letter-spacing: 0.3em;
@@ -78,8 +79,6 @@
                 }     
             } 
         }
-
-
         margin-top: 73px;
         .content1{
 
@@ -92,22 +91,19 @@
             }
             .m4-limit-services-title {
                 text-align: center;
-
                 a{
                     text-decoration: none;
-                    color: black;
-                    font: normal 29px/24px Varela Round;
+                    color:@color-title;
+                    font: normal 22px/24px Varela Round;
                     transition: all 0.2s;
-                    outline: none;
 
                 }
                 a:hover{
-                    color: #cb7152;
+                    color: @color-hover
                 }
             }
             p{
                 color: #8B8B8B;
-
                 font: normal 16px/24px Varela Round;
                 font-size: 18px;
                 text-align:  center;
@@ -136,16 +132,13 @@
             .text-divider-subtitle{
                 margin-top: -15px;
                 font-size: 17px;
-                text-align: center
-
+                text-align: center;
             }
         }
     }
 
 }
-.type-7004 .type-7004_2 .content1 .m4-limit-services-title a{
-    font: normal 22px/24px Varela Round;
-}
+
 
 
 

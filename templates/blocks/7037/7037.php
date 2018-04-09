@@ -23,6 +23,7 @@ $less->compileFile('less/7037.less', 'css/7037.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
         <link href="<?php echo $url_path ?>/css/7037.css" rel="stylesheet" type="text/css"/>
+        
     </head>
     <body>
         <?php

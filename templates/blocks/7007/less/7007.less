@@ -10,7 +10,7 @@
             li{
                 a{
                     color: #2c2c2c;
-                    cursor: default;
+                    cursor: pointer;
                     width: auto;     
                     margin: 0 .6em;
                     transition: all .3s;
@@ -38,11 +38,13 @@
                         opacity: 0;
                         transition: transform .25s, opacity .25s;
                         background-color: #626161;
+                        i {
+                            position: absolute;
+                            top: 85%;
+                            color: #555;
+                        }
                     }
                 }
-
-
-
                 a:after{
                     content: " ";
                     display: block;
@@ -96,16 +98,13 @@
         .tab-content{
             .tab-pane{
                 .tab-content-pic{
-                    opacity: 0.5;
+
                     overflow: hidden;
                     position: relative;
-
-
                     padding:0px;
                     img{
                         transition: all .4s;
                         width: 100%;
-
                     }
                     span{
                         opacity: 0;
@@ -121,7 +120,6 @@
                         transition: opacity 0.5s,transform 0.35s;
                         z-index: 1;
                         border: 1px solid @color-donau-main;
-
                         a{
                             color: #ffffff!important;
                             font-weight: normal;

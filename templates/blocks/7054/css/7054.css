@@ -1,43 +1,15 @@
-@font-face {
-  font-family: 'Varela Round';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(https://fonts.gstatic.com/s/varelaround/v9/w8gdH283Tvk__Lua32TysjIfpcuPP9g.woff2) format('woff2');
-  unicode-range: U0590-05FF, U20AA, U25CC, UFB1D-FB4F;
-}
-@font-face {
-  font-family: 'Varela Round';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(https://fonts.gstatic.com/s/varelaround/v9/w8gdH283Tvk__Lua32TysjIfqMuPP9g.woff2) format('woff2');
-  unicode-range: U0102-0103, U0110-0111, U1EA -1EF 9, U20AB;
-}
-@font-face {
-  font-family: 'Varela Round';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(https://fonts.gstatic.com/s/varelaround/v9/w8gdH283Tvk__Lua32TysjIfqcuPP9g.woff2) format('woff2');
-  unicode-range: U0100-024F, U0259, U1E -1EFF, U2020, U20A -20AB, U20AD-20CF, U2113, U2C 58C 7F, UA720-A7FF;
-}
-@font-face {
-  font-family: 'Varela Round';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(https://fonts.gstatic.com/s/varelaround/v9/w8gdH283Tvk__Lua32TysjIfp8uP.woff2) format('woff2');
-  unicode-range: U0000-00FF, U0131, U0152-0153, U02BB-02BC, U02C 6, U02DA, U02DC, U2000-206F, U2074, U20AC, U2122, U2191, U2193, U2212, U2215, UFEFF, UFFFD;
-}
 .type-7054 .sep-text {
   position: relative;
   margin: 30px 0;
   text-align: center;
 }
 .type-7054 .sep-text .centered .sep-text-before {
-  width: 50%;
+  width: 30%;
   font-size: 10px;
 }
 .type-7054 .sep-text .centered .sep-text-after {
   text-align: left;
-  width: 50%;
+  width: 30%;
   font-size: 10px;
 }
 .type-7054 .sep-text .sep-text-before {
@@ -76,7 +48,6 @@
 }
 .type-7054 .img-products {
   cursor: pointer;
-  padding: 25px 0;
 }
 .type-7054 .img-products p {
   color: #6b6b6b;
@@ -94,6 +65,9 @@
   transform: scale(1.1);
   transition: transform .6s;
   border-radius: 5px;
+}
+.type-7054 .img-products .menu_info {
+  height: 85px;
 }
 .type-7054 .img-products .pd-price {
   cursor: pointer;

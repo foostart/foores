@@ -8,7 +8,6 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-7000">
-    <div class="type-15">
         <div class="container">
             <div class="form">
                 <form class="form-content">
@@ -26,17 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="nf-field-element">
                                 <input id="nf-field-37" name="nf-field-37" aria-invalid="true"  class="ninja-forms-field nf-element" type="text" value="">
                             </div>
-                            <div class="nf-after-field">
-                                <nf-section>
-
-                                    <div class="nf-input-limit"></div>
-
-                                    <div id="nf-error-37" class="nf-error-wrap nf-error" role="alert">
-                                        <div class="nf-error-msg nf-error-required-error"><div class="hide">This is a required field.</div></div>
-                                    </div>
-
-                                </nf-section>
-                            </div>
+                           
                         </div>
 
                         <div class="field required col-sm-4">
@@ -82,23 +71,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             </nf-section></div>
                     </div>
 
-                    <input class="btn-form "  value="Send"/>
-                    <div class="nf-after-form-content "><nf-section>
-
-                            <div class="nf-form-errors"><nf-errors><nf-section>
-                                        <div class="nf-error-msg nf-error-field-errors " ><div class="hide">Please correct errors before submitting this form.</div></div>
-                                    </nf-section></nf-errors></div>
-                            <div class="nf-form-hp "><nf-section>
-                                    <label>
-
-                                    </label>
-                                </nf-section></div>
-                        </nf-section></div>
+                    <input class="btn-form " type="submit"  value="Send"/>
+                    
                 </form>
                 <!-- end form-content -->
             </div>
             <!-- end form -->
         </div>
         <!-- end container -->
-    </div>
 </div>

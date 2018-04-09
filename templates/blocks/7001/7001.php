@@ -1,25 +1,51 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('less/7001.less', 'css/7001.css');
+?>
+
+
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <?php
-        if (!class_exists('lessc')) {
-            include ('libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/7001.less', 'css/7001.css');
-        ?> 
-        <link href="css/7001.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/7001.css" rel="stylesheet" type="text/css" />
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/7001.js"></script>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+        <script>
+            $(document).ready(function () {
+                $("#icon-responsive i").click(function () {
+                    $(".navi-menus >ul").slideToggle(200);
+                });
+                $(".type-7001 header .header-top .navi-menus > ul > li").click(function () {
+                    $(this).children().addClass("active-li");
+                });
+                $(".icon-search").click(function () {
+                    $(".search-panel ").toggleClass("show-search-panel");
+                });
+            });
 
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/7001.js" type="text/javascript"></script>  
-        <link href="css/font-awesome.min.css" rel="stylesheet">       
+        </script>
+    </head>
 
-    </head> 
-
-    <body> 
+    <body>
         <?php include '../7001/7001-content.php'; ?>
+       
     </body>
+
 </html>

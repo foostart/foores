@@ -24,10 +24,7 @@ $less->compileFile('less/7038.less', 'css/7038.css');
           <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.js"></script>
         <link href="<?php echo $url_path ?>/css/7038.css" rel="stylesheet" type="text/css"/>
-
-
-
-
+        <script src="<?php echo $url_path ?>/js/app.js" type="text/javascript"></script>
     </head> 
 
     <body> 

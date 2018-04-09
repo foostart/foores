@@ -4,19 +4,45 @@
   clear: both;
 }
 .Module-6 .swiper-container {
-  height: 194px !important;
   margin: 0 auto;
   position: relative;
   width: 250px;
   border-radius: 8px;
 }
+.Module-6 .swiper-container .swiper-button-prev,
+.Module-6 .swiper-container .swiper-button-next {
+  opacity: 0;
+  background: white;
+  width: 46px;
+  border-radius: 100%;
+}
+.Module-6 .swiper-container .swiper-button-prev i,
+.Module-6 .swiper-container .swiper-button-next i {
+  font-size: 42px;
+  position: relative;
+  left: 13px;
+}
+.Module-6 .swiper-container .swiper-button-next {
+  right: -14px;
+}
+.Module-6 .swiper-container .swiper-button-prev {
+  left: -14px;
+}
+.Module-6 .swiper-container:hover .swiper-button-prev {
+  opacity: 1;
+}
+.Module-6 .swiper-container:hover  .swiper-button-next {
+  opacity: 1;
+}
+.Module-6 .swiper-container:hover .addtocart {
+  opacity: 1;
+}
 .Module-6 .swiper-slide {
   text-align: center;
   background: #fff;
   justify-content: center;
+  border: 1px solid #eee;
   width: 250px;
-  overflow: hidden;
-  height: 194px;
 }
 .Module-6 .swiper-slide img {
   -moz-transition: all 1s ease;
@@ -25,22 +51,10 @@
   -o-transition: all 1s ease;
   transition: all 0.3s;
 }
-.Module-6 .swiper-slide img:hover {
-  transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-}
-.Module-6 .active .addtocart:hover {
-  opacity: 1;
-  color: #ffffff;
-  text-decoration: none;
-}
 .Module-6 .active .addtocart {
   text-align: center;
-  opacity: 0.3;
-  margin-top: -40px;
+  opacity: 0;
+  top: -39px;
   position: relative;
   z-index: 9;
 }
@@ -55,19 +69,18 @@
   transition: 0.1s;
 }
 .Module-6 .active .home-chef {
+  top: -19px;
   text-align: center;
-  padding-top: 30px;
+  padding: 10px 0;
   position: relative;
   float: none;
   text-transform: uppercase;
   font-family: 'Libre Baskerville';
   line-height: 1.3em;
   margin: 0;
-  padding: 0;
   font-size: 10px;
   letter-spacing: 1px;
   color: #2c2c2c;
-  margin-top: 17px;
 }
 .Module-6 .active .home-chef .tagged {
   margin: 0;
@@ -79,6 +92,7 @@
   opacity: 1;
 }
 .Module-6 .active .home-chef .tagged a {
+  text-decoration: none;
   text-transform: uppercase;
   font-size: 10px;
   color: #6b6b6b;
@@ -86,6 +100,15 @@
   font-weight: normal;
   opacity: 0.5;
   transition: all .3s;
+}
+.Module-6 .active .home-chef .tagged .name-slide {
+  display: block;
+  color: black !important;
+  margin: 10px 0;
+  font-size: 17px;
+}
+.Module-6 .active .home-chef .tagged .price {
+  font-size: 23px;
 }
 .Module-6 .active .home-chef .tagged a:after {
   content: "\00B7";
@@ -112,8 +135,8 @@
   font-size: .857em;
   font-weight: 400;
 }
-.Module-6 .anhcafe {
-  margin-left: -100px;
+.Module-6 .img-cafe img {
+  width: 100%;
 }
 .Module-6 .M6-grid-1-2 p .icon {
   color: #cb7152;
@@ -122,165 +145,14 @@
 }
 .Module-6 .M6-grid-1-2 h2 {
   color: #000;
-  font: normal 56px/68px Libre Baskerville;
+  font: normal 49px/68px Libre Baskerville;
   padding-bottom: 20px;
-  margin-left: -50px;
 }
 .Module-6 .M6-grid-1-2 p {
   font: normal 16px/24px Varela Round;
   font-size: 19px;
-  margin-left: -50px;
 }
-.Module-6 .swiper-button-next.swiper-button-disabled,
-.Module-6 .swiper-button-prev.swiper-button-disabled {
-  opacity: .2;
-  cursor: auto;
-  pointer-events: none;
-  font-size: 18px;
-}
-.Module-6 .swiper-button-next,
-.Module-6 .swiper-button-prev {
-  background-size: 16px 44px;
-  transition: all 0.5s;
-}
-.Module-6 .swiper-button-prev {
-  left: 0px;
-  display: block;
-  top: 100px;
-  position: absolute;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  padding: 0 15px;
-  opacity: .5;
-}
-.Module-6 .swiper-button-prev:hover {
-  color: #000;
-  border-radius: 60%;
-  width: 50px;
-  transition: all .5s;
-  box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
-  opacity: 1;
-}
-.Module-6 .swiper-button-next {
-  right: 0px;
-  display: block;
-  top: 100px;
-  position: absolute;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  padding: 0 15px;
-  opacity: .5;
-}
-.Module-6 .swiper-button-next:hover {
-  color: #000;
-  border-radius: 60%;
-  width: 50px;
-  transition: all .5s;
-  box-shadow: -1px 2px 4px 0px rgba(0,0,0,0.1);
-  opacity: 1;
-}
-.Module-6 .M7 {
-  float: none !important;
-  padding-top: 40px;
-  float: left;
-}
-.Module-6 .M7 #quote-carousel {
-  padding: 0;
-  margin: 30px auto 0px;
-}
-.Module-6 .M7 .carousel-inner {
-  max-height: 350px;
-}
-.Module-6 .M7 #quote-carousel .carousel-control {
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 90px;
-}
-.Module-6 .M7 #quote-carousel .carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-  padding-top: 20px;
-}
-.Module-6 .M7 #quote-carousel .carousel-indicators li {
-  background: #c0c0c0;
-}
-.Module-6 .M7 #quote-carousel .carousel-indicators .active {
-  background: #333333;
-}
-.Module-6 .M7 #quote-carousel img {
-  width: 250px;
-  border-radius: 8px;
-}
-.Module-6 .M7 .item blockquote {
-  border-left: none;
-  margin: 0;
-}
-.Module-6 .M7 .item blockquote img {
-  margin-bottom: 10px;
-}
-.Module-6 .M7 .item blockquote p:before {
-  content: "\f10d";
-  font-family: 'Fontawesome';
-  float: left;
-  margin-right: 10px;
-}
-.Module-6 .M7 h5 {
-  position: relative;
-  float: none;
-  text-transform: uppercase;
-  font-family: 'Libre Baskerville';
-  line-height: 1.3em;
-  font-size: 10px;
-  letter-spacing: 1px;
-  color: #2c2c2c;
-  margin-top: -5px;
-  padding-top: 10px;
-}
-.Module-6 .M7 .carousel-inner a:hover {
-  color: #ec971f;
-}
-.Module-6 .M7 .carousel-inner .tagged_as {
-  margin: 0;
-  display: block;
-  padding: 0px 5px;
-  line-height: 1em;
-}
-.Module-6 .M7 .carousel-inner .tagged_as a {
-  text-transform: uppercase;
-  font-size: 11px;
-  color: #6b6b6b;
-  text-decoration: none;
-}
-.Module-6 .M7 .carousel-inner .tagged_as a:hover {
-  color: #cb7152;
-  opacity: 1;
-}
-.Module-6 .M7 .carousel-inner a {
-  text-decoration: none;
-}
-.Module-6 .M7 .carousel-inner a h3 {
-  color: #000;
-  font-size: 18px;
-  padding-bottom: .1em;
-  line-height: 1.4em;
-  padding: .3em 1.0em;
-  transition: all .6s;
-  text-align: center;
-}
-.Module-6 .M7 .carousel-inner .price {
-  color: #000000;
-  position: relative;
-  transform: translateZ(0);
-  margin: 0px;
-  font-size: .857em;
-  font-weight: 400;
-  font: normal 16px/18px Varela Round;
-}
-.Module-6 .anhdau {
+.Module-6 .img-bottom {
   z-index: 555;
   display: block;
   float: none;
@@ -293,7 +165,7 @@
   font: inherit;
   vertical-align: baseline;
 }
-.Module-6 .anhdau p img {
+.Module-6 .img-bottom p img {
   box-sizing: border-box;
   display: block;
   max-width: 100%;
@@ -302,14 +174,58 @@
   margin: 0 auto;
   padding-top: 50px;
 }
+.Module-6 .M7 .media-carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+.Module-6 .M7 .media-carousel .carousel-control.left {
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+}
+.Module-6 .M7 .media-carousel .carousel-control.right {
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+}
+.Module-6 .M7 .media-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+.Module-6 .M7 .media-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+.Module-6 .M7 .media-carousel .carousel-indicators .active {
+  background: #333333;
+}
+.Module-6 .M7 .media-carousel img {
+  width: 250px;
+  height: 100px;
+}
 @font-face {
   font-family: theme;
   src: url(../fonts/theme);
   font-weight: normal;
 }
 @media screen and (max-width: 990px) {
-  .Module-6 .anhcafe {
+  .Module-6 .img-cafe {
     display: none;
+  }
+  .Module-6 .M6-grid-1-2 {
+    text-align: center;
   }
   .Module-6 .M6-grid-1-2 p .icon {
     color: #cb7152;
@@ -321,9 +237,9 @@
   .Module-6 .M6-grid-1-2 p {
     margin-left: 0px;
   }
-}
-@media screen and (max-width: 540px) {
-  .Module-6 .swiper-slide {
-    width: 100% !important;
+  .Module-6 .swiper-button-prev,
+  .Module-6 .swiper-button-next,
+  .Module-6 .addtocart {
+    opacity: 1 !important;
   }
 }

@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="menu">
                             <div class="row">
                                 <ul class="nav nav-tabs">
-                                    <li class="active"><a data-toggle="tab" href="#home"><span class="title-text">Fish</span></a></li>
+                                    <li ><a data-toggle="tab" href="#home" class="active-tab"><span class="title-text">Fish</span></a></li>
                                     <li><a data-toggle="tab" href="#menu1"><span class="title-text">Meat</span></a></li>
                                     <li><a data-toggle="tab" href="#menu2"><span class="title-text">Vegetarian</span> </a></li>
                                     <li><a data-toggle="tab" href="#menu3"> <span class="title-text">Sandwiches</span></a></li>

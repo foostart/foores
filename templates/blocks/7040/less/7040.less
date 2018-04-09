@@ -1,6 +1,19 @@
 .type-7040{
     background:#F6F6F6;
+    padding: 50px 0; 
+    .img-top, .img-bottom {
+        position: absolute;
+        left: 50%;
+        margin-left: -75px;
 
+    }
+    .img-top {
+        bottom: 100%;
+    }
+    .img-bottom {
+        transform: rotate(180deg);
+        top: 100%;
+    }
     .SoftDrinks{
         background-color: rgb(255, 255, 255);
         padding: 30px 55px 40px;
@@ -8,6 +21,7 @@
         border-radius: 20px;
         z-index: 10;
         position: relative;
+
         .sep-text {
             position: relative;
             margin: 30px 0;
@@ -139,15 +153,41 @@
     .contact{
         background: #32363D !important;
         background-color: rgb(255, 255, 255);
-        padding: 30px 34px 40px;
+        padding: 2px 12px;
         min-height: 680px;
         border-radius: 20px;
+        text-align:center;
+        .time-contact {
+            padding: 5px 0;
+            position: relative;
+            
+            h1 {
+                font-size: 15px;
+                color:white;
+                text-align: center;
+            }
+            p {
+                color: white;
+                text-align: center;
+                font-size: 13px;
+            }
+        }
+        a {
+            text-decoration: none !important;
+            .reservation {
+                background: #cb7152;
+                color: white;
+                padding: 9px 13px;
+                border-radius: 10px;
 
-
+                font-size: 12px;
+            }
+        }
         .txt-contact{
             text-align: center;
             position: relative;
-            margin: 30px 0;
+            /* margin: 30px 0; */
+            padding: 20px 0 29px 0;
             h3{
 
                 font: normal 40px/50px Libre Baskerville;
@@ -163,7 +203,7 @@
                 color: #fff;
                 font: normal 22px/32px Libre Baskerville;
             }
-           
+
 
         }
     }

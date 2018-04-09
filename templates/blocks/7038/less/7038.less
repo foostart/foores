@@ -30,88 +30,74 @@ ul{
                     transition: all 1s; 
                     .content-menu{
                         text-align: center;
-                    }
-                    .menu{
-                        text-align: center;
-                    }
-                    .m3-content-menu-icon{
-                        font-family: theme;
-                        color: @color-pink;
-                        font-size: 60px;                   
-                        margin: 16px 0;
-                    }
-                    h3{
-                        color: @color-white;
-                        font: normal 40px/50px Libre Baskerville;
-                    }
-                    h5{
-                        color: @color-pink;
-                        font: normal 14px/22px Handlee;
-                        letter-spacing: 0.3em;
-                        margin-bottom: 10px;
-                    }
-                    h5:before, h5:after {
-                        display: inline-block;
-                        width: auto;
-                        height: 15px;
-                        content: "~";
-                        font-size: 1.1em;
-                        padding: 0px 5px;
-                    }
-                    .m3-content-menu-food{
-                        padding: 0 10px;
-                        text-align: start;
-                        padding: 10px;
-                        cursor: pointer;
-
-
+                        .m3-content-menu-icon{
+                            font-family: theme;
+                            color: @color-pink;
+                            font-size: 60px;                   
+                            margin: 16px 0;
+                        }
+                        h3{
+                            color: @color-white;
+                            font: normal 40px/50px Libre Baskerville;
+                        }
+                        h5{
+                            color: @color-pink;
+                            font: normal 14px/22px Handlee;
+                            letter-spacing: 0.3em;
+                            margin-bottom: 10px;
+                        }
+                        h5:before, h5:after {
+                            display: inline-block;
+                            width: auto;
+                            height: 15px;
+                            content: "~";
+                            font-size: 1.1em;
+                            padding: 0px 5px;
+                        }
                     }
 
-                    p{
-                        color: #6b6b6b;
-                    }
-                    .price {
-                        font-family: Varela Round;
-                        background: transparent;
-                        position: absolute;
-                        right: 0px;
-                        top: 0px;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 14px;
-                        border-radius: 25px;
-                        padding: 0px;
-                        color: @color-pink;
-                    }
-                    .nav-tabs{
-                        border-bottom:0;
-                        overflow: hidden;
-
-                    }
-                    .nav-tabs>li>a{
-                        border: 0;
-                        padding: 10px 20px;
-                        color: #cb7152;
-                    }
                     .tab-content{
-
-
+                        .menu{
+                            text-align: center;
+                        }
+                        .nav-tabs{
+                            border-bottom:0;
+                            overflow: hidden;
+                            display: inline-block;
+                            li > a{
+                                align-items: center;
+                                border: 0;
+                                padding: 10px 20px;
+                                color: #000;
+                                border-bottom: 3px solid white;
+                            }
+                            li a:hover{
+                                color: #cb7152;
+                                border-bottom: 3px solid #cb7152;
+                                background: none;
+                            }
+                            .active-tab {
+                                border-bottom: 3px solid #cb7152;
+                                color: #cb7152 !important;
+                            }
+                        }
                         .title-text{
                             font-size: 100%;
-                            font: normal 24px/32px Libre Baskerville;
+                            font: normal 22px/32px Libre Baskerville;
                             vertical-align: baseline;
                         }
-                        .nav-tabs>li>a:hover{
-                            border-bottom: 3px solid #cb7152;
-                            background: none;
-
-                        }
-                        ul{
-                            display: inline-block;
-
-                        }
-                        .price{
-                            color: #cb7152;
+                        .price {
+                            font-family: Varela Round;
+                            background: transparent;
+                            position: absolute;
+                            right: 0px;
+                            top: 0px;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            border-radius: 25px;
+                            padding: 0px;
+                            color: @color-pink;
                         }
                         .text-menu{
                             margin-left: 10px;
@@ -127,6 +113,7 @@ ul{
                             line-height: 140%;
                         }
                         h3{
+                            cursor: pointer;
                             font-weight: 400;
                             font-family: Varela Round;
                             padding-bottom: 12px;
@@ -159,6 +146,22 @@ ul{
                         }
 
                     }
+
+                    .m3-content-menu-food{
+                        padding: 0 10px;
+                        text-align: start;
+                        padding: 10px;
+                        cursor: pointer;
+
+
+                    }
+
+                    p{
+                        color: #6b6b6b;
+                    }
+
+
+
 
                 }
 
@@ -301,14 +304,28 @@ ul{
         }
     }
 }
-@media (max-width: 480px){
-   
-    .type-7038 .m3 .m3-container .m3-content .m3-content-menu .nav-tabs{
+@media (max-width: 486px){
+
+    .type-7038  .nav-tabs{
         display: inline-grid !important;
     }
-   
+    .type-7038 .title-text {
+        font: normal 15px/32px Libre Baskerville !important;
+    }
+}
+@media (max-width: 640px){
+
+    .type-7038 .title-text {
+        font: normal 15px/32px Libre Baskerville !important;
+    }
 }
 
+@media (max-width: 992px)
+{
+    .m3-content-left, .m3-content-right {
+        min-height: 300px !important;
+    }
+}
 @font-face{
     font-family: Handlee;
     src: url(../fonts/Handlee.woff2);

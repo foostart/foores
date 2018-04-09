@@ -24,10 +24,9 @@ $less->compileFile('less/7062.less', 'css/7062.css');
         <link href="<?php echo $url_path ?>/css/7062.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/modul-0-splash.js" ></script>
-        <link rel='stylesheet' id='fp_res_jquery_ui_style-css' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.min.css' type='text/css' media='all' />
-
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/datepicker.min.js" ></script>
+        
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/datepicker.min.js" ></script>
         <script >
             $(function () {
                 $("#datepicker").datepicker();

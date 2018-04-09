@@ -9,7 +9,7 @@
 }
 .type-7007 .type-7007-tabs-all .nav-tabs li a {
   color: #2c2c2c;
-  cursor: default;
+  cursor: pointer;
   width: auto;
   margin: 0 .6em;
   transition: all .3s;
@@ -38,6 +38,11 @@
   opacity: 0;
   transition: transform .25s, opacity .25s;
   background-color: #626161;
+}
+.type-7007 .type-7007-tabs-all .nav-tabs li a span i {
+  position: absolute;
+  top: 85%;
+  color: #555;
 }
 .type-7007 .type-7007-tabs-all .nav-tabs li a:after {
   content: " ";
@@ -81,7 +86,6 @@
   color: #cb7152;
 }
 .type-7007 .type-7007-tabs-all .tab-content .tab-pane .tab-content-pic {
-  opacity: 0.5;
   overflow: hidden;
   position: relative;
   padding: 0px;
